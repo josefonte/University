@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+* {
+  color: blue; 
+}
+
+.navbar > nav{
+  font-size: larger;
+  font-weight: 600;
+}
+
+#navbarOpts {
+  color: blue;
+}
+
+.footer {
+  background-color: rgb(250, 250, 250);
+  padding: 10px 0 10px 0px;
+}
+
+.mid{
+  padding: 10px 0 10px 0px;
+}
