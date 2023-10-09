@@ -1,0 +1,70 @@
+﻿@using FairthosApp.Data
+@using FairthosApp.Models
+@using FairthosApp.Models.Domain
+@using Microsoft.Data.SqlClient
+
+
+<div class="homepage">
+
+    <div><VendedoresHeader /></div>
+    <div class="lista">
+
+        @if (@GetAllVendedores() == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else{
+        <div class="content">
+                    <div class="d-flex flex-row flex-wrap align-content-start justify-content-between">
+            @foreach (var vendedor in @GetAllVendedores())
+            {
+            <NavLink class="router-vendedor" href="/ProdutosPage">
+                <div class="col">
+                    <div class="back-color">
+                        <div class="vendedor-container">
+                                <img
+                                    alt="image"
+                                    src="Images/vendedor-palceholder.png"
+                                    class="vendedor-image"/>
+                                <span class="vendedor-text"><span>@vendedor.nome</span></span>
+                                    <div class="vendedor-text2-container"> Categoria</div>
+                        </div>
+                    </div>
+                </div>
+                    </NavLink>
+            }
+            </div>
+        </div>
+       
+        }
+    </div>
+</div>
+
+@code {
+    public List<Vendedor> GetAllVendedores()
+    {
+        List<Vendedor> feiras = new List<Vendedor>();
+        using (SqlConnection connection = new SqlConnection("Server=.;Database=db;Trusted_Connection=True;MultipleActiveResultSets=true;Encrypt=False"))
+        {
+            connection.Open();
+            String query = "SELECT * FROM Vendedor;";
+
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        Vendedor vendedor = new Vendedor
+                            {
+                                idVendedor = reader.GetInt32(0),
+                                nome = reader.GetString(1)
+                            };
+                        feiras.Add(vendedor);
+                    }
+                }
+            }
+        }
+        return feiras;
+    }
+}

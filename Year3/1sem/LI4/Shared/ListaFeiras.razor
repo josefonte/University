@@ -1,0 +1,119 @@
+﻿@using FairthosApp.Data
+@using FairthosApp.Models
+@using FairthosApp.Models.Domain
+@using Microsoft.Data.SqlClient
+
+<div class="homepage">
+<div class="imagem-welcomer ">
+    <div class="side">
+    </div>
+    <img alt=""
+         src="Images/Welcomer.png" />
+    <div class="side">
+    </div>
+</div>
+
+<div ><FeirasFilters/></div>
+
+
+<div class="lista">
+
+    @if (@GetAllFeiras() == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+    <div class="content">
+
+            <div class="d-flex flex-row flex-wrap align-content-start justify-content-between">
+
+        @foreach (var feira in @GetAllFeiras())
+        {
+        <NavLink class="router-vendedor" href="/VendedoresPage">
+            <div class="col">
+                <div class="back-color">
+                    <div class="feira-container">
+                            <img
+                                alt="image"
+                                src="Images/feira-placeholder.png"
+                                class="feira-image"/>
+                            <span class="feira-text"><span>@feira.nome</span></span>
+                                <div class="feira-text2-container">
+                                    <span class="col-5 description-left">@feira.nomeDistrito</span>
+                                    <span class="col-7 description-right">@GetCategoria(@feira.idCategoria)</span>
+                                </div>
+                    </div>
+                </div>
+            </div>
+                </NavLink>
+
+
+        }
+        </div>
+    </div>
+       
+    }
+</div>
+</div>
+
+@code {
+    //private WeatherForecast[]? forecasts;
+    /*
+    protected override async Task OnInitializedAsync()
+        {
+        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+    }
+    */
+
+    //private List<Feira> feiras;
+
+    public String GetCategoria(int idCategoria) {
+        String categoria = null;
+        using (SqlConnection connection = new SqlConnection("Server=.;Database=db;Trusted_Connection=True;MultipleActiveResultSets=true;Encrypt=False"))
+        {
+            connection.Open();
+            String query = "SELECT nomeCategoria FROM Categoria WHERE idCategoria = " + idCategoria + ";";
+
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        categoria = reader.GetString(0);
+                    }
+                }
+            }
+        }
+        return categoria;
+
+    }
+
+    public List<Feira> GetAllFeiras()
+    {
+        List<Feira> feiras = new List<Feira>();
+        using (SqlConnection connection = new SqlConnection("Server=.;Database=db;Trusted_Connection=True;MultipleActiveResultSets=true;Encrypt=False")){
+            connection.Open();
+            String query = "SELECT * FROM Feira;";
+
+            using(SqlCommand command = new SqlCommand(query, connection)) {
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        Feira feira = new Feira
+                            {
+                                idFeira = reader.GetInt32(0),
+                                nomeDistrito = reader.GetString(1),
+                                nome = reader.GetString(5),
+                                idCategoria = reader.GetInt32(6)
+                            };
+                        feiras.Add(feira);
+                    }
+                }
+            }
+        }
+        return feiras;
+    }
+}

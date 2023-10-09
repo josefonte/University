@@ -1,0 +1,275 @@
+﻿
+@using FairthosApp.Data
+@using FairthosApp.Models
+@using FairthosApp.Models.Domain
+@using Microsoft.Data.SqlClient
+
+
+
+<div class="lista ">
+    <div class="carrinho-title ">
+        <div class="carrinho-top">
+            <div class="carrinho-img">
+                <img alt="carrinho"
+                     src="/Images/carrinho-icon.png"
+                     class="carrinho-icon" />
+            </div>
+            <div class="carrinho-top-title">
+                <span class="carrinho-text-title">
+                    <span>Carrinho de Compras</span>
+
+                </span>
+            </div>
+        </div>
+        <div class="carrinho-nprodutos">
+            <span class="carrinho-text-nprodutos">
+                <span>4  produtos</span>
+
+            </span>
+        </div>
+    </div>
+
+    @if (@GetAllProdutos() == null)
+    {
+            <p><em>Loading...</em></p>
+    }
+    else
+    {
+
+        int contador = 0;
+            <div class="content ">
+
+                <div class="rows col-8">
+
+
+                @foreach (var produto in @GetAllProdutos())
+                {
+                    Card aux = new Card(contador, @produto.precoUnidade, @produto.nome, @produto.nome);
+                    cards.Add(aux);
+                    contador++;
+                    if (primentaIt != 0 && aux.rowsAdded == false)
+                    {
+
+                        cards.Remove(aux);
+                    }
+                }
+                @foreach (var card in cards)
+                {
+
+                            <div class="carrinho-card-container">
+
+                                <div class="carrinho-img-container">
+                                    <img alt="produto"
+                         src="/Images/produto-placeholder.png"
+                         class="produto-imagem" />
+                                </div>
+                                <div class="carrinho-info-container">
+                                    <div class="carrinho-info-l-container">
+                                        <div class="carrinho-info-text">
+                                            <div class="carrinho-nome">
+                                                <span class="carrinho-text-nome">@card.nome</span>
+                                            </div>
+                                            <div class="carrinho-codigo">
+                                                <span class="carrinho-text-codigo">
+                                                    <span>Código do Produto @card.code</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="carrinho-preo">
+                                            <div class="carrinho-preo-l">
+                                                <span class="carrinho-text-preo-l"><span>Preço</span></span>
+                                            </div>
+                                            <div class="carrinho-preo-r">
+                                                <span class="carrinho-text-preo-r">€@card.preço/kg</span>
+                                            </div>
+                                        </div>
+                                        <div class="carrinho-quantidade">
+                                            <div class="carrinho-quantidade-l">
+                                                <span class="carrinho-text-q-l">Quantidade</span>
+                                            </div>
+                                            <div class="carrinho-quantidade1" @onclick="card.DecrementPeso">
+                                                <span class="carrinho-text-q">-</span>
+                                            </div>
+                                            <div class="carrinho-quantidade-r">
+                                                <span class="carrinho-text-q-r">@card.peso /kg</span>
+                                            </div>
+                                            <div class="carrinho-quantidade2" @onclick="card.IncrementPeso">
+
+                                                <span class="carrinho-text-q1">+</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carrinho-info-r-container">
+                                        <div class="carrinho-top-info-r">
+                                            <div class="carrinho-empty1"></div>
+                                            <div class="carrinho-cross" @onclick="() => RemoveCard(card.id)">
+                                                <img alt="Close-cross"
+                                     src="/Images/cross.png"
+                                     class="card-close" />
+                                            </div>
+                                        </div>
+                                        <div class="carrinho-empty2"></div>
+                                        <div class="carrinho-preo-final">
+                                            <span class="carrinho-text3">@card.preçoFim() €</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    card.rowsAdded = true;
+                    primentaIt++;
+                }
+
+                </div>
+
+                <div class="content-right col-4 ">
+                    <div class="resumo-container2 ">
+                        <div class="resumo-top">
+                            <div class="resumo-title">
+                                <span class="resumo-text-title"><span>Resumo</span></span>
+                            </div>
+                            <div class="resumo-subtotal">
+                                <div class="resumo-subtotal-in">
+                                    <div class="resumo-sub-l">
+                                        <span class="resumo-text-sub-l">SubTotal</span>
+                                    </div>
+                                    <div class="resumo-sub-r">
+                                        <span class="resumo-text-sub-r">@preçoTotal().ToString() €</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resumo-envio">
+                                <div class="resumo-envio-in">
+                                    <div class="resumo-envio-l">
+                                        <span class="resumo-text-envio-l">Envio</span>
+                                    </div>
+                                    <div class="resumo-envio-r">
+                                        <span class="resumo-text-envio-r">-€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resumo-desconto">
+                                <div class="resumo-desconto-in">
+                                    <div class="resumo-desconto-l">
+                                        <span class="resumo-text-desconta-l">Descontos</span>
+                                    </div>
+                                    <div class="resumo-desconto-r">
+                                        <span class="resumo-text-deconto-r">0€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resumo-total">
+                                <div class="resumo-total-in">
+                                    <div class="resumo-total-l">
+                                        <span class="resumo-text-total-l">
+                                            <span class="resumo-text1">Total</span>
+                                            <span class="resumo-text2"></span>
+                                        </span>
+                                    </div>
+                                    <div class="resumo-total-r">
+                                        <span class="resumo-text-total-r">@preçoTotal().ToString() €</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resumo-iva">
+                                <span class="resumo-text-iva">Incluindo IVA</span>
+                            </div>
+                        </div>
+                        <div class="resumo-fim-compra">
+                            <span class="resumo-text3"><span>Finalizar Compra</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+    }
+</div>
+
+@code {
+    class Card
+    {
+        public int id { get; set; }
+        public double preço { get; set; }
+        public double peso { get; set; }
+        public string nome { get; set; }
+        public string code { get; set; }
+        public bool rowsAdded;
+
+        public Card(int a, double i, string s, string c)
+        {
+            id = a;
+            preço = i;
+            nome = s;
+            code = c;
+            peso = 0;
+            rowsAdded = false;
+        }
+        public void IncrementPeso()
+        {
+            peso += 0.5;
+        }
+
+        public void DecrementPeso()
+        {
+            if (peso > 0)
+            {
+                peso -= 0.5;
+            }
+        }
+
+        public double preçoFim()
+        {
+            return preço * peso;
+        }
+
+    }
+
+    private List<Card> cards = new List<Card>();
+
+    int primentaIt = 0;
+    public double preçoTotal()
+    {
+        double r = 0;
+        foreach (var card in cards)
+        {
+            r += card.preçoFim();
+        }
+        return r;
+    }
+
+    public void RemoveCard(int c)
+    {
+        cards.RemoveAt(c);
+    }
+
+    public List<Produto> GetAllProdutos()
+    {
+        List<Produto> produtos = new List<Produto>();
+        using (SqlConnection connection = new SqlConnection("Server=.;Database=db;Trusted_Connection=True;MultipleActiveResultSets=true;Encrypt=False"))
+        {
+            connection.Open();
+            String query = "SELECT TOP 4 * FROM Produto;";
+
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        Produto produto = new Produto
+                            {
+                                idProduto = reader.GetInt32(0),
+                                nome = reader.GetString(1),
+                                precoUnidade = reader.GetDouble(2)
+                            };
+                        produtos.Add(produto);
+                    }
+                }
+            }
+        }
+        return produtos;
+    }
+
+
+}

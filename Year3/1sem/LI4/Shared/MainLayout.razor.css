@@ -1,0 +1,23 @@
+.page{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+.full-width {
+    width: 100%;
+}
+
+.content {
+    z-index: 1;
+    margin-top:0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+footer {
+    position: sticky;
+}

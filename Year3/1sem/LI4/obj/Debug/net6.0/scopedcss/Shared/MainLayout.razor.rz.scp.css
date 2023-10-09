@@ -1,0 +1,23 @@
+.page[b-2z3kah70x5]{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+.full-width[b-2z3kah70x5] {
+    width: 100%;
+}
+
+.content[b-2z3kah70x5] {
+    z-index: 1;
+    margin-top:0;
+}
+
+nav[b-2z3kah70x5] {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+footer[b-2z3kah70x5] {
+    position: sticky;
+}

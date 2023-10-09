@@ -1,0 +1,187 @@
+.footer-container[b-es41bf8fpu] {
+    width: 100%;
+    height: 305px;
+    max-height: 305px;
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    bottom: 0px;
+}
+
+.footer-footer[b-es41bf8fpu] {
+    width: 100%;
+    height: 305px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #1D2445;
+}
+
+.footer-footer-left-container[b-es41bf8fpu] {
+    width: 935px;
+    height: 100%;
+    display: flex;
+    max-width: var(--dl-size-size-maxwidth);
+    align-self: flex-end;
+    margin-top: 0px;
+    align-items: center;
+    padding-top: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-fiveunits);
+    padding-left: var(--dl-space-space-threeunits);
+    flex-direction: row;
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: space-between;
+    background-color: #1D2445;
+}
+
+.footer-logo-text[b-es41bf8fpu] {
+    height: 211px;
+    display: flex;
+    max-width: var(--dl-size-size-maxwidth);
+    align-items: flex-start;
+    margin-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    flex-direction: column;
+    padding-bottom: 19px;
+    justify-content: space-between;
+}
+
+.footer-fairthos[b-es41bf8fpu] {
+    color: #E3E2E2;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-bottom: 0px;
+}
+
+.footer-text[b-es41bf8fpu] {
+    font-size: 50px;
+}
+
+.footer-direitos[b-es41bf8fpu] {
+    color: #E3E2E2;
+    margin-top: var(--dl-space-space-halfunit);
+    font-family: DM Sans;
+    line-height: 1.5;
+    margin-bottom: var(--dl-space-space-halfunit);
+}
+
+.footer-icon-group[b-es41bf8fpu] {
+    width: 224px;
+    display: flex;
+    margin-top: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-img[b-es41bf8fpu] {
+    width: 35px;
+    object-fit: cover;
+}
+
+
+
+.footer-footer-links-container[b-es41bf8fpu] {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-apoio-cliente-container[b-es41bf8fpu] {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    margin-right: var(--dl-space-space-fiveunits);
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-apoio-cliente-text[b-es41bf8fpu] {
+    color: #E3E2E2;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+
+.footer-entregas-text[b-es41bf8fpu] {
+    color: #E3E2E2;
+    font-family: DM Sans;
+    margin-bottom: var(--dl-space-space-unit);
+}
+
+.footer-devo-text[b-es41bf8fpu] {
+    color: #E3E2E2;
+    font-family: DM Sans;
+    margin-bottom: var(--dl-space-space-unit);
+}
+
+.footer-contactos-text[b-es41bf8fpu] {
+    color: #E3E2E2;
+    font-family: DM Sans;
+    margin-bottom: var(--dl-space-space-unit);
+}
+
+.footer-ajuda-text[b-es41bf8fpu] {
+    color: #E3E2E2;
+    font-family: DM Sans;
+}
+
+.footer-sobre-container[b-es41bf8fpu] {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-sobre-fairthos-text[b-es41bf8fpu] {
+    color: #E3E2E2;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+
+.footer-termos-text[b-es41bf8fpu] {
+    color: #E3E2E2;
+    font-family: DM Sans;
+    margin-bottom: var(--dl-space-space-unit);
+}
+
+.footer-privs-text[b-es41bf8fpu] {
+    color: #E3E2E2;
+    font-family: DM Sans;
+    margin-bottom: var(--dl-space-space-unit);
+}
+
+.footer-cookies-text[b-es41bf8fpu] {
+    color: #E3E2E2;
+    font-family: DM Sans;
+    margin-bottom: var(--dl-space-space-unit);
+}
+
+.footer-reclamacoes-text[b-es41bf8fpu] {
+    color: #E3E2E2;
+    font-family: DM Sans;
+}
+
+.footer-galo-image[b-es41bf8fpu] {
+    width: auto;
+    height: 100%;
+    align-self: flex-end;
+    object-fit: cover;
+    padding-top: 0px;
+}
+
+
+a[b-es41bf8fpu] {
+    text-decoration: none;
+}
+
+    a:hover[b-es41bf8fpu] {
+        color: lightgray;
+    }

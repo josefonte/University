@@ -1,0 +1,178 @@
+﻿@using FairthosApp.Data
+@using FairthosApp.Models
+@using FairthosApp.Models.Domain
+@using Microsoft.Data.SqlClient
+
+
+@code {
+    public List<Produto> GetAllProdutos()
+    {
+        List<Produto> produtos = new List<Produto>();
+        using (SqlConnection connection = new SqlConnection("Server=.;Database=db;Trusted_Connection=True;MultipleActiveResultSets=true;Encrypt=False"))
+        {
+            connection.Open();
+            String query = "SELECT * FROM Produto;";
+
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        Produto produto = new Produto
+                            {
+                                idProduto = reader.GetInt32(0),
+                                nome = reader.GetString(1),
+                                precoUnidade = reader.GetDouble(2)
+                            };
+                        produtos.Add(produto);
+                    }
+                }
+            }
+        }
+        return produtos;
+    }
+
+    class Card
+    {
+        public int id { get; set; }
+        public double preço { get; set; }
+        public double peso { get; set; }
+        public string nome { get; set; }
+
+
+
+        public Card(int a, double i, string s)
+        {
+            id = a;
+            preço = i;
+            nome = s;
+            peso = 0;
+
+        }
+        public void IncrementPeso()
+        {
+            peso += 0.5;
+        }
+
+        public void DecrementPeso()
+        {
+            if (peso > 0)
+            {
+                peso -= 0.5;
+            }
+        }
+
+        public double preçoFim()
+        {
+            return preço * peso;
+        }
+
+    }
+
+    private List<Card> cards = new List<Card>();
+
+    int primentaIt = 0;
+    public double preçoTotal()
+    {
+        double r = 0;
+        foreach (var card in cards)
+        {
+            r += card.preçoFim();
+        }
+        return r;
+    }
+
+    public void RemoveCard(int c)
+    {
+        foreach (var card in cards)
+        {
+            if (card.id == c)
+            {
+                cards.Remove(card);
+            }
+        }
+    }
+
+
+    private string ImageSource { get; set; } = "Images/carrinho-resol.png";
+    private string BackgroundColor { get; set; } = "#D9D9D9";
+
+    private async Task ChangeImage()
+    {
+        ImageSource = "Images/carinho-resol-click.png";
+        BackgroundColor = "#3A3A59";
+        await Task.Delay(300); 
+        BackgroundColor = "#D9D9D9";
+        ImageSource = "Images/carrinho-resol.png";
+    }
+}
+
+<div class="homepage">
+
+    <div><ProdutosHeader /></div>
+
+
+    <div class="lista">
+
+        @if (@GetAllProdutos() == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            int contador = 0;
+            <div class="content">
+                <div class="d-flex flex-row flex-wrap align-content-start justify-content-lg-start">
+                    @foreach (var produto in @GetAllProdutos())
+                    {
+                        Card aux = new Card(contador, @produto.precoUnidade, @produto.nome);
+                        cards.Add(aux);
+                        contador++;
+
+
+                    }
+                    @foreach (var card in cards)
+                    {
+                        <div class="col">
+                            <div class="back-color">
+                                <div class="produto-container">
+                                    <img alt="image"
+                                 src="Images/produto-placeholder.png"
+                                 class="produto-image"
+                                 id="imagem" />
+                                    <div class="produto-text">
+                                        <span class="col-8 description-left ">@card.nome</span>
+                                        <span class="col-4 description-right">€@card.preço/kg </span>
+                                    </div>
+                                    <div class="produto-under-container">
+                                        <div class="container-left col-8 ">
+                                            <div class="menos  col-3" @onclick="card.DecrementPeso">
+                                                <img src="Images/menos-resol.png"
+                                             alt="image"
+                                             class="menos-image" />
+                                            </div>
+                                            <div class="value col-6">
+                                                @card.peso kg
+                                            </div>
+                                            <div class="mais  col-3" @onclick="card.IncrementPeso">
+                                                <img src="Images/mais-resol.png"
+                                             alt="image"
+                                             class="mais-image" @onclick() />
+                                            </div>
+                                        </div>
+                                        <div class="container-right col-3" style="background-color:@BackgroundColor;" @onclick="ChangeImage">
+                                            <img src="@ImageSource" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+                </div>
+            </div>
+
+        }
+    </div>
+</div>

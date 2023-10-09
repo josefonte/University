@@ -1,0 +1,187 @@
+﻿.footer-container {
+    width: 100%;
+    height: 305px;
+    max-height: 305px;
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    bottom: 0px;
+}
+
+.footer-footer {
+    width: 100%;
+    height: 305px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #1D2445;
+}
+
+.footer-footer-left-container {
+    width: 935px;
+    height: 100%;
+    display: flex;
+    max-width: var(--dl-size-size-maxwidth);
+    align-self: flex-end;
+    margin-top: 0px;
+    align-items: center;
+    padding-top: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-fiveunits);
+    padding-left: var(--dl-space-space-threeunits);
+    flex-direction: row;
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: space-between;
+    background-color: #1D2445;
+}
+
+.footer-logo-text {
+    height: 211px;
+    display: flex;
+    max-width: var(--dl-size-size-maxwidth);
+    align-items: flex-start;
+    margin-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    flex-direction: column;
+    padding-bottom: 19px;
+    justify-content: space-between;
+}
+
+.footer-fairthos {
+    color: #E3E2E2;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-bottom: 0px;
+}
+
+.footer-text {
+    font-size: 50px;
+}
+
+.footer-direitos {
+    color: #E3E2E2;
+    margin-top: var(--dl-space-space-halfunit);
+    font-family: DM Sans;
+    line-height: 1.5;
+    margin-bottom: var(--dl-space-space-halfunit);
+}
+
+.footer-icon-group {
+    width: 224px;
+    display: flex;
+    margin-top: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-img {
+    width: 35px;
+    object-fit: cover;
+}
+
+
+
+.footer-footer-links-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-apoio-cliente-container {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    margin-right: var(--dl-space-space-fiveunits);
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-apoio-cliente-text {
+    color: #E3E2E2;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+
+.footer-entregas-text {
+    color: #E3E2E2;
+    font-family: DM Sans;
+    margin-bottom: var(--dl-space-space-unit);
+}
+
+.footer-devo-text {
+    color: #E3E2E2;
+    font-family: DM Sans;
+    margin-bottom: var(--dl-space-space-unit);
+}
+
+.footer-contactos-text {
+    color: #E3E2E2;
+    font-family: DM Sans;
+    margin-bottom: var(--dl-space-space-unit);
+}
+
+.footer-ajuda-text {
+    color: #E3E2E2;
+    font-family: DM Sans;
+}
+
+.footer-sobre-container {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-sobre-fairthos-text {
+    color: #E3E2E2;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+
+.footer-termos-text {
+    color: #E3E2E2;
+    font-family: DM Sans;
+    margin-bottom: var(--dl-space-space-unit);
+}
+
+.footer-privs-text {
+    color: #E3E2E2;
+    font-family: DM Sans;
+    margin-bottom: var(--dl-space-space-unit);
+}
+
+.footer-cookies-text {
+    color: #E3E2E2;
+    font-family: DM Sans;
+    margin-bottom: var(--dl-space-space-unit);
+}
+
+.footer-reclamacoes-text {
+    color: #E3E2E2;
+    font-family: DM Sans;
+}
+
+.footer-galo-image {
+    width: auto;
+    height: 100%;
+    align-self: flex-end;
+    object-fit: cover;
+    padding-top: 0px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        color: lightgray;
+    }

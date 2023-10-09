@@ -1,0 +1,41 @@
+﻿
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <div class="nav-menu-container">
+        <nav data-thq="thq-navbar" class="nav-menu ">
+            <div class="nav-menu-container1">
+                <NavLink class="nav-link" href="/">
+                <div class="nav-menu-logo" >
+                    <span class="nav-menu-text">FAIRTH</span>
+                    <img alt="image"
+                         src="Images/galo-title.png"
+                         class="nav-menu-image" />
+                    <span class="nav-menu-text1">S</span>
+                </div>
+                </NavLink>
+                <input type="text"
+                       placeholder="Procurar"
+                       class="nav-menu-search-bar input" />
+                <NavLink class="nav-link" href="/">
+                       <span class="nav-menu-entrar hover-underline-animation">Entrar</span>
+                </NavLink>
+                <NavLink class="nav-link" href="/CarrinhoPage">
+                <img alt="image"
+                     src="Images/carinho-resol-click.png"
+                     class="nav-menu-profile-pic" />
+                </NavLink>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
