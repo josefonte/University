@@ -1,0 +1,585 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scenario name="/home/core/Desktop/CC_topologia.xml">
+  <networks>
+    <network id="8" name="n8" type="SWITCH">
+      <position x="325" y="264" lat="47.57676697487157" lon="-122.12794271298992" alt="2.0"/>
+    </network>
+    <network id="9" name="n9" type="SWITCH">
+      <position x="365" y="531" lat="47.57433986827188" lon="-122.12740372381944" alt="2.0"/>
+    </network>
+    <network id="10" name="n10" type="SWITCH">
+      <position x="623" y="507" lat="47.57455803975894" lon="-122.1239272436699" alt="2.0"/>
+    </network>
+    <network id="11" name="n11" type="SWITCH">
+      <position x="722" y="338" lat="47.57609430491079" lon="-122.12259324547298" alt="2.0"/>
+    </network>
+    <network id="12" name="n12" type="SWITCH">
+      <position x="310" y="362" lat="47.57587613982444" lon="-122.12814483392884" alt="2.0"/>
+    </network>
+    <network id="13" name="n13" type="SWITCH">
+      <position x="487" y="546" lat="47.57420351063087" lon="-122.1257598068495" alt="2.0"/>
+    </network>
+    <network id="45" name="n45" type="SWITCH">
+      <position x="681" y="463" lat="47.574958018457735" lon="-122.12314570937272" alt="2.0"/>
+    </network>
+    <network id="46" name="n46" type="SWITCH">
+      <position x="712" y="223" lat="47.577139666670064" lon="-122.12272799276559" alt="2.0"/>
+    </network>
+  </networks>
+  <devices>
+    <device id="1" name="n1" type="router" class="" image="">
+      <position x="407" y="337" lat="47.57610339510299" lon="-122.12683778519045" alt="2.0"/>
+      <services>
+        <service name="zebra"/>
+        <service name="OSPFv2"/>
+        <service name="OSPFv3"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="2" name="n2" type="router" class="" image="">
+      <position x="503" y="337" lat="47.57610339510299" lon="-122.12554421118132" alt="2.0"/>
+      <services>
+        <service name="zebra"/>
+        <service name="OSPFv2"/>
+        <service name="OSPFv3"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="3" name="n3" type="router" class="" image="">
+      <position x="599" y="339" lat="47.576085214717004" lon="-122.1242506371722" alt="2.0"/>
+      <services>
+        <service name="zebra"/>
+        <service name="OSPFv2"/>
+        <service name="OSPFv3"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="4" name="n4" type="router" class="" image="">
+      <position x="455" y="266" lat="47.57674879471599" lon="-122.12619099818588" alt="2.0"/>
+      <services>
+        <service name="zebra"/>
+        <service name="OSPFv2"/>
+        <service name="OSPFv3"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="5" name="n5" type="router" class="" image="">
+      <position x="551" y="265" lat="47.57675788479456" lon="-122.12489742417675" alt="2.0"/>
+      <services>
+        <service name="zebra"/>
+        <service name="OSPFv2"/>
+        <service name="OSPFv3"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="6" name="n6" type="router" class="" image="">
+      <position x="551" y="410" lat="47.575439806924805" lon="-122.12489742417675" alt="2.0"/>
+      <services>
+        <service name="zebra"/>
+        <service name="OSPFv2"/>
+        <service name="OSPFv3"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="7" name="n7" type="router" class="" image="">
+      <position x="454" y="410" lat="47.575439806924805" lon="-122.12620447291513" alt="2.0"/>
+      <services>
+        <service name="zebra"/>
+        <service name="OSPFv2"/>
+        <service name="OSPFv3"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="14" name="SP-bra" type="host" class="" image="">
+      <position x="216" y="138" lat="47.57791231194807" lon="-122.12941145847945" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="15" name="SS1-bra" type="host" class="" image="">
+      <position x="374" y="593" lat="47.573776254389784" lon="-122.12728245125608" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="16" name="SS2-bra" type="host" class="" image="">
+      <position x="604" y="650" lat="47.573258087888014" lon="-122.1241832635259" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="18" name="W-bra" type="host" class="" image="">
+      <position x="88" y="393" lat="47.57559434190925" lon="-122.13113622382497" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="19" name="M1-bra" type="host" class="" image="">
+      <position x="345" y="666" lat="47.573112636720296" lon="-122.1276732184047" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="20" name="M2-bra" type="host" class="" image="">
+      <position x="690" y="682" lat="47.57296718514858" lon="-122.12302443680937" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="21" name="SP-bcl" type="host" class="" image="">
+      <position x="316" y="453" lat="47.57504892228138" lon="-122.12806398555327" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="22" name="SS1-bcl" type="host" class="" image="">
+      <position x="821" y="618" lat="47.57354898901148" lon="-122.12125924727607" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="23" name="SS2-bcl" type="host" class="" image="">
+      <position x="873" y="222" lat="47.5771487566808" lon="-122.12055856135444" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="25" name="W-bcl" type="host" class="" image="">
+      <position x="506" y="693" lat="47.57286718695869" lon="-122.12550378699353" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="26" name="M1-bcl" type="host" class="" image="">
+      <position x="818" y="486" lat="47.57474893906447" lon="-122.12129967146386" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="27" name="M2-bcl" type="host" class="" image="">
+      <position x="815" y="178" lat="47.57754871559046" lon="-122.12134009565163" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="28" name="SP-brg" type="host" class="" image="">
+      <position x="759" y="645" lat="47.57330354129507" lon="-122.1220946804903" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="29" name="SS1-brg" type="host" class="" image="">
+      <position x="843" y="298" lat="47.57645791136809" lon="-122.12096280323232" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="30" name="SS2-brg" type="host" class="" image="">
+      <position x="140" y="210" lat="47.57725783668642" lon="-122.13043553790335" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="32" name="W-brg" type="host" class="" image="">
+      <position x="547" y="578" lat="47.57391261314334" lon="-122.1249513230938" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="33" name="M1-brg" type="host" class="" image="">
+      <position x="897" y="354" lat="47.57594886162088" lon="-122.12023516785217" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="34" name="M2-brg" type="host" class="" image="">
+      <position x="124" y="448" lat="47.575094374134025" lon="-122.13065113357153" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="35" name="M2-mdd" type="host" class="" image="">
+      <position x="413" y="710" lat="47.57271264392598" lon="-122.12675693681489" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="36" name="M1-mdd" type="host" class="" image="">
+      <position x="176" y="501" lat="47.574612582488676" lon="-122.12995044764993" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="37" name="W-mdd" type="host" class="" image="">
+      <position x="890" y="435" lat="47.57521254876625" lon="-122.120329490957" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="39" name="SS2-mdd" type="host" class="" image="">
+      <position x="251" y="522" lat="47.574421682686044" lon="-122.12893984295529" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="40" name="SS1-mdd" type="host" class="" image="">
+      <position x="97" y="333" lat="47.576139755856026" lon="-122.13101495126162" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="41" name="SP-mdd" type="host" class="" image="">
+      <position x="735" y="127" lat="47.578012300503765" lon="-122.12241807399258" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="42" name="ST1" type="host" class="" image="">
+      <position x="458" y="143" lat="47.57786686254145" lon="-122.12615057399809" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="43" name="ST2" type="host" class="" image="">
+      <position x="552" y="137" lat="47.57792140182465" lon="-122.12488394944748" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="44" name="reverse" type="host" class="" image="">
+      <position x="340" y="103" lat="47.57823045668976" lon="-122.127740592051" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="17" name="SR" type="host" class="" image="">
+      <position x="650" y="189" lat="47.577448726149456" lon="-122.12356342597984" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="SSH"/>
+      </services>
+    </device>
+    <device id="24" name="CL" type="PC" class="" image="">
+      <position x="647" y="85" lat="47.57839407323275" lon="-122.12360385016761" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+  </devices>
+  <links>
+    <link node1="8" node2="1">
+      <iface2 id="3" name="eth3" mac="00:00:00:aa:00:55" ip4="10.0.12.1" ip4_mask="24" ip6="2001:12::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="8" node2="14">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:59" ip4="10.0.12.10" ip4_mask="24" ip6="2001:12::10" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="8" node2="30">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:75" ip4="10.0.12.11" ip4_mask="24" ip6="2001:12::11" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="8" node2="44">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:76" ip4="10.0.12.12" ip4_mask="24" ip6="2001:12::12" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="9" node2="7">
+      <iface2 id="3" name="eth3" mac="00:00:00:aa:00:58" ip4="10.0.17.1" ip4_mask="24" ip6="2001:17::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="9" node2="21">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:5a" ip4="10.0.17.10" ip4_mask="24" ip6="2001:17::10" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="9" node2="39">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:5b" ip4="10.0.17.11" ip4_mask="24" ip6="2001:17::11" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="9" node2="15">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:70" ip4="10.0.17.12" ip4_mask="24" ip6="2001:17::12" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="10" node2="6">
+      <iface2 id="3" name="eth3" mac="00:00:00:aa:00:57" ip4="10.0.16.1" ip4_mask="24" ip6="2001:16::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="10" node2="32">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:5c" ip4="10.0.16.10" ip4_mask="24" ip6="2001:16::10" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="10" node2="16">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:5d" ip4="10.0.16.11" ip4_mask="24" ip6="2001:16::11" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="10" node2="20">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:5e" ip4="10.0.16.12" ip4_mask="24" ip6="2001:16::12" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="11" node2="3">
+      <iface2 id="3" name="eth3" mac="00:00:00:aa:00:56" ip4="10.0.15.1" ip4_mask="24" ip6="2001:15::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="11" node2="37">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:5f" ip4="10.0.15.10" ip4_mask="24" ip6="2001:15::10" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="11" node2="33">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:60" ip4="10.0.15.12" ip4_mask="24" ip6="2001:15::12" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="11" node2="29">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:6e" ip4="10.0.15.11" ip4_mask="24" ip6="2001:15::11" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="12" node2="40">
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:65" ip4="10.0.18.10" ip4_mask="24" ip6="2001:18::10" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="12" node2="18">
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:66" ip4="10.0.18.11" ip4_mask="24" ip6="2001:18::11" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="12" node2="34">
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:67" ip4="10.0.18.12" ip4_mask="24" ip6="2001:18::12" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="12" node2="36">
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:68" ip4="10.0.18.13" ip4_mask="24" ip6="2001:18::13" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="12" node2="1">
+      <iface2 id="4" name="eth4" mac="00:00:00:aa:00:6a" ip4="10.0.18.1" ip4_mask="24" ip6="2001:18::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="13" node2="7">
+      <iface2 id="4" name="eth4" mac="00:00:00:aa:00:6b" ip4="10.0.19.1" ip4_mask="24" ip6="2001:19::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="13" node2="19">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:72" ip4="10.0.19.10" ip4_mask="24" ip6="2001:19::10" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="13" node2="35">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:73" ip4="10.0.19.11" ip4_mask="24" ip6="2001:19::11" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="13" node2="25">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:74" ip4="10.0.19.12" ip4_mask="24" ip6="2001:19::12" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="45" node2="22">
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:69" ip4="10.0.20.11" ip4_mask="24" ip6="2001:20::11" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="45" node2="6">
+      <iface2 id="4" name="eth4" mac="00:00:00:aa:00:6c" ip4="10.0.20.1" ip4_mask="24" ip6="2001:20::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="45" node2="28">
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:6f" ip4="10.0.20.10" ip4_mask="24" ip6="2001:20::10" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="45" node2="26">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:71" ip4="10.0.20.12" ip4_mask="24" ip6="2001:20::12" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="46" node2="3">
+      <iface2 id="4" name="eth4" mac="00:00:00:aa:00:6d" ip4="10.0.21.1" ip4_mask="24" ip6="2001:21::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="46" node2="41">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:77" ip4="10.0.21.10" ip4_mask="24" ip6="2001:21::10" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="46" node2="27">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:78" ip4="10.0.21.11" ip4_mask="24" ip6="2001:21::11" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="46" node2="23">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:79" ip4="10.0.21.12" ip4_mask="24" ip6="2001:21::12" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="46" node2="17">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:00" ip4="10.0.21.13" ip4_mask="24" ip6="2001:21::13" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="2" node2="4">
+      <iface1 id="0" name="eth0" mac="00:00:00:aa:00:3d" ip4="10.0.0.1" ip4_mask="24" ip6="2001::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:3e" ip4="10.0.0.2" ip4_mask="24" ip6="2001::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="2" node2="5">
+      <iface1 id="1" name="eth1" mac="00:00:00:aa:00:3f" ip4="10.0.1.1" ip4_mask="24" ip6="2001:1::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:40" ip4="10.0.1.2" ip4_mask="24" ip6="2001:1::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="2" node2="3">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:41" ip4="10.0.2.1" ip4_mask="24" ip6="2001:2::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:42" ip4="10.0.2.2" ip4_mask="24" ip6="2001:2::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="2" node2="6">
+      <iface1 id="3" name="eth3" mac="00:00:00:aa:00:43" ip4="10.0.3.1" ip4_mask="24" ip6="2001:3::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:44" ip4="10.0.3.2" ip4_mask="24" ip6="2001:3::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="2" node2="7">
+      <iface1 id="4" name="eth4" mac="00:00:00:aa:00:45" ip4="10.0.4.1" ip4_mask="24" ip6="2001:4::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:46" ip4="10.0.4.2" ip4_mask="24" ip6="2001:4::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="2" node2="1">
+      <iface1 id="5" name="eth5" mac="00:00:00:aa:00:47" ip4="10.0.5.1" ip4_mask="24" ip6="2001:5::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:48" ip4="10.0.5.2" ip4_mask="24" ip6="2001:5::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="4" node2="5">
+      <iface1 id="1" name="eth1" mac="00:00:00:aa:00:49" ip4="10.0.6.1" ip4_mask="24" ip6="2001:6::1" ip6_mask="64"/>
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:4a" ip4="10.0.6.2" ip4_mask="24" ip6="2001:6::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="5" node2="3">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:4b" ip4="10.0.7.1" ip4_mask="24" ip6="2001:7::1" ip6_mask="64"/>
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:4c" ip4="10.0.7.2" ip4_mask="24" ip6="2001:7::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="3" node2="6">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:4d" ip4="10.0.8.1" ip4_mask="24" ip6="2001:8::1" ip6_mask="64"/>
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:4e" ip4="10.0.8.2" ip4_mask="24" ip6="2001:8::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="6" node2="7">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:4f" ip4="10.0.9.1" ip4_mask="24" ip6="2001:9::1" ip6_mask="64"/>
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:50" ip4="10.0.9.2" ip4_mask="24" ip6="2001:9::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="7" node2="1">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:51" ip4="10.0.10.1" ip4_mask="24" ip6="2001:10::1" ip6_mask="64"/>
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:52" ip4="10.0.10.2" ip4_mask="24" ip6="2001:10::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="1" node2="4">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:53" ip4="10.0.11.1" ip4_mask="24" ip6="2001:11::1" ip6_mask="64"/>
+      <iface2 id="2" name="eth2" mac="00:00:00:aa:00:54" ip4="10.0.11.2" ip4_mask="24" ip6="2001:11::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="42" node2="4">
+      <iface1 id="0" name="eth0" mac="00:00:00:aa:00:61" ip4="10.0.13.10" ip4_mask="24" ip6="2001:13::10" ip6_mask="64"/>
+      <iface2 id="3" name="eth3" mac="00:00:00:aa:00:62" ip4="10.0.13.1" ip4_mask="24" ip6="2001:13::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="43" node2="5">
+      <iface1 id="0" name="eth0" mac="00:00:00:aa:00:63" ip4="10.0.14.10" ip4_mask="24" ip6="2001:14::10" ip6_mask="64"/>
+      <iface2 id="3" name="eth3" mac="00:00:00:aa:00:64" ip4="10.0.14.1" ip4_mask="24" ip6="2001:14::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="24" node2="3">
+      <iface1 id="0" name="eth0" mac="00:00:00:aa:00:01" ip4="10.0.22.20" ip4_mask="24" ip6="2001::20" ip6_mask="64"/>
+      <iface2 id="5" name="eth5" mac="00:00:00:aa:00:02" ip4="10.0.22.1" ip4_mask="24" ip6="2001::1" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+  </links>
+  <emane_global_configuration>
+    <emulator/>
+    <core>
+      <configuration name="platform_id_start" value="1"/>
+      <configuration name="nem_id_start" value="1"/>
+      <configuration name="link_enabled" value="1"/>
+      <configuration name="loss_threshold" value="30"/>
+      <configuration name="link_interval" value="1"/>
+      <configuration name="link_timeout" value="4"/>
+    </core>
+  </emane_global_configuration>
+  <session_origin lat="47.5791667" lon="-122.132322" alt="2.0" scale="150.0"/>
+  <session_options>
+    <configuration name="controlnet" value=""/>
+    <configuration name="controlnet0" value=""/>
+    <configuration name="controlnet1" value=""/>
+    <configuration name="controlnet2" value=""/>
+    <configuration name="controlnet3" value=""/>
+    <configuration name="controlnet_updown_script" value=""/>
+    <configuration name="enablerj45" value="1"/>
+    <configuration name="preservedir" value="0"/>
+    <configuration name="enablesdt" value="0"/>
+    <configuration name="sdturl" value="tcp://127.0.0.1:50000/"/>
+    <configuration name="ovs" value="0"/>
+  </session_options>
+  <session_metadata>
+    <configuration name="annotation a1" value="{iconcoords {184 111 243 170}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize 12} {color #ff5b5e} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a2" value="{iconcoords {58 367 119 428}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize 12} {color #ff5b5e} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a3" value="{iconcoords {342 565 403 626}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize 12} {color #ff5b5e} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a4" value="{iconcoords {574 620 635 681}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize 12} {color #ff5b5e} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a5" value="{iconcoords {310 638 371 699}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize 12} {color #ff5b5e} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a6" value="{iconcoords {655 656 716 717}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize 12} {color #ff5b5e} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a7" value="{iconcoords {470 661 535 726}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #ddffff} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a8" value="{iconcoords {784 584 851 651}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #ddffff} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a9" value="{iconcoords {284 422 355 493}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #ddffff} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a10" value="{iconcoords {780 146 847 213}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #ddffff} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a11" value="{iconcoords {839 191 906 258}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #ddffff} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a12" value="{iconcoords {783 454 850 521}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #ddffff} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a13" value="{iconcoords {727 611 794 678}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #90ff90} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a14" value="{iconcoords {515 539 584 608}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #90ff90} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a15" value="{iconcoords {864 323 933 392}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #90ff90} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a16" value="{iconcoords {804 260 873 329}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #90ff90} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a17" value="{iconcoords {110 173 179 242}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #90ff90} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a18" value="{iconcoords {83 421 152 490}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #90ff90} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a19" value="{iconcoords {211 492 280 561}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #ffff90} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a20" value="{iconcoords {137 468 208 539}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #ffff90} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a21" value="{iconcoords {57 297 128 368}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #ffff90} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a22" value="{iconcoords {692 91 763 162}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #ffff90} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a23" value="{iconcoords {375 673 446 744}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #ffff90} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a24" value="{iconcoords {862 398 933 469}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #ffff90} {width 0} {border black} {canvas c1}"/>
+    <configuration name="annotation a25" value="{iconcoords {310.0 72.0 374.0 148.0}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize 12} {color #888888} {width 0} {border black} {canvas c1}"/>
+    <configuration name="canvas c1" value="{name {Canvas1}}"/>
+    <configuration name="global_options" value="interface_names=no ip_addresses=yes ipv6_addresses=no node_labels=yes link_labels=yes show_api=no background_images=no annotations=yes grid=yes traffic_start=0"/>
+    <configuration name="annotation a26" value="{iconcoords {611 50 680 119}} {type oval} {label {}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {color #ddffff} {width 0} {border black} {canvas c1}"/>
+  </session_metadata>
+  <default_services>
+    <node type="mdr">
+      <service name="zebra"/>
+      <service name="OSPFv3MDR"/>
+      <service name="IPForward"/>
+    </node>
+    <node type="PC">
+      <service name="DefaultRoute"/>
+    </node>
+    <node type="prouter"/>
+    <node type="router">
+      <service name="zebra"/>
+      <service name="OSPFv2"/>
+      <service name="OSPFv3"/>
+      <service name="IPForward"/>
+    </node>
+    <node type="host">
+      <service name="DefaultRoute"/>
+      <service name="SSH"/>
+    </node>
+  </default_services>
+</scenario>

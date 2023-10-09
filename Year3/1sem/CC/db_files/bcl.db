@@ -1,0 +1,33 @@
+# DNS database file for subdomain bcl.bra
+
+@ DEFAULT bcl.bra.
+TTL DEFAULT 86400
+
+@ SOASP ns1.bcl.bra TTL
+@ SOAADMIN dns\.admin.bcl.bra. TTL
+@ SOASERIAL 0117102022 TTL
+@ SOAREFRESH 14400 TTL
+@ SOARETRY 3600 TTL
+@ SOAEXPIRE 604800 TTL
+
+@ NS ns1.bcl.bra. TTL
+@ NS ns2.bcl.bra. TTL
+@ NS ns3.bcl.bra. TTL
+
+@ MX mx1.bcl.bra. TTL 10
+@ MX mx2.bcl.bra. TTL 20
+
+ns1 A 10.0.17.10 TTL
+ns2 A 10.0.20.11 TTL
+ns3 A 10.0.21.12 TTL
+mx1 A 10.0.20.12 TTL
+mx2 A 10.0.21.11 TTL
+www A 10.0.19.12 TTL 200
+
+# ftp A 193.136.130.20 TTL
+
+sp CNAME ns1 TTL
+ss1 CNAME ns2 TTL
+ss2 CNAME ns3 TTL
+mail1 CNAME mx1 TTL
+mail2 CNAME mx2 TTL

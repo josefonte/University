@@ -1,0 +1,12 @@
+
+python3 ../../Projeto-CC/server.py ../config_files/SR.conf 7000 0 DEBUG
+
+
+python3 ../../Projeto-CC/server.py ../config_files/SS1-bra.conf 8000 0 DEBUG
+
+
+python3 ../../Projeto-CC/server.py ../config_files/SP-bra.conf 9000 0 DEBUG
+
+python3 ../../Projeto-CC/server.py ../config_files/ST1.conf 10000 0 DEBUG
+
+python3 ../../Projeto-CC/client.py 10.0.21.13 bcl.bra. MX

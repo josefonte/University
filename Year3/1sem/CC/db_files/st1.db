@@ -1,0 +1,36 @@
+# DNS database file for rootserver
+
+@ DEFAULT bra.
+& DEFAULT brg.
+
+TTL DEFAULT 86400
+
+
+. SOASERIAL 0120112022 TTL
+
+
+@ NS ns1.bra. TTL
+@ NS ns2.bra. TTL
+@ NS ns3.bra. TTL
+
+& NS ns4.brg. TTL
+& NS ns5.brg. TTL
+& NS ns6.brg. TTL
+
+ns1 A 10.0.12.10 TTL
+ns2 A 10.0.17.12 TTL
+ns3 A 10.0.16.11 TTL
+
+ns4 A 10.0.20.10 TTL
+ns5 A 10.0.15.11 TTL
+ns6 A 10.0.12.11 TTL
+
+# ftp A 193.136.130.20 TTL
+
+spbra CNAME ns1 TTL
+ss1bra CNAME ns2 TTL
+ss2bra CNAME ns3 TTL
+
+spbrg CNAME ns4 TTL
+ss1brg CNAME ns5 TTL
+ss2brg CNAME ns6 TTL
