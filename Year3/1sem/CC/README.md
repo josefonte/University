@@ -13,7 +13,7 @@ O grupo cumpriu as seguintes tarefas:
 
 
 <div align="center">
-    <img src="/anexos/topologia_TP2.png" style="height: 500px;">
+    <img src="./anexos/topologia_TP2.png" style="height: 500px;">
 </div>
 
 `Para testar ver pag. 38 do Relatório`
