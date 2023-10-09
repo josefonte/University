@@ -1,4 +1,6 @@
 # Projeto-SO 💻⚡
+## Nota : 16.0
+
 
 No âmbito da cadeira de Sistemas Operativos, o grupo 98 desenvolveu um programa em C que pretende implementar um serviço que permitisse aos utilizadores armazenar uma cópia dos seus ficheiros de forma segura e eficiente, poupando espaço de disco.
 
