@@ -1,0 +1,319 @@
+<world>
+    <window width="512" height="512" />
+    <camera> 
+	    <position x="1500" y="2000" z="1500" />
+	    <lookAt x="0" y="0" z="0" />
+	    <up x="0" y="1" z="0" />
+        <projection fov="60" near="100" far="10000" /> <!-- optional, use these values as default-->
+    </camera>
+
+    <group> 
+        <transform> 
+            <color r="1" g="1" b="1" />
+        </transform>
+        <models> 
+            <model file="mercury_orbit.3d" /> 
+            <model file="venus_orbit.3d" /> 
+            <model file="earth_orbit.3d" /> 
+            <model file="mars_orbit.3d" /> 
+            <model file="jupiter_orbit.3d" /> 
+            <model file="saturn_orbit.3d" /> 
+            <model file="uranus_orbit.3d" /> 
+            <model file="neptune_orbit.3d" /> 
+        </models>
+        <transform> 
+            <color r="0.95" g="0.56" b="0.12" />
+            
+        </transform>
+        <models> 
+            <model file="sun.3d" /> 
+        </models>
+	    <group> 
+            <transform> 
+                <rotate time="2" x="0" y="1" z="0" />
+		        <translate x="180" y="0" z="0" />
+                <color r="0.4" g="0.4" b="0.4" />
+                <rotate time="3" x="0" y="1" z="0" />
+            </transform>
+            <models> 
+                <model file="mercury.3d" /> 
+            </models>
+        </group>
+        <group> 
+            <transform> 
+                <rotate time="4" x="0" y="1" z="0" />
+                <rotate angle="160" x="0" y="1" z="0" />
+		        <translate x="280" y="0" z="0" />
+                <color r="0.55" g="0.24" b="0.07" />
+                <rotate time="3" x="0" y="1" z="0" />
+            </transform>
+            <models> 
+                <model file="venus.3d" /> 
+            </models>
+        </group>
+        <group> 
+            <transform> 
+                <rotate time="5.5" x="0" y="1" z="0" />
+                <rotate angle="300" x="0" y="1" z="0" />
+		        <translate x="360" y="0" z="0" />
+                <color r="0.2" g="0.47" b="0.74" />
+                <rotate time="3" x="0" y="1" z="0" />
+            </transform>
+            <models> 
+                <model file="earth.3d" /> 
+            </models>
+            <group>
+                <transform> 
+                    <rotate time="4" x="0" y="1" z="0" />
+		            <translate x="40" y="0" z="0" />
+                    <color r="0.35" g="0.35" b="0.35" />
+                    <rotate time="3" x="0" y="1" z="0" />
+                </transform>
+                <models> 
+                    <model file="moon.3d" /> 
+                </models>
+            </group>
+        </group>
+        <group> 
+            <transform> 
+                <rotate time="6" x="0" y="1" z="0" />
+                <rotate angle="200" x="0" y="1" z="0" />
+		        <translate x="450" y="0" z="0" />
+                <color r="0.78" g="0.46" b="0.25" />
+                <rotate time="3" x="0" y="1" z="0" />
+            </transform>
+            <models> 
+                <model file="mars.3d" /> 
+            </models>
+            <group>
+                <transform> 
+                    <rotate time="3" x="0" y="1" z="0" />
+		            <translate x="30" y="0" z="0" />
+                    <color r="0.35" g="0.35" b="0.35" />
+                    <rotate time="3" x="0" y="1" z="0" />
+                </transform>
+                <models> 
+                    <model file="mars_moon.3d" /> 
+                </models>
+            </group>
+            <group>
+                <transform> 
+                    <rotate time="4" x="0" y="1" z="0" />
+                    <rotate angle="200" x="0" y="1" z="0" />
+		            <translate x="30" y="0" z="0" />
+                    <color r="0.35" g="0.35" b="0.35" />
+                    <rotate time="3" x="0" y="1" z="0" />
+                </transform>
+                <models> 
+                    <model file="mars_moon.3d" /> 
+                </models>
+            </group>
+        </group>
+        <group> 
+            <models> 
+                <ring file="asteroid.3d" n="1000" r1="590" r2="610" /> 
+            </models>
+        </group>
+        <group> 
+            <transform> 
+                <rotate time="42" x="0" y="1" z="0" />
+                <rotate angle="90" x="0" y="1" z="0" />
+		        <translate x="820" y="0" z="0" />
+                <color r="0.85" g="0.67" b="0.47" />
+                <rotate time="3" x="0" y="1" z="0" />
+            </transform>
+            <models> 
+                <model file="jupiter.3d" /> 
+            </models>
+            <group>
+                <transform> 
+                    <rotate time="4" x="0" y="1" z="0" />
+		            <translate x="80" y="0" z="0" />
+                    <color r="0.67" g="0.65" b="0.34" />
+                    <rotate time="3" x="0" y="1" z="0" />
+                </transform>
+                <models> 
+                    <model file="io.3d" /> 
+                </models>
+            </group>
+            <group>
+                <transform> 
+                    <rotate time="2.3" x="0" y="1" z="0" />
+                    <rotate angle="200" x="0" y="1" z="0" />
+		            <translate x="90" y="0" z="0" />
+                    <color r="0.58" g="0.38" b="0.20" />
+                    <rotate time="3" x="0" y="1" z="0" />
+                </transform>
+                <models> 
+                    <model file="europa.3d" /> 
+                </models>
+            </group>
+            <group>
+                <transform> 
+                    <rotate time="3.415" x="0" y="1" z="0" />
+                    <rotate angle="90" x="0" y="1" z="0" />
+		            <translate x="110" y="0" z="0" />
+                    <color r="0.35" g="0.35" b="0.35" />
+                    <rotate time="3" x="0" y="1" z="0" />
+                </transform>
+                <models> 
+                    <model file="ganymede.3d" /> 
+                </models>
+            </group>
+            <group>
+                <transform> 
+                    <rotate time="3.812" x="0" y="1" z="0" />
+                    <rotate angle="20" x="0" y="1" z="0" />
+		            <translate x="120" y="0" z="0" />
+                    <color r="0.35" g="0.35" b="0.35" />
+                    <rotate time="3" x="0" y="1" z="0" />
+                </transform>
+                <models> 
+                    <model file="callisto.3d" /> 
+                </models>
+            </group>
+        </group>
+        <group> 
+            <transform> 
+                <rotate time="38" x="0" y="1" z="0" />
+                <rotate angle="270" x="0" y="1" z="0" />
+                <rotate angle="26" x="1" y="0" z="0" />
+		        <translate x="1050" y="0" z="0" />
+                <color r="0.91" g="0.81" b="0.64" />
+                <rotate time="3" x="0" y="1" z="0" />
+            </transform>
+            <models> 
+                <model file="saturn.3d" /> 
+                <model file="saturn_ring.3d" />
+            </models>
+            <group>
+                <transform> 
+                    <rotate time="2" x="0" y="1" z="0" />
+		            <translate x="140" y="0" z="0" />
+                    <color r="0.35" g="0.35" b="0.35" />
+                    <rotate time="3" x="0" y="1" z="0" />
+                </transform>
+                <models> 
+                    <model file="mimas.3d" /> 
+                </models>
+            </group>
+            <group>
+                <transform> 
+                    <rotate time="3" x="0" y="1" z="0" />
+                    <rotate angle="120" x="0" y="1" z="0" />
+		            <translate x="145" y="0" z="0" />
+                    <color r="0.35" g="0.35" b="0.35" />
+                    <rotate time="3" x="0" y="1" z="0" />
+                </transform>
+                <models> 
+                    <model file="enceladus.3d" /> 
+                </models>
+            </group>
+            <group>
+                <transform> 
+                    <rotate time="3.66" x="0" y="1" z="0" />
+                    <rotate angle="20" x="0" y="1" z="0" />
+		            <translate x="150" y="0" z="0" />
+                    <color r="0.35" g="0.35" b="0.35" />
+                    <rotate time="3" x="0" y="1" z="0" />
+                </transform>
+                <models> 
+                    <model file="tethys.3d" /> 
+                </models>
+            </group>
+            <group>
+                <transform>
+                    <rotate time="2.424" x="0" y="1" z="0" />
+                    <rotate angle="220" x="0" y="1" z="0" />
+		            <translate x="155" y="0" z="0" />
+                    <color r="0.35" g="0.35" b="0.35" />
+                    <rotate time="3" x="0" y="1" z="0" />
+                </transform>
+                <models> 
+                    <model file="dione.3d" /> 
+                </models>
+            </group>
+            <group>
+                <transform>
+                    <rotate time="5.28" x="0" y="1" z="0" />
+                    <rotate angle="20" x="0" y="1" z="0" />
+		            <translate x="165" y="0" z="0" />
+                    <color r="0.35" g="0.35" b="0.35" />
+                    <rotate time="3" x="0" y="1" z="0" />
+                </transform>
+                <models> 
+                    <model file="rhea.3d" /> 
+                </models>
+            </group>
+            <group>
+                <transform>
+                    <rotate time="3.148939" x="0" y="1" z="0" />
+                    <rotate angle="280" x="0" y="1" z="0" />
+		            <translate x="190" y="0" z="0" />
+                    <color r="0.35" g="0.35" b="0.35" />
+                    <rotate time="3" x="0" y="1" z="0" />
+                </transform>
+                <models> 
+                    <model file="titan.3d" /> 
+                </models>
+            </group>
+            <group>
+                <transform>
+                    <rotate time="3.000001" x="0" y="1" z="0" />
+                    <rotate angle="20" x="0" y="1" z="0" />
+		            <translate x="240" y="0" z="0" />
+                    <color r="0.35" g="0.35" b="0.35" />
+                    <rotate time="3" x="0" y="1" z="0" />
+                </transform>
+                <models> 
+                    <model file="iapetus.3d" /> 
+                </models>
+            </group>
+        </group>
+        <group> 
+            <transform> 
+                <rotate time="47" x="0" y="1" z="0" />
+                <rotate angle="40" x="0" y="1" z="0" />
+		        <translate x="1200" y="0" z="0" />
+                <color r="0.38" g="0.68" b="0.63" />
+                <rotate angle="97" x="0" y="0" z="1" />
+                <rotate time="3" x="0" y="1" z="0" />
+            </transform>
+            <models> 
+                <model file="uranus.3d" /> 
+                <model file="uranus_ring.3d" />
+            </models>
+        </group>
+        <group> 
+            <transform> 
+                <rotate time="59" x="0" y="1" z="0" />
+                <rotate angle="250" x="0" y="1" z="0" />
+		        <translate x="1400" y="0" z="0" />
+                <color r="0.38" g="0.68" b="0.73" />
+                <rotate time="3" x="0" y="1" z="0" />
+            </transform>
+            <models> 
+                <model file="neptune.3d" /> 
+            </models>
+        </group>
+        <group>
+            <transform>
+                <translate time = "10" align="true"> <!-- O campo align diz se o objecto deve ser orientado na curva -->
+					<point x = "700" y = "400" z = "700" />
+                    <point x = "0" y = "400" z = "900" />
+					<point x = "-700" y = "400" z = "700" />
+                    <point x = "-900" y = "0" z = "0" />
+					<point x = "-700" y = "-400" z = "-700" />
+                    <point x = "0" y = "-400" z = "-900" />
+					<point x = "700" y = "-400" z = "-700" />
+                    <point x = "900" y = "0" z = "0" />
+			    </translate>
+                <color r="0.2" g="0.2" b="1" />
+                <scale x="10" y="10" z="10" />
+            </transform>
+            <models> 
+                <model file="asteroid.3d" /> 
+            </models>
+        </group>
+    </group>
+</world>

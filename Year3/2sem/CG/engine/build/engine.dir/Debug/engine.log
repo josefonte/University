@@ -1,0 +1,3 @@
+﻿  engine.cpp
+C:\Users\migue\Desktop\CGProjeto\engine\code\engine.cpp(119,20): warning C4018: '<': incompatibilidade de signed/unsigned
+  engine.vcxproj -> C:\Users\migue\Desktop\CGProjeto\engine\build\Debug\engine.exe
