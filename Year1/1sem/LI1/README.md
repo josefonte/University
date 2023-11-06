@@ -11,7 +11,7 @@ O ficheiro principal é `GameCompleted.hs` . Para compilar e gerar o executável
 Em seguida, para entrar no jogo: 
 
     $  ./GameCompleted
-https://github.com/josefonte/University/blob/main/Year1/1sem/LI1/src/ImagensParaPacman/Menus/screenSaver.png
+
 <p float="center">
   <img src="https://raw.githubusercontent.com/josefonte/University/main/Year1/1sem/LI1/src/ImagensParaPacman/Menus/screenSaver.png" width="49%" />
     <img src="https://raw.githubusercontent.com/josefonte/University/main/Year1/1sem/LI1/src/ImagensParaPacman/Menus/JogoNormal.png" width="49%" />
