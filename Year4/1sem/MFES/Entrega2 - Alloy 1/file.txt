@@ -1,0 +1,67 @@
+sig Bucket {
+	head : lone Node
+}
+
+sig Node {
+	key : one Key,
+	prox : lone Node
+}
+
+sig Key {
+	hash : one Hash
+}
+
+sig Hash {}
+
+pred Invs {
+	// Specify the properties that characterize 
+	// hash tables using closed addressing (separate 
+	// chaining) for collision resolution.
+
+	// The points you will get is proportional to the 
+	// number of correct properties. To check how many
+	// points you have so far you can use the different
+ 	// commands. For example, if check Three is correct 
+	// you will have at least 3 points.
+    // The maximum is 5 points.
+
+	// Be careful to not overspecify! 
+	// If you specify a property that is not valid in 
+	// these hash tables you get 0 points, 
+    // even if you have some correct properties.
+	// To check if you are not overspecifying you can use 
+	// command NoOverspecification. If you have an invalid
+	// property this command will return a valid hash table 
+	// that you specification is not accepting.
+  
+  	//Key is unique to a node
+  	all disj n1,n2 : Node | n1.key != n2.key
+  	//Node in a prox can't be a head
+  	all n1 : Node | (n1 in Node.prox) implies n1 not in Bucket.head
+    // 2 buckets not empty can't have the same head 
+  	all disj b1, b2 : Bucket | some (b1.head & b2.head) implies b1.head!=b2.head
+	// All keys should be associated in a node
+	all k : Key |  k in Node.key
+	// All hash should be in a key
+	// Prox can't be the same node
+	all n1: Node | n1.prox != n1
+	//All nodes should be part of a bucket
+	all n1:Node | n1 in Bucket.head || n1 in Bucket.head.^prox 
+	
+	//Bucket can be empty or not
+	all b1 : Bucket | some b1.head || no b1.head
+	
+	//2 or more bucket can't point to each other in a close circle
+ 	all disj n1,n2 : Node | (n2 in n1.prox) implies n1 not in n2.^prox
+	
+	//the node.prox can't point to a dif bucket
+	all disj n1, n2 : Node | (some n1.prox & n2.prox) implies n1.prox != n2.prox
+
+	//hash can't be  dif in the same bucket
+	all n1: Node | (some n1.prox) implies n1.key.hash in n1.^prox.key.hash 
+	
+	//hash can't be used in 2 dif buckets
+	all disj b1,b2 : Bucket | no (b1.head.key.hash & b2.head.key.hash )
+	
+	
+}

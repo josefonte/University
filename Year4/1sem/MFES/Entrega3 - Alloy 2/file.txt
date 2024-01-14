@@ -1,0 +1,46 @@
+// Recall the hash table Alloy model,
+// now with mutable lists inside the buckets.
+
+sig Bucket {
+	var head : lone Node
+}
+
+sig Node {
+	key : one Key,
+	var prox : lone Node
+}
+
+sig Key {
+	hash : one Hash
+}
+sig Hash {}
+
+// Specify the operation of inserting a node
+// in the hash table. The node should be 
+// inserted at the head of a bucket.
+// If the operation only works well when the
+// hash of the new node does not exist in the
+// table you get Two points. If it always 
+// works well you get Five points. Use the
+// respective commands to check how many
+// points you have.
+
+pred insert[n : Node] {
+      no(head.n) and no(prox.n)
+      all disj b1, b2 : Bucket | some(b1.head') and some(b2.head') implies                 b1.head.key.hash' != b2.head.key.hash'
+      all n1 : Node - n | n1.prox' = n1.prox 
+       
+    {
+      one b1 : Bucket| (b1.head.key.hash = n.key.hash and b1.head' = n and n.prox' = b1.head )and  (all ball : Bucket - b1 | ball.head' = ball.head )
+
+    }
+  
+      or 
+  
+    {    
+      no b1 : Bucket |b1.head.key.hash = n.key.hash
+      one b1 : Bucket | b1.head = none and b1.head' = n
+      n.prox' = none
+      all b1 : Bucket | one(b1.head) implies b1.head' = b1.head
+    }
+}
