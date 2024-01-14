@@ -4,7 +4,8 @@ module KillPacman where
 
 import Data.Time.Clock.POSIX
 import Control.Monad.IO.Class
-import UI.NCurses
+--import UI.NCurses
+
 import Types
 import FileUtils
 import Tarefa2 

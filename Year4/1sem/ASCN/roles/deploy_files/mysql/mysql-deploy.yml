@@ -1,0 +1,8 @@
+- name: Apply MySQL PVC
+  command: kubectl apply -f roles/deploy_files/mysql/mysql-pvc.yml
+
+- name: Apply MySQL deployment
+  command: kubectl apply -f roles/deploy_files/mysql/mysql-deployment.yml
+
+- name: Apply MySQL service
+  command: kubectl apply -f roles/deploy_files/mysql/mysql-service.yml
