@@ -1,0 +1,45 @@
+cliente
+- clinte pede stream por tcp a um servidor
+- recebe ack para começar stream
+- inicia stream udp do content
+
+server
+- recebe 4 possiveis msgs de content : client_sub, client_term, server_sub, server_term
+- client_sub -> cliente a pedir conteudo para começar stream
+- cliente_term -> cliente a terminar stream
+- server_sub -> servidor a pedir stream a outro server
+-> server_term -> servidor a encerrar stream com servidor origem
+
+serverRP
+-> server_sub -> servidor a pedir stream 
+    - se tiver envia
+    - se nao tiver pede ao S1 ou S2
+-> server_term -> servidor a encerrar stream 
+    - se tiver + clientes, encerr so aquela conn
+    - se nao tiver, enecera stream com Servidors
+
+
+servers conteudo
+-> metrics
+-> stream_start
+-> stream_end
+
+
+
+TO RUN THE CODE
+
+./serverRP node_id
+
+./server ip_rp node_id
+
+
+
+
+MESSAGES
+
+(FLAG Mes TYPE) | (FLAG Mes SubType) | DATA 
+
+- Control Mes (000) | bootstraper (000) | (node id)
+- Control Mes (000) | connect (001) | (node id)
+- Control Mes (000) | rp_path (001) | (node id)
+
