@@ -1,0 +1,40 @@
+.main-page {
+    z-index: 1;
+    position: center;
+}
+
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paper {
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+
+
+.questions-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.enunciado {
+    text-align: center;
+    border-top: 2px solid #ccc; 
+    padding-top: 10px; 
+  
+}
+
+.answers {
+    text-align: center;
+  }

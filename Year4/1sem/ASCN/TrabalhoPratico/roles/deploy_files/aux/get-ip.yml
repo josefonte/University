@@ -1,0 +1,13 @@
+- name: Get IP address
+  command: "gcloud compute instances list --format='value(networkInterfaces[0].accessConfigs[0].natIP)'"
+  register: gce_instance_ip
+
+- name: Set app_ip variable
+  set_fact:
+    app_ip: "{{ gce_instance_ip.stdout_lines[0] }}"
+
+- name: Update app_ip in inventory file
+  lineinfile:
+    path: inventory/gcp.yml
+    regexp: 'app_ip:'
+    line: '    app_ip: "{{ gce_instance_ip.stdout_lines[0] }}"'

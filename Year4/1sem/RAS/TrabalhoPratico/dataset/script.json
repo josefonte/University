@@ -1,0 +1,24 @@
+<!LANGUAGE pt>
+{
+  prova: [
+    'repeat(3)': {
+      id_prova_realizada: unique('{{integer(1, 300)}}'),
+      id_prova_duplicada: '{{objectId()}}',
+      classificacao_final: '{{integer(1, 20)}}',
+      num_Aluno: '{{objectId()}}'
+    }
+  ],
+  tipoQuestao: [
+    'repeat(7)': {
+      id_tipo: unique('{{continent()}}')
+    }
+  ],
+  questao: [
+    'repeat(3)': {
+      id_questao: '{{objectId()}}',
+      cotacaoTotal: '{{integer(1, 10)}}',
+      Prova_id_prova_realizada: unique('{{integer(1, 300)}}'),
+      TipoQuestao_id_tipo: '{{continent()}}'
+    }
+  ]
+}

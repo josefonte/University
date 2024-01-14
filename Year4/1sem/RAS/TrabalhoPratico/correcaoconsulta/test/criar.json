@@ -1,0 +1,60 @@
+{
+    "_id": "1",
+    "cotacao": "20",
+    "nome": "Prova 22/23 DAA",
+    "id_docente": "d123",
+    "versao": 1,
+    "data": "2023-12-14",
+    "hora_preferencial": "11:00",
+    "tempo_admissao": 200,
+    "duracao": 60,
+    "alunos": ["pg53791", "a96075"],
+    "acesso_autorizado": ["d123", "d345"],
+    "questoes": [
+      {
+        "_id": "q1",
+        "enunciado": "Qual o significado de 'boosting' no contexto de modelos de previsão?",
+        "imagem": "",
+        "cotacaoTotal": "4",
+        "tipo_Questao": "EC",
+        "options": [
+          { "_id": "o1", "texto": "Fazer diferentes modelos 'votar' para obter uma solução final;", "cotacao": "-0.5", "resolucao": "" },
+          { "_id": "o2", "texto": "Validar um modelo utilizando conjuntos de dados maiores;", "cotacao": "-0.5", "resolucao": "" },
+          { "_id": "o3", "texto": "Treinar modelos iterativamente de acordo com os erros de classificação;", "cotacao": "1", "resolucao": "" },
+          { "_id": "o4", "texto": "Dividir aleatoriamente um conjunto de dados para produzir modelos alternativos.", "cotacao": "-0.5", "resolucao": "" }
+        ]
+      },
+      {
+        "_id": "q2",
+        "enunciado": "Em alguns algoritmos de Machine Learning é usada a técnica de descida por gradiente (gradient descent) no processo de otimização dos parâmetros do algoritmo. \nQuais poderão ser os motivos para esta convergir lentamente ou não convergir?",
+        "imagem": "",
+        "cotacaoTotal": "6",
+        "tipo_Questao": "D",
+        "options": []
+      },
+      {
+        "_id": "q3",
+        "enunciado": "Feature Engineering permite a criação de _________________________________ a partir da informação disponível, como forma de auxiliar o ________________________________ a realizar previsões mais ____________________________.",
+        "imagem": "",
+        "cotacaoTotal": "4",
+        "tipo_Questao": "CE",
+        "options": [
+            { "_id": "o1", "texto": "", "cotacao": "-0.5", "resolucao": "novas features" },
+            { "_id": "o2", "texto": "", "cotacao": "-0.5", "resolucao": "modelo" },
+            { "_id": "o3", "texto": "", "cotacao": "1", "resolucao": "exatos" }
+          ]
+      },
+      {
+        "_id": "q4",
+        "enunciado": "PARA CADA AFIRMAÇÃO, RESPONDA ASSINALANDO A SUA VERACIDADE (V) OU FALSIDADE (F).",
+        "imagem": "",
+        "cotacaoTotal": "6",
+        "tipo_Questao": "VF",
+        "options": [
+            { "_id": "o1", "texto": "Uma matriz de confusão é uma métrica de avaliação de desempenho de modelos de Reinforcement Learning.", "cotacao": "2", "resolucao": "F" },
+            { "_id": "o2", "texto": "Em todos os algoritmos de clustering é necessário justificar a quantidade de clusters a procurar nos dados.", "cotacao": "2", "resolucao": "F" },
+            { "_id": "o3", "texto": "A Off-Policy Learning verificada nos algoritmos de Reinforcement Learning considera a avaliação e a otimização da respetiva policy aplicada para a seleção das ações do algoritmo inteligente", "cotacao": "2", "resolucao": "V" }
+          ]
+      }
+    ]
+}

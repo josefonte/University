@@ -1,0 +1,3629 @@
+{
+  "prova": [
+    {
+      "id_prova_realizada": 24,
+      "id_prova_duplicada": "6580a19f3a1fb6451a0e71dd",
+      "classificacao_final": 9,
+      "num_Aluno": "6580a19fec8251abce43808a"
+    },
+    {
+      "id_prova_realizada": 102,
+      "id_prova_duplicada": "6580a19f8f60c0e0e3b37784",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19f969077d244ad0b6e"
+    },
+    {
+      "id_prova_realizada": 230,
+      "id_prova_duplicada": "6580a19f37a33acb1506bab2",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19f34c584f1130f507b"
+    },
+    {
+      "id_prova_realizada": 89,
+      "id_prova_duplicada": "6580a19f3d1c0e6bdcd05d98",
+      "classificacao_final": 15,
+      "num_Aluno": "6580a19fae8627f056277d12"
+    },
+    {
+      "id_prova_realizada": 277,
+      "id_prova_duplicada": "6580a19fad5a2dc4a53d847a",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19f7ff98a60cdcb802e"
+    },
+    {
+      "id_prova_realizada": 161,
+      "id_prova_duplicada": "6580a19f2a8df79dbb9d25dc",
+      "classificacao_final": 15,
+      "num_Aluno": "6580a19ff87142d2e8d321e0"
+    },
+    {
+      "id_prova_realizada": 192,
+      "id_prova_duplicada": "6580a19f12d89c4b7ea9b3e3",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19f2488e2e7cc15897e"
+    },
+    {
+      "id_prova_realizada": 155,
+      "id_prova_duplicada": "6580a19f94bdefee494d883d",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19fb2c8dcc0e89cda41"
+    },
+    {
+      "id_prova_realizada": 55,
+      "id_prova_duplicada": "6580a19ffe9e4caaefc21e0f",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19fde04cbe8dcddec83"
+    },
+    {
+      "id_prova_realizada": 243,
+      "id_prova_duplicada": "6580a19fc8fc9986755f795d",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19f52bf16c719467c22"
+    },
+    {
+      "id_prova_realizada": 240,
+      "id_prova_duplicada": "6580a19f3e3b2adadb83b98e",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19f3fbab2b60d5c7dd2"
+    },
+    {
+      "id_prova_realizada": 287,
+      "id_prova_duplicada": "6580a19f434e8533de284aaf",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19f0a4c8899b96ed112"
+    },
+    {
+      "id_prova_realizada": 184,
+      "id_prova_duplicada": "6580a19fff0230fbe2bbba94",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19f0490a625a26bb303"
+    },
+    {
+      "id_prova_realizada": 209,
+      "id_prova_duplicada": "6580a19f8a413083da5ac57c",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19f7e7d8876037e78c3"
+    },
+    {
+      "id_prova_realizada": 168,
+      "id_prova_duplicada": "6580a19f2ec4ec547fdf5ed3",
+      "classificacao_final": 12,
+      "num_Aluno": "6580a19fe14a323cad2f2e3e"
+    },
+    {
+      "id_prova_realizada": 195,
+      "id_prova_duplicada": "6580a19f8eef881557c2bf35",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19fb5bb3b82085c8763"
+    },
+    {
+      "id_prova_realizada": 145,
+      "id_prova_duplicada": "6580a19f6eb55922f5261e53",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19f62b2ec472958296a"
+    },
+    {
+      "id_prova_realizada": 152,
+      "id_prova_duplicada": "6580a19fcbb9652b52fe7338",
+      "classificacao_final": 15,
+      "num_Aluno": "6580a19f001a27ba598a9751"
+    },
+    {
+      "id_prova_realizada": 274,
+      "id_prova_duplicada": "6580a19f5c35c7521713759d",
+      "classificacao_final": 1,
+      "num_Aluno": "6580a19fe6ce944c201b24a7"
+    },
+    {
+      "id_prova_realizada": 85,
+      "id_prova_duplicada": "6580a19f247d116c1bd891ab",
+      "classificacao_final": 13,
+      "num_Aluno": "6580a19ff0a69ece1a303d4a"
+    },
+    {
+      "id_prova_realizada": 216,
+      "id_prova_duplicada": "6580a19ff31f22e1f17eca46",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19fadd20be3b4950dcc"
+    },
+    {
+      "id_prova_realizada": 209,
+      "id_prova_duplicada": "6580a19fda7df6bebf068b08",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19f385281e1fe2a97fc"
+    },
+    {
+      "id_prova_realizada": 286,
+      "id_prova_duplicada": "6580a19fdd7ab68bbfce0634",
+      "classificacao_final": 16,
+      "num_Aluno": "6580a19f3ccd4d346b4420b7"
+    },
+    {
+      "id_prova_realizada": 79,
+      "id_prova_duplicada": "6580a19f4fa11cd7926c6d3e",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19f73a58d218633a2bb"
+    },
+    {
+      "id_prova_realizada": 198,
+      "id_prova_duplicada": "6580a19faf7649ec44ebf2bd",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19f2e1c106e04c2796a"
+    },
+    {
+      "id_prova_realizada": 14,
+      "id_prova_duplicada": "6580a19f759efb68cd201e66",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19f961a735e914949b3"
+    },
+    {
+      "id_prova_realizada": 35,
+      "id_prova_duplicada": "6580a19f7c80bddf3088e645",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19f62950334d6748dc4"
+    },
+    {
+      "id_prova_realizada": 284,
+      "id_prova_duplicada": "6580a19f1641880d09a63aed",
+      "classificacao_final": 16,
+      "num_Aluno": "6580a19fd69a42436db4ed31"
+    },
+    {
+      "id_prova_realizada": 181,
+      "id_prova_duplicada": "6580a19fd431f252c4d68923",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19f8ed8818c7da1c627"
+    },
+    {
+      "id_prova_realizada": 275,
+      "id_prova_duplicada": "6580a19fa5a23a077a3cd82b",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19f148ac52f6dccb074"
+    },
+    {
+      "id_prova_realizada": 202,
+      "id_prova_duplicada": "6580a19fe68bcf11d19c7b1e",
+      "classificacao_final": 13,
+      "num_Aluno": "6580a19f325d21bc760812f1"
+    },
+    {
+      "id_prova_realizada": 102,
+      "id_prova_duplicada": "6580a19f12c4ca12efe935a1",
+      "classificacao_final": 1,
+      "num_Aluno": "6580a19f4cc5f2c124aa0d2d"
+    },
+    {
+      "id_prova_realizada": 117,
+      "id_prova_duplicada": "6580a19f30112c14ed4e9e25",
+      "classificacao_final": 17,
+      "num_Aluno": "6580a19fe93e10a993727bc3"
+    },
+    {
+      "id_prova_realizada": 188,
+      "id_prova_duplicada": "6580a19f14c15c0a3bd52ecc",
+      "classificacao_final": 17,
+      "num_Aluno": "6580a19fb8a452a14dadeeb8"
+    },
+    {
+      "id_prova_realizada": 284,
+      "id_prova_duplicada": "6580a19f40d6807cd3347881",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19fa5997267cae3e9ea"
+    },
+    {
+      "id_prova_realizada": 67,
+      "id_prova_duplicada": "6580a19f30c3aa6af8209248",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19fcf7975c23edeec78"
+    },
+    {
+      "id_prova_realizada": 63,
+      "id_prova_duplicada": "6580a19f89bd74d995c571af",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19ff1a671a6f00effee"
+    },
+    {
+      "id_prova_realizada": 35,
+      "id_prova_duplicada": "6580a19f6809b9bcf8d9b5cf",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19ffe29c02ca14362d0"
+    },
+    {
+      "id_prova_realizada": 168,
+      "id_prova_duplicada": "6580a19f5a993849d8314aba",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19fb184794261135f07"
+    },
+    {
+      "id_prova_realizada": 245,
+      "id_prova_duplicada": "6580a19f7aed6ccc09d38db0",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19fce52c564dbc22b18"
+    },
+    {
+      "id_prova_realizada": 178,
+      "id_prova_duplicada": "6580a19fced0a5eceb44ce19",
+      "classificacao_final": 15,
+      "num_Aluno": "6580a19f0a031a13f492a1f3"
+    },
+    {
+      "id_prova_realizada": 291,
+      "id_prova_duplicada": "6580a19fb1fcad4b87c5ce5c",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19fe8dd7d71adc6076b"
+    },
+    {
+      "id_prova_realizada": 42,
+      "id_prova_duplicada": "6580a19f39b8b15d01962d58",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19ff37c6352c34a1ae2"
+    },
+    {
+      "id_prova_realizada": 37,
+      "id_prova_duplicada": "6580a19f66bda0742ca4455e",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19fb6bad842ea0929e6"
+    },
+    {
+      "id_prova_realizada": 255,
+      "id_prova_duplicada": "6580a19f8b07677d83cf62b2",
+      "classificacao_final": 12,
+      "num_Aluno": "6580a19f9560695cb8e2d8c6"
+    },
+    {
+      "id_prova_realizada": 180,
+      "id_prova_duplicada": "6580a19f816b498e07c50c89",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19f82bed24336322315"
+    },
+    {
+      "id_prova_realizada": 275,
+      "id_prova_duplicada": "6580a19fecd19cdf362b74b7",
+      "classificacao_final": 13,
+      "num_Aluno": "6580a19fd2b0bed6ab602b90"
+    },
+    {
+      "id_prova_realizada": 43,
+      "id_prova_duplicada": "6580a19feb280b466a46dc4b",
+      "classificacao_final": 17,
+      "num_Aluno": "6580a19feb22a06a3064a10f"
+    },
+    {
+      "id_prova_realizada": 193,
+      "id_prova_duplicada": "6580a19f5f9a48b2ad7a9e0e",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19f951a4ddc59d693c1"
+    },
+    {
+      "id_prova_realizada": 282,
+      "id_prova_duplicada": "6580a19f9df45c35ecb1436e",
+      "classificacao_final": 9,
+      "num_Aluno": "6580a19fd5445ac44935bf22"
+    },
+    {
+      "id_prova_realizada": 75,
+      "id_prova_duplicada": "6580a19fd6367fe498d6ce94",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19f5cf94d5b01054eb4"
+    },
+    {
+      "id_prova_realizada": 94,
+      "id_prova_duplicada": "6580a19f2f901022ee0728ba",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19ffd166a34536f54a6"
+    },
+    {
+      "id_prova_realizada": 254,
+      "id_prova_duplicada": "6580a19f2a1d6b1592e0dedd",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19f92f6b59b350aa919"
+    },
+    {
+      "id_prova_realizada": 5,
+      "id_prova_duplicada": "6580a19fd6949e0ea00eb4ea",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19f074d39daad869bbe"
+    },
+    {
+      "id_prova_realizada": 249,
+      "id_prova_duplicada": "6580a19fd9cec72b87295b57",
+      "classificacao_final": 12,
+      "num_Aluno": "6580a19fe23ebab77a898ccb"
+    },
+    {
+      "id_prova_realizada": 37,
+      "id_prova_duplicada": "6580a19f857af7e0b4f0d5bd",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19f299bd3649b3dc292"
+    },
+    {
+      "id_prova_realizada": 122,
+      "id_prova_duplicada": "6580a19f3017e5c9c0dc016b",
+      "classificacao_final": 9,
+      "num_Aluno": "6580a19f2080fae50c8220a8"
+    },
+    {
+      "id_prova_realizada": 66,
+      "id_prova_duplicada": "6580a19fbdcaeb603a64e899",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19f5f615b82a5a8879d"
+    },
+    {
+      "id_prova_realizada": 122,
+      "id_prova_duplicada": "6580a19f8e9905e77a48a550",
+      "classificacao_final": 13,
+      "num_Aluno": "6580a19fcaf4b511260beeaa"
+    },
+    {
+      "id_prova_realizada": 249,
+      "id_prova_duplicada": "6580a19ffefde68f8cd088aa",
+      "classificacao_final": 13,
+      "num_Aluno": "6580a19f7251619de4814eaa"
+    },
+    {
+      "id_prova_realizada": 190,
+      "id_prova_duplicada": "6580a19fd778d84b723d0c96",
+      "classificacao_final": 13,
+      "num_Aluno": "6580a19f747c78b561df65b2"
+    },
+    {
+      "id_prova_realizada": 34,
+      "id_prova_duplicada": "6580a19fcd399b3028fe42be",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19f354c3dda98eb2416"
+    },
+    {
+      "id_prova_realizada": 73,
+      "id_prova_duplicada": "6580a19f6b3c1551c47272c4",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19f8a509ab39dcd19e7"
+    },
+    {
+      "id_prova_realizada": 236,
+      "id_prova_duplicada": "6580a19f6b3a682d417f964d",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19f1487b84954f3608c"
+    },
+    {
+      "id_prova_realizada": 181,
+      "id_prova_duplicada": "6580a19f2b2477fe8ae7d744",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19f3d18b2cabbf8a4b2"
+    },
+    {
+      "id_prova_realizada": 220,
+      "id_prova_duplicada": "6580a19fa0b941b9a3fe9c89",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19fd27ed4365443be19"
+    },
+    {
+      "id_prova_realizada": 240,
+      "id_prova_duplicada": "6580a19f0db33eb9062fd002",
+      "classificacao_final": 16,
+      "num_Aluno": "6580a19f30f57abe83f5f775"
+    },
+    {
+      "id_prova_realizada": 61,
+      "id_prova_duplicada": "6580a19f0effb783f6068b17",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19f7e82fde89ce087e3"
+    },
+    {
+      "id_prova_realizada": 294,
+      "id_prova_duplicada": "6580a19fa8cab00c438b4217",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19fa223262bd5003b10"
+    },
+    {
+      "id_prova_realizada": 169,
+      "id_prova_duplicada": "6580a19f141a5b2890f7e4bd",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19f4ff668f34b7e8e79"
+    },
+    {
+      "id_prova_realizada": 212,
+      "id_prova_duplicada": "6580a19f44d46eca4182590e",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19fcff6e6cfc90c2637"
+    },
+    {
+      "id_prova_realizada": 52,
+      "id_prova_duplicada": "6580a19f3bfd5121c463d821",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19f34c0e06f23c8af54"
+    },
+    {
+      "id_prova_realizada": 58,
+      "id_prova_duplicada": "6580a19f885d0ac17c59c9e8",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19fe00b2dbb68b0b7ce"
+    },
+    {
+      "id_prova_realizada": 159,
+      "id_prova_duplicada": "6580a19ff3aee3079dd1d924",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19f36fe961e02845301"
+    },
+    {
+      "id_prova_realizada": 118,
+      "id_prova_duplicada": "6580a19f7bb150e8f1614f5a",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19fa60436cfdf49053a"
+    },
+    {
+      "id_prova_realizada": 149,
+      "id_prova_duplicada": "6580a19fbcb97360c3edc2e8",
+      "classificacao_final": 1,
+      "num_Aluno": "6580a19f9936f897c05e8ae8"
+    },
+    {
+      "id_prova_realizada": 192,
+      "id_prova_duplicada": "6580a19f6c9a35e103a7f341",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19f94a113d3ccc038ba"
+    },
+    {
+      "id_prova_realizada": 155,
+      "id_prova_duplicada": "6580a19f9fa1d455bf94b162",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19f2eec004be857d154"
+    },
+    {
+      "id_prova_realizada": 136,
+      "id_prova_duplicada": "6580a19fb4e13dd3a6adb12a",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19fde6c9254b709d69e"
+    },
+    {
+      "id_prova_realizada": 197,
+      "id_prova_duplicada": "6580a19f65ac3f401f9dcd44",
+      "classificacao_final": 12,
+      "num_Aluno": "6580a19f75bba1c8190fe9c5"
+    },
+    {
+      "id_prova_realizada": 114,
+      "id_prova_duplicada": "6580a19ff24cf2044dc42de4",
+      "classificacao_final": 1,
+      "num_Aluno": "6580a19f9d1ccb68d992fc08"
+    },
+    {
+      "id_prova_realizada": 73,
+      "id_prova_duplicada": "6580a19f2ea51dd711a4be20",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19f8b821bd2f9f6c973"
+    },
+    {
+      "id_prova_realizada": 214,
+      "id_prova_duplicada": "6580a19ff3b722f2a1882e71",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19fcb5ee80bed97b630"
+    },
+    {
+      "id_prova_realizada": 281,
+      "id_prova_duplicada": "6580a19f2aa2a3adc90fe143",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19f40077217571c8ef2"
+    },
+    {
+      "id_prova_realizada": 97,
+      "id_prova_duplicada": "6580a19fc3a4f81c39337ef0",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19f596facde0d360e8a"
+    },
+    {
+      "id_prova_realizada": 49,
+      "id_prova_duplicada": "6580a19f6f465a32da29bbdb",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19f8d96a694a2a2e0e1"
+    },
+    {
+      "id_prova_realizada": 108,
+      "id_prova_duplicada": "6580a19fdf4ba4289d9002ba",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19faba920eba92b8533"
+    },
+    {
+      "id_prova_realizada": 63,
+      "id_prova_duplicada": "6580a19fb6430a34f8f5d579",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19f0bcd243e67f6355a"
+    },
+    {
+      "id_prova_realizada": 174,
+      "id_prova_duplicada": "6580a19f26456ad9ab899e00",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19f0976ffe6dcb8f6a0"
+    },
+    {
+      "id_prova_realizada": 173,
+      "id_prova_duplicada": "6580a19f89fcdfcea66b595e",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19f6d065e1a4c2bb9a6"
+    },
+    {
+      "id_prova_realizada": 286,
+      "id_prova_duplicada": "6580a19f9dd0d3b1df75ae0b",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19f91bc471b9e3b44c3"
+    },
+    {
+      "id_prova_realizada": 195,
+      "id_prova_duplicada": "6580a19fa9c8b8356171894d",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19f68a269975e31dee3"
+    },
+    {
+      "id_prova_realizada": 23,
+      "id_prova_duplicada": "6580a19ff1bcdf66b2325d40",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19f1de421bfbfd3fb7a"
+    },
+    {
+      "id_prova_realizada": 201,
+      "id_prova_duplicada": "6580a19faeeb06724560028e",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19faa7c88e672929285"
+    },
+    {
+      "id_prova_realizada": 244,
+      "id_prova_duplicada": "6580a19f955260be3f771695",
+      "classificacao_final": 12,
+      "num_Aluno": "6580a19f4010d446fbf55def"
+    },
+    {
+      "id_prova_realizada": 82,
+      "id_prova_duplicada": "6580a19ffafc182bdce81c84",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19f8af638f001936d94"
+    },
+    {
+      "id_prova_realizada": 152,
+      "id_prova_duplicada": "6580a19f03b124ff178953b0",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19f34a10e657c7fc33e"
+    },
+    {
+      "id_prova_realizada": 42,
+      "id_prova_duplicada": "6580a19f4ddc924a872e9717",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19fccb1b0a185e62e9b"
+    },
+    {
+      "id_prova_realizada": 280,
+      "id_prova_duplicada": "6580a19fdc0267984eb3ff03",
+      "classificacao_final": 15,
+      "num_Aluno": "6580a19fae3a6dc6b7b0024d"
+    },
+    {
+      "id_prova_realizada": 281,
+      "id_prova_duplicada": "6580a19f56549b8ba1104053",
+      "classificacao_final": 12,
+      "num_Aluno": "6580a19ff559ca9c2955e9e0"
+    },
+    {
+      "id_prova_realizada": 271,
+      "id_prova_duplicada": "6580a19f76317f57b8e7a536",
+      "classificacao_final": 15,
+      "num_Aluno": "6580a19f10c9889382969042"
+    },
+    {
+      "id_prova_realizada": 97,
+      "id_prova_duplicada": "6580a19f4e8e478d1ea9ca3a",
+      "classificacao_final": 16,
+      "num_Aluno": "6580a19f9c6bec8e5cd12f26"
+    },
+    {
+      "id_prova_realizada": 219,
+      "id_prova_duplicada": "6580a19f9142844a22f8d45e",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19f37266f4e3992ceea"
+    },
+    {
+      "id_prova_realizada": 187,
+      "id_prova_duplicada": "6580a19f5a03af9a55339731",
+      "classificacao_final": 9,
+      "num_Aluno": "6580a19f613d88d5ea55158b"
+    },
+    {
+      "id_prova_realizada": 3,
+      "id_prova_duplicada": "6580a19f3707147701869279",
+      "classificacao_final": 1,
+      "num_Aluno": "6580a19ff0010e265458ee77"
+    },
+    {
+      "id_prova_realizada": 97,
+      "id_prova_duplicada": "6580a19fa4f0a4de703898f5",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19fae19ac881a5eec9c"
+    },
+    {
+      "id_prova_realizada": 206,
+      "id_prova_duplicada": "6580a19f8941412114acd029",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19f4655c572653c6f7f"
+    },
+    {
+      "id_prova_realizada": 275,
+      "id_prova_duplicada": "6580a19f85409eb5b25c0ddf",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19f7c7fdc159504874e"
+    },
+    {
+      "id_prova_realizada": 30,
+      "id_prova_duplicada": "6580a19f36aeeeaae7b5a1ec",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19fa45fad71eb52ffa2"
+    },
+    {
+      "id_prova_realizada": 216,
+      "id_prova_duplicada": "6580a19f7d17269af5fa0e1f",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19ff625b3054c1368ef"
+    },
+    {
+      "id_prova_realizada": 165,
+      "id_prova_duplicada": "6580a19fe55456bb9a63b86d",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19f6de2a892c2c4a5c2"
+    },
+    {
+      "id_prova_realizada": 274,
+      "id_prova_duplicada": "6580a19f8db2163c616c1be3",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19f0830e07206492b90"
+    },
+    {
+      "id_prova_realizada": 151,
+      "id_prova_duplicada": "6580a19f0afc46a7748bb102",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19f21c88fc1e8a27d5d"
+    },
+    {
+      "id_prova_realizada": 254,
+      "id_prova_duplicada": "6580a19f651c230a1ac56afa",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19fe3087c68ac609e1b"
+    },
+    {
+      "id_prova_realizada": 298,
+      "id_prova_duplicada": "6580a19f071f1222a3e4116e",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19f20e4f90988979370"
+    },
+    {
+      "id_prova_realizada": 201,
+      "id_prova_duplicada": "6580a19f362d37cbe4af86e1",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19f07c7dcb3dafb84a9"
+    },
+    {
+      "id_prova_realizada": 199,
+      "id_prova_duplicada": "6580a19f2885a1c540bfe250",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19fb36493f710052d41"
+    },
+    {
+      "id_prova_realizada": 20,
+      "id_prova_duplicada": "6580a19fe4c29cc2fe06924b",
+      "classificacao_final": 17,
+      "num_Aluno": "6580a19f26e7d2c0a2494e93"
+    },
+    {
+      "id_prova_realizada": 234,
+      "id_prova_duplicada": "6580a19f3a5bdbc255b5a3d5",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19f388b8b26ab5ec69a"
+    },
+    {
+      "id_prova_realizada": 272,
+      "id_prova_duplicada": "6580a19f99e4b2ebb867e2d4",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19f28b1087b4f9ab60b"
+    },
+    {
+      "id_prova_realizada": 139,
+      "id_prova_duplicada": "6580a19f80c364736a44be39",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19f5aea2653bf96f43f"
+    },
+    {
+      "id_prova_realizada": 4,
+      "id_prova_duplicada": "6580a19f3e1b70ba37cc922a",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19f5e5f21354c683a48"
+    },
+    {
+      "id_prova_realizada": 83,
+      "id_prova_duplicada": "6580a19f4d773978f70919c6",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19f0e66e8baeb9d78ec"
+    },
+    {
+      "id_prova_realizada": 15,
+      "id_prova_duplicada": "6580a19f9b3e1befcf0c6dca",
+      "classificacao_final": 1,
+      "num_Aluno": "6580a19fef830d69d68bb5dd"
+    },
+    {
+      "id_prova_realizada": 282,
+      "id_prova_duplicada": "6580a19f4b1017680a6e9b81",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19f1944eec11e3a2a6f"
+    },
+    {
+      "id_prova_realizada": 196,
+      "id_prova_duplicada": "6580a19fa65145b457d549f0",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19f232db4011d8346a3"
+    },
+    {
+      "id_prova_realizada": 60,
+      "id_prova_duplicada": "6580a19f12da4b6dd7d43b97",
+      "classificacao_final": 16,
+      "num_Aluno": "6580a19f1657617782e558db"
+    },
+    {
+      "id_prova_realizada": 76,
+      "id_prova_duplicada": "6580a19fbfdaa09aa96ef103",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19ff794716622c04c90"
+    },
+    {
+      "id_prova_realizada": 99,
+      "id_prova_duplicada": "6580a19f858c2d7efc7a942b",
+      "classificacao_final": 17,
+      "num_Aluno": "6580a19f20218c66805064e2"
+    },
+    {
+      "id_prova_realizada": 68,
+      "id_prova_duplicada": "6580a19f8eb349ee5a25851a",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19faf7b8a31ad29022c"
+    },
+    {
+      "id_prova_realizada": 299,
+      "id_prova_duplicada": "6580a19f9cf8b5f1023f05c5",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19f7e3ca73498e10839"
+    },
+    {
+      "id_prova_realizada": 73,
+      "id_prova_duplicada": "6580a19f4ea1eaadbdcab7ef",
+      "classificacao_final": 9,
+      "num_Aluno": "6580a19fb30e7ea17b5350e6"
+    },
+    {
+      "id_prova_realizada": 106,
+      "id_prova_duplicada": "6580a19f454f8640974bac51",
+      "classificacao_final": 1,
+      "num_Aluno": "6580a19fa3813fb7e213570e"
+    },
+    {
+      "id_prova_realizada": 256,
+      "id_prova_duplicada": "6580a19f88a9568e59f61bb1",
+      "classificacao_final": 9,
+      "num_Aluno": "6580a19f27d57f566b3ceced"
+    },
+    {
+      "id_prova_realizada": 205,
+      "id_prova_duplicada": "6580a19f3334f82e2535016f",
+      "classificacao_final": 15,
+      "num_Aluno": "6580a19f85585ee252b9d3b9"
+    },
+    {
+      "id_prova_realizada": 223,
+      "id_prova_duplicada": "6580a19fac291c3b20c850e4",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19f958abab485cac2f3"
+    },
+    {
+      "id_prova_realizada": 170,
+      "id_prova_duplicada": "6580a19fe9d539f2731c0848",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19f82edcb80e9cf1d43"
+    },
+    {
+      "id_prova_realizada": 44,
+      "id_prova_duplicada": "6580a19fd3d18b400f80d308",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19f4ad1c869e3e7d739"
+    },
+    {
+      "id_prova_realizada": 197,
+      "id_prova_duplicada": "6580a19f93551a106e4895f3",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19fe617943675d15e48"
+    },
+    {
+      "id_prova_realizada": 177,
+      "id_prova_duplicada": "6580a19fb07c2fa88295fba9",
+      "classificacao_final": 12,
+      "num_Aluno": "6580a19f853a525e54c2de0f"
+    },
+    {
+      "id_prova_realizada": 32,
+      "id_prova_duplicada": "6580a19fd82addb01ee45121",
+      "classificacao_final": 12,
+      "num_Aluno": "6580a19fd4b02e5b9959f72c"
+    },
+    {
+      "id_prova_realizada": 127,
+      "id_prova_duplicada": "6580a19fd307113dfc24fbd8",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19fd89d66b1941a699d"
+    },
+    {
+      "id_prova_realizada": 226,
+      "id_prova_duplicada": "6580a19fef482ed76c398969",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19f28cfed743b2ccb58"
+    },
+    {
+      "id_prova_realizada": 149,
+      "id_prova_duplicada": "6580a19f019ba16b69f1d85e",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19f3b871e5b90620700"
+    },
+    {
+      "id_prova_realizada": 248,
+      "id_prova_duplicada": "6580a19f761efaa3f16758fb",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19f812ca7427d294959"
+    },
+    {
+      "id_prova_realizada": 268,
+      "id_prova_duplicada": "6580a19f611481b3b86fd60d",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19f4ba4d624c21a3f63"
+    },
+    {
+      "id_prova_realizada": 10,
+      "id_prova_duplicada": "6580a19f74bcbf4b51bee4a2",
+      "classificacao_final": 17,
+      "num_Aluno": "6580a19fcdb367915ddaa0ba"
+    },
+    {
+      "id_prova_realizada": 223,
+      "id_prova_duplicada": "6580a19f3d2a910db8aa2ffb",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19f9cdbe0308a42992b"
+    },
+    {
+      "id_prova_realizada": 64,
+      "id_prova_duplicada": "6580a19f10c7197d8408bc03",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19fb016a58e1ad03224"
+    },
+    {
+      "id_prova_realizada": 169,
+      "id_prova_duplicada": "6580a19f35977bcb76d682a7",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19f1e8ec5f285bb3235"
+    },
+    {
+      "id_prova_realizada": 17,
+      "id_prova_duplicada": "6580a19fc3a13828fb638d99",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19f62e716516413ce2b"
+    },
+    {
+      "id_prova_realizada": 21,
+      "id_prova_duplicada": "6580a19fd4ea76ea1e726d3d",
+      "classificacao_final": 13,
+      "num_Aluno": "6580a19fa1c7f5fed1501bdc"
+    },
+    {
+      "id_prova_realizada": 259,
+      "id_prova_duplicada": "6580a19f414866c553356a0e",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19f7eed2f1322ef46c9"
+    },
+    {
+      "id_prova_realizada": 297,
+      "id_prova_duplicada": "6580a19fb641b30e2d07b1c5",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19f4deae49891dfdcf7"
+    },
+    {
+      "id_prova_realizada": 142,
+      "id_prova_duplicada": "6580a19f939235513d2000a3",
+      "classificacao_final": 1,
+      "num_Aluno": "6580a19f94d3e667acdf48b8"
+    },
+    {
+      "id_prova_realizada": 35,
+      "id_prova_duplicada": "6580a19ff9df8d1b338ef751",
+      "classificacao_final": 16,
+      "num_Aluno": "6580a19f29e9863ace108ebd"
+    },
+    {
+      "id_prova_realizada": 58,
+      "id_prova_duplicada": "6580a19ff7cdd939a3e22f42",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19f48242e032870c644"
+    },
+    {
+      "id_prova_realizada": 68,
+      "id_prova_duplicada": "6580a19f71c03ad42f6e7e91",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19fe51a26f2bb22fd57"
+    },
+    {
+      "id_prova_realizada": 109,
+      "id_prova_duplicada": "6580a19f9743da7a360f6333",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19fe026c1ef0e9bccc6"
+    },
+    {
+      "id_prova_realizada": 32,
+      "id_prova_duplicada": "6580a19fdddd1f2b4a359792",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19f6493587accc7691b"
+    },
+    {
+      "id_prova_realizada": 95,
+      "id_prova_duplicada": "6580a19feca86798607327f7",
+      "classificacao_final": 1,
+      "num_Aluno": "6580a19f5af2227e7e0ee06f"
+    },
+    {
+      "id_prova_realizada": 55,
+      "id_prova_duplicada": "6580a19f0e8c3da9ea0eebfb",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19fb84ef333c7572e1e"
+    },
+    {
+      "id_prova_realizada": 238,
+      "id_prova_duplicada": "6580a19f6325080930d64e68",
+      "classificacao_final": 13,
+      "num_Aluno": "6580a19fa28320bcad99f885"
+    },
+    {
+      "id_prova_realizada": 297,
+      "id_prova_duplicada": "6580a19f3705764e246691d5",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19fb6ca6168c63a834c"
+    },
+    {
+      "id_prova_realizada": 106,
+      "id_prova_duplicada": "6580a19fbdc50786a4c6febe",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19fe3324d4cd0e94234"
+    },
+    {
+      "id_prova_realizada": 64,
+      "id_prova_duplicada": "6580a19fb056b217b123c9bb",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19fbc63e8c8760b07c5"
+    },
+    {
+      "id_prova_realizada": 158,
+      "id_prova_duplicada": "6580a19fb9dae781193542b6",
+      "classificacao_final": 15,
+      "num_Aluno": "6580a19f3ec76b6f9717f208"
+    },
+    {
+      "id_prova_realizada": 26,
+      "id_prova_duplicada": "6580a19f420cf73862810371",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19f85f7d163b0bd4532"
+    },
+    {
+      "id_prova_realizada": 249,
+      "id_prova_duplicada": "6580a19ff8c72ca8cbd2bd0f",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19f85fb151d4d6f2dff"
+    },
+    {
+      "id_prova_realizada": 28,
+      "id_prova_duplicada": "6580a19f1fb2a044ab244d64",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19f669c937e195c8254"
+    },
+    {
+      "id_prova_realizada": 280,
+      "id_prova_duplicada": "6580a19fff0a6c72891ae20b",
+      "classificacao_final": 12,
+      "num_Aluno": "6580a19f09e2e3775a2881a5"
+    },
+    {
+      "id_prova_realizada": 206,
+      "id_prova_duplicada": "6580a19f1f177b38890d844e",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19f31c3e55ffc7da9dd"
+    },
+    {
+      "id_prova_realizada": 257,
+      "id_prova_duplicada": "6580a19f9eb2d957511baccb",
+      "classificacao_final": 15,
+      "num_Aluno": "6580a19f0a3c517bce8a87df"
+    },
+    {
+      "id_prova_realizada": 18,
+      "id_prova_duplicada": "6580a19f038a260ccdee188d",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19f035229987a65751d"
+    },
+    {
+      "id_prova_realizada": 190,
+      "id_prova_duplicada": "6580a19f6c352b6c3bb33ebc",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19f2622b531f76a1a09"
+    },
+    {
+      "id_prova_realizada": 117,
+      "id_prova_duplicada": "6580a19f072d163e9ebb7cac",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19f8e2310c1ff827af7"
+    },
+    {
+      "id_prova_realizada": 104,
+      "id_prova_duplicada": "6580a19f265e1ef5bba15b99",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19f34665c6c6cf9c5c8"
+    },
+    {
+      "id_prova_realizada": 152,
+      "id_prova_duplicada": "6580a19f2f9975e867cf9721",
+      "classificacao_final": 17,
+      "num_Aluno": "6580a19fad813206dc17213a"
+    },
+    {
+      "id_prova_realizada": 70,
+      "id_prova_duplicada": "6580a19f20b826794f5b549f",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19fb1815590bb78ef27"
+    },
+    {
+      "id_prova_realizada": 234,
+      "id_prova_duplicada": "6580a19f9d688e9090485285",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19f93454f3c68b10a94"
+    },
+    {
+      "id_prova_realizada": 132,
+      "id_prova_duplicada": "6580a19f658bf1d3dde4a89d",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19f8babb97011b8648a"
+    },
+    {
+      "id_prova_realizada": 31,
+      "id_prova_duplicada": "6580a19f6de51ecab6570978",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19f201d347d52bceefc"
+    },
+    {
+      "id_prova_realizada": 43,
+      "id_prova_duplicada": "6580a19fa1cb7c3d7191e833",
+      "classificacao_final": 15,
+      "num_Aluno": "6580a19fe638ec85cbf826b0"
+    },
+    {
+      "id_prova_realizada": 140,
+      "id_prova_duplicada": "6580a19f720ec3f608206de1",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19f3d3364d5382d7f72"
+    },
+    {
+      "id_prova_realizada": 74,
+      "id_prova_duplicada": "6580a19f85c0e49792172705",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19f85414ccab37d7178"
+    },
+    {
+      "id_prova_realizada": 72,
+      "id_prova_duplicada": "6580a19f9c40b66ab8251d98",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19fc8221a601d8b42d8"
+    },
+    {
+      "id_prova_realizada": 75,
+      "id_prova_duplicada": "6580a19f6487e5cf04b84704",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19f19ed49c1223c35f3"
+    },
+    {
+      "id_prova_realizada": 75,
+      "id_prova_duplicada": "6580a19f78b9786af906d0ef",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19ff066b9a8e137c737"
+    },
+    {
+      "id_prova_realizada": 257,
+      "id_prova_duplicada": "6580a19f24c3bba3c3b69b8e",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19f43cb9fd8da53ae4a"
+    },
+    {
+      "id_prova_realizada": 41,
+      "id_prova_duplicada": "6580a19fdf6448ae8362aa5c",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19f82752c7a5ced6d85"
+    },
+    {
+      "id_prova_realizada": 195,
+      "id_prova_duplicada": "6580a19f5f2072701825ef83",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19fcdedc15fbd5dc9a6"
+    },
+    {
+      "id_prova_realizada": 80,
+      "id_prova_duplicada": "6580a19f7f71f72d37722c1f",
+      "classificacao_final": 9,
+      "num_Aluno": "6580a19f7cbe02c73b2496bc"
+    },
+    {
+      "id_prova_realizada": 112,
+      "id_prova_duplicada": "6580a19f4570767228c45681",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19f89bb88943d724782"
+    },
+    {
+      "id_prova_realizada": 137,
+      "id_prova_duplicada": "6580a19f215948a34011ce32",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19f373ffea23b67ad2d"
+    },
+    {
+      "id_prova_realizada": 234,
+      "id_prova_duplicada": "6580a19f916c8aa907b61182",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19f4ff08d901467d4fd"
+    },
+    {
+      "id_prova_realizada": 204,
+      "id_prova_duplicada": "6580a19f4dab26e435e3608d",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19f19703811fe5ebee1"
+    },
+    {
+      "id_prova_realizada": 44,
+      "id_prova_duplicada": "6580a19f68875430995daf1a",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19f3a1e39802c1909f2"
+    },
+    {
+      "id_prova_realizada": 44,
+      "id_prova_duplicada": "6580a19f2b8a1dde9923461f",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19fb39dee380867d766"
+    },
+    {
+      "id_prova_realizada": 262,
+      "id_prova_duplicada": "6580a19f71f944c6aee216b6",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19f158dc8a4c0302065"
+    },
+    {
+      "id_prova_realizada": 214,
+      "id_prova_duplicada": "6580a19f0c79bf6176904c34",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19f3ae3040a7b69f413"
+    },
+    {
+      "id_prova_realizada": 251,
+      "id_prova_duplicada": "6580a19ff5aa2470641a29d9",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19f5b7b906ad9a08e70"
+    },
+    {
+      "id_prova_realizada": 80,
+      "id_prova_duplicada": "6580a19f0366621536e2126a",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19f032212c39be81c3a"
+    },
+    {
+      "id_prova_realizada": 41,
+      "id_prova_duplicada": "6580a19fa96e5f6bd3564a08",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19f8c23c24ef4e504aa"
+    },
+    {
+      "id_prova_realizada": 162,
+      "id_prova_duplicada": "6580a19f1cdab1c795ff544a",
+      "classificacao_final": 16,
+      "num_Aluno": "6580a19f3da6a3a43f503262"
+    },
+    {
+      "id_prova_realizada": 77,
+      "id_prova_duplicada": "6580a19f19860555402de58f",
+      "classificacao_final": 16,
+      "num_Aluno": "6580a19fa039eb0728e331e8"
+    },
+    {
+      "id_prova_realizada": 172,
+      "id_prova_duplicada": "6580a19fed57dd82587b9172",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19f2d8ce7cc76e2ee12"
+    },
+    {
+      "id_prova_realizada": 70,
+      "id_prova_duplicada": "6580a19f75fb955e93d975b2",
+      "classificacao_final": 15,
+      "num_Aluno": "6580a19f030b1fdaca6b9c08"
+    },
+    {
+      "id_prova_realizada": 117,
+      "id_prova_duplicada": "6580a19f343c60c127d42a60",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19f29402d1b59b1d17a"
+    },
+    {
+      "id_prova_realizada": 53,
+      "id_prova_duplicada": "6580a19f775129d0b3fb1b1a",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19fe598d7814988c5e9"
+    },
+    {
+      "id_prova_realizada": 190,
+      "id_prova_duplicada": "6580a19f2f9abb17d92eda07",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19f5b1988aec912e699"
+    },
+    {
+      "id_prova_realizada": 228,
+      "id_prova_duplicada": "6580a19f2a4277660fb7888d",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19f9cb545ebb24991ee"
+    },
+    {
+      "id_prova_realizada": 218,
+      "id_prova_duplicada": "6580a19f99ebf55bddb2fc20",
+      "classificacao_final": 1,
+      "num_Aluno": "6580a19ff2bd7abebc7cab79"
+    },
+    {
+      "id_prova_realizada": 150,
+      "id_prova_duplicada": "6580a19fe65402bc60a42703",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19f1919734024a6ce02"
+    },
+    {
+      "id_prova_realizada": 161,
+      "id_prova_duplicada": "6580a19fca408e9a0bc67bec",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19f4bc42eb36f93d087"
+    },
+    {
+      "id_prova_realizada": 225,
+      "id_prova_duplicada": "6580a19f1611aa2763e9058e",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19f4fe02e69539b15d3"
+    },
+    {
+      "id_prova_realizada": 76,
+      "id_prova_duplicada": "6580a19f3e47d4b589dc2c5e",
+      "classificacao_final": 17,
+      "num_Aluno": "6580a19fe72990072897cf65"
+    },
+    {
+      "id_prova_realizada": 212,
+      "id_prova_duplicada": "6580a19fdc1de592a7adb95e",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19f9a8bbe7f3a28cfb9"
+    },
+    {
+      "id_prova_realizada": 124,
+      "id_prova_duplicada": "6580a19fff33de63f31c32a0",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19f6848ea730a03e89b"
+    },
+    {
+      "id_prova_realizada": 17,
+      "id_prova_duplicada": "6580a19f3ef4d4543286f496",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19f667eabbf786acb08"
+    },
+    {
+      "id_prova_realizada": 39,
+      "id_prova_duplicada": "6580a19f9b8678b3a874f155",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19f5205760d21513496"
+    },
+    {
+      "id_prova_realizada": 2,
+      "id_prova_duplicada": "6580a19fd62120c8221527e1",
+      "classificacao_final": 14,
+      "num_Aluno": "6580a19ff8504abd1ef58069"
+    },
+    {
+      "id_prova_realizada": 197,
+      "id_prova_duplicada": "6580a19f1214932eff870c0c",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19fea71393c407fdc78"
+    },
+    {
+      "id_prova_realizada": 2,
+      "id_prova_duplicada": "6580a19f79e609fe7c04d1d3",
+      "classificacao_final": 17,
+      "num_Aluno": "6580a19f53c5e558a5a89ad8"
+    },
+    {
+      "id_prova_realizada": 212,
+      "id_prova_duplicada": "6580a19f41dbce1acafc3042",
+      "classificacao_final": 1,
+      "num_Aluno": "6580a19f456d158ca4f6acbe"
+    },
+    {
+      "id_prova_realizada": 247,
+      "id_prova_duplicada": "6580a19f8a9d6b20741552e0",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19f30b66a1bad8edd87"
+    },
+    {
+      "id_prova_realizada": 53,
+      "id_prova_duplicada": "6580a19f6ee77b95c6878ce8",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19ffed0e14ec84684a3"
+    },
+    {
+      "id_prova_realizada": 231,
+      "id_prova_duplicada": "6580a19fc7592ece92383627",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19f51c6b448594efdef"
+    },
+    {
+      "id_prova_realizada": 42,
+      "id_prova_duplicada": "6580a19fd7d10602261bc636",
+      "classificacao_final": 13,
+      "num_Aluno": "6580a19fa890df82a82d89cb"
+    },
+    {
+      "id_prova_realizada": 294,
+      "id_prova_duplicada": "6580a19f9a1637774aaa757a",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19f9f9a83ebcc2c9dab"
+    },
+    {
+      "id_prova_realizada": 263,
+      "id_prova_duplicada": "6580a19ff3f1b9760b40146e",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19f54313a9208102878"
+    },
+    {
+      "id_prova_realizada": 241,
+      "id_prova_duplicada": "6580a19f7d3675a62c55cb55",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19f7a1ff16619870c56"
+    },
+    {
+      "id_prova_realizada": 216,
+      "id_prova_duplicada": "6580a19ff69b46fef662cec9",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19f5d172d5bdde7a212"
+    },
+    {
+      "id_prova_realizada": 299,
+      "id_prova_duplicada": "6580a19f66de5aafc71d07b9",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19fbe6a6c9546b652c6"
+    },
+    {
+      "id_prova_realizada": 40,
+      "id_prova_duplicada": "6580a19fe0602dbd11eb28a8",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19f7a71f62f7913b64a"
+    },
+    {
+      "id_prova_realizada": 126,
+      "id_prova_duplicada": "6580a19fdde7e3512d1af458",
+      "classificacao_final": 1,
+      "num_Aluno": "6580a19fefc928f30791e136"
+    },
+    {
+      "id_prova_realizada": 156,
+      "id_prova_duplicada": "6580a19fcbc864e7f0da3e50",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19f22a8f7ea6097562d"
+    },
+    {
+      "id_prova_realizada": 52,
+      "id_prova_duplicada": "6580a19f7f0feeab91b2e6c9",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19fb862251489590454"
+    },
+    {
+      "id_prova_realizada": 25,
+      "id_prova_duplicada": "6580a19fcc24f3d3a09c3540",
+      "classificacao_final": 15,
+      "num_Aluno": "6580a19f02eebbe961b6c8ea"
+    },
+    {
+      "id_prova_realizada": 68,
+      "id_prova_duplicada": "6580a19f85f24f0821558033",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19fd2698a458fe9ed47"
+    },
+    {
+      "id_prova_realizada": 288,
+      "id_prova_duplicada": "6580a19f0b4c77d1f4be5d75",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19fc5e0efa89217801b"
+    },
+    {
+      "id_prova_realizada": 195,
+      "id_prova_duplicada": "6580a19f8545dbbde0a26db8",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19f9f816ca3f62d9ba3"
+    },
+    {
+      "id_prova_realizada": 231,
+      "id_prova_duplicada": "6580a19f2bfdd61b418febdc",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19fda34659195e78bd7"
+    },
+    {
+      "id_prova_realizada": 33,
+      "id_prova_duplicada": "6580a19f3d86f2ab415ffe42",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19fd4187be2482de881"
+    },
+    {
+      "id_prova_realizada": 11,
+      "id_prova_duplicada": "6580a19fbd0900036979fc11",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19f131d743bbf3dcd4e"
+    },
+    {
+      "id_prova_realizada": 160,
+      "id_prova_duplicada": "6580a19f069bb1eb42b8d455",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19fa51afa2e5edc290d"
+    },
+    {
+      "id_prova_realizada": 167,
+      "id_prova_duplicada": "6580a19fd5c3ccb68d057682",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19fad07ee2a922089d9"
+    },
+    {
+      "id_prova_realizada": 130,
+      "id_prova_duplicada": "6580a19fcf50e24de9339f03",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19f6320933b95410d39"
+    },
+    {
+      "id_prova_realizada": 178,
+      "id_prova_duplicada": "6580a19faaa1bc23b2ded054",
+      "classificacao_final": 13,
+      "num_Aluno": "6580a19f88b0d10e94bcc001"
+    },
+    {
+      "id_prova_realizada": 299,
+      "id_prova_duplicada": "6580a19f73c72bdb5bd0dcec",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19f85306ca7ebce69f0"
+    },
+    {
+      "id_prova_realizada": 256,
+      "id_prova_duplicada": "6580a19f10e91009f7a48e6a",
+      "classificacao_final": 15,
+      "num_Aluno": "6580a19f31f1c98e5de73f23"
+    },
+    {
+      "id_prova_realizada": 112,
+      "id_prova_duplicada": "6580a19f170af0ea8c6ec2d2",
+      "classificacao_final": 17,
+      "num_Aluno": "6580a19f635e3534ff084448"
+    },
+    {
+      "id_prova_realizada": 44,
+      "id_prova_duplicada": "6580a19f31ecdaccd35a6f64",
+      "classificacao_final": 15,
+      "num_Aluno": "6580a19fb58345e316a07335"
+    },
+    {
+      "id_prova_realizada": 37,
+      "id_prova_duplicada": "6580a19f649980792e255e6b",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19fc0fb0c0b1f8c545a"
+    },
+    {
+      "id_prova_realizada": 273,
+      "id_prova_duplicada": "6580a19fd1f74e26e54f5ffe",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19f826760cf8f749544"
+    },
+    {
+      "id_prova_realizada": 198,
+      "id_prova_duplicada": "6580a19fb512813a50509d1a",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19f4bdbee2e05980f50"
+    },
+    {
+      "id_prova_realizada": 119,
+      "id_prova_duplicada": "6580a19ff27b11cca4ac5175",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19f78054cf824507867"
+    },
+    {
+      "id_prova_realizada": 191,
+      "id_prova_duplicada": "6580a19f962eafb904e89461",
+      "classificacao_final": 13,
+      "num_Aluno": "6580a19f04619ff14c03702e"
+    },
+    {
+      "id_prova_realizada": 7,
+      "id_prova_duplicada": "6580a19ff99295c68c446474",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19f305a37c7b235fb4d"
+    },
+    {
+      "id_prova_realizada": 204,
+      "id_prova_duplicada": "6580a19f7f0b2b1cdd56c43e",
+      "classificacao_final": 16,
+      "num_Aluno": "6580a19f5c33d0b8070a2f55"
+    },
+    {
+      "id_prova_realizada": 100,
+      "id_prova_duplicada": "6580a19fe1cea263ded2b20e",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19f0d5133b94e38288d"
+    },
+    {
+      "id_prova_realizada": 200,
+      "id_prova_duplicada": "6580a19f22a328badb96d395",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19ffcfd4ba809a2cbf9"
+    },
+    {
+      "id_prova_realizada": 5,
+      "id_prova_duplicada": "6580a19f13a613ce8f4fe05a",
+      "classificacao_final": 12,
+      "num_Aluno": "6580a19fccd98665b2c5d026"
+    },
+    {
+      "id_prova_realizada": 286,
+      "id_prova_duplicada": "6580a19ffc2f7b2f62417868",
+      "classificacao_final": 9,
+      "num_Aluno": "6580a19f30904c04c69a1eed"
+    },
+    {
+      "id_prova_realizada": 40,
+      "id_prova_duplicada": "6580a19f3bee1fe956a6b47c",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19fecc7fb6d92e229fb"
+    },
+    {
+      "id_prova_realizada": 42,
+      "id_prova_duplicada": "6580a19fc42cbb9696c51a66",
+      "classificacao_final": 4,
+      "num_Aluno": "6580a19fbd2b7e44256c0059"
+    },
+    {
+      "id_prova_realizada": 211,
+      "id_prova_duplicada": "6580a19f8cb012396a124eb8",
+      "classificacao_final": 7,
+      "num_Aluno": "6580a19fc23d1ab79c709a13"
+    },
+    {
+      "id_prova_realizada": 185,
+      "id_prova_duplicada": "6580a19f9ba68981c0b6a6a7",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19f1835e443645dc1a3"
+    },
+    {
+      "id_prova_realizada": 8,
+      "id_prova_duplicada": "6580a19fde8e1618b5f27dad",
+      "classificacao_final": 9,
+      "num_Aluno": "6580a19f71546d940b3b8b07"
+    },
+    {
+      "id_prova_realizada": 135,
+      "id_prova_duplicada": "6580a19f5217145bd617dd74",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19f52131c8bbbb1ec0a"
+    },
+    {
+      "id_prova_realizada": 162,
+      "id_prova_duplicada": "6580a19fda6d969548f984fc",
+      "classificacao_final": 16,
+      "num_Aluno": "6580a19f1cb3cf805881416d"
+    },
+    {
+      "id_prova_realizada": 257,
+      "id_prova_duplicada": "6580a19f014d89c5a48e624a",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19f4ee09191ae675a9f"
+    },
+    {
+      "id_prova_realizada": 157,
+      "id_prova_duplicada": "6580a19f3c61e03de17f17e4",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19fc29b7549c26a31a0"
+    },
+    {
+      "id_prova_realizada": 117,
+      "id_prova_duplicada": "6580a19fb20b6d7ee9ec09ab",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19fac9557c9bfd86fa8"
+    },
+    {
+      "id_prova_realizada": 212,
+      "id_prova_duplicada": "6580a19f56a7e1a87c8dde82",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19f733fed64c4b7bca1"
+    },
+    {
+      "id_prova_realizada": 124,
+      "id_prova_duplicada": "6580a19ff3bd1faa0cfa6961",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19f0752a7c0441a5db7"
+    },
+    {
+      "id_prova_realizada": 108,
+      "id_prova_duplicada": "6580a19fa68e862d07f4238f",
+      "classificacao_final": 20,
+      "num_Aluno": "6580a19fb1e85993a379cbf6"
+    },
+    {
+      "id_prova_realizada": 208,
+      "id_prova_duplicada": "6580a19fbd28c396f8b92928",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19f373f7aec456351cf"
+    },
+    {
+      "id_prova_realizada": 164,
+      "id_prova_duplicada": "6580a19f724adb806aefaf83",
+      "classificacao_final": 9,
+      "num_Aluno": "6580a19fa060a15eea15a187"
+    },
+    {
+      "id_prova_realizada": 136,
+      "id_prova_duplicada": "6580a19fcbded11c048dc229",
+      "classificacao_final": 8,
+      "num_Aluno": "6580a19f1cc99fa1960fb2b1"
+    },
+    {
+      "id_prova_realizada": 104,
+      "id_prova_duplicada": "6580a19f9dca6f288f568f82",
+      "classificacao_final": 13,
+      "num_Aluno": "6580a19f4f442c057570aecf"
+    },
+    {
+      "id_prova_realizada": 272,
+      "id_prova_duplicada": "6580a19f93eca3171c7af354",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19fa523983bd48b781b"
+    },
+    {
+      "id_prova_realizada": 196,
+      "id_prova_duplicada": "6580a19f6ec304b94d771cf2",
+      "classificacao_final": 12,
+      "num_Aluno": "6580a19f4768af8984f28852"
+    },
+    {
+      "id_prova_realizada": 50,
+      "id_prova_duplicada": "6580a19f2a05c6157c7ea2ce",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19f75956fd7a29fdd86"
+    },
+    {
+      "id_prova_realizada": 258,
+      "id_prova_duplicada": "6580a19f203eacee39be89d3",
+      "classificacao_final": 2,
+      "num_Aluno": "6580a19fb6493c895b8b50fe"
+    },
+    {
+      "id_prova_realizada": 242,
+      "id_prova_duplicada": "6580a19f627ccbe385db682b",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19fa451d96ad3dc0d6b"
+    },
+    {
+      "id_prova_realizada": 214,
+      "id_prova_duplicada": "6580a19f423508e983d19c3f",
+      "classificacao_final": 9,
+      "num_Aluno": "6580a19f5a9bfab9ab69b176"
+    },
+    {
+      "id_prova_realizada": 134,
+      "id_prova_duplicada": "6580a19f5f0393a859f6efd3",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19f867b6538d6552abd"
+    },
+    {
+      "id_prova_realizada": 55,
+      "id_prova_duplicada": "6580a19fdb085c5b3d254b9d",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19fdf2d5ffeae8aad9d"
+    },
+    {
+      "id_prova_realizada": 95,
+      "id_prova_duplicada": "6580a19f0ea2d5659b70bf78",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19f15e96086357e7c81"
+    },
+    {
+      "id_prova_realizada": 7,
+      "id_prova_duplicada": "6580a19f4c0601f231de1087",
+      "classificacao_final": 6,
+      "num_Aluno": "6580a19f257397a47d15a75b"
+    },
+    {
+      "id_prova_realizada": 148,
+      "id_prova_duplicada": "6580a19f997b2c28b0b72a6d",
+      "classificacao_final": 13,
+      "num_Aluno": "6580a19ff8d8d159a0b5a8fe"
+    },
+    {
+      "id_prova_realizada": 51,
+      "id_prova_duplicada": "6580a19fd7612d465c4afc91",
+      "classificacao_final": 13,
+      "num_Aluno": "6580a19fbdc765c04c3836a5"
+    },
+    {
+      "id_prova_realizada": 71,
+      "id_prova_duplicada": "6580a19f82bf28bd5ea6eaed",
+      "classificacao_final": 18,
+      "num_Aluno": "6580a19fdf7e78164814af7e"
+    },
+    {
+      "id_prova_realizada": 286,
+      "id_prova_duplicada": "6580a19f712dee439b471975",
+      "classificacao_final": 16,
+      "num_Aluno": "6580a19f99247a392c5a7946"
+    },
+    {
+      "id_prova_realizada": 53,
+      "id_prova_duplicada": "6580a19f9646e7479598e004",
+      "classificacao_final": 10,
+      "num_Aluno": "6580a19f9bdfab38f5ea7c53"
+    },
+    {
+      "id_prova_realizada": 161,
+      "id_prova_duplicada": "6580a19f3812aeb1d66f5361",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19f5ed35f1d9c8d8287"
+    },
+    {
+      "id_prova_realizada": 122,
+      "id_prova_duplicada": "6580a19f07b681f6b3b8e9a8",
+      "classificacao_final": 11,
+      "num_Aluno": "6580a19f9a8b2829a5c4b259"
+    },
+    {
+      "id_prova_realizada": 70,
+      "id_prova_duplicada": "6580a19fc90885235dd2a904",
+      "classificacao_final": 5,
+      "num_Aluno": "6580a19fa8c2ca71bae6f1d0"
+    },
+    {
+      "id_prova_realizada": 57,
+      "id_prova_duplicada": "6580a19f2178eb5b862f6515",
+      "classificacao_final": 3,
+      "num_Aluno": "6580a19f8b1d9690f97ae5f2"
+    },
+    {
+      "id_prova_realizada": 244,
+      "id_prova_duplicada": "6580a19fdbf070afd3e71c15",
+      "classificacao_final": 19,
+      "num_Aluno": "6580a19f737b06160bf80db7"
+    }
+  ],
+  "tipoQuestao": [
+    {
+      "id_tipo": "América"
+    },
+    {
+      "id_tipo": "Ásia"
+    },
+    {
+      "id_tipo": "Europa"
+    },
+    {
+      "id_tipo": "África"
+    },
+    {
+      "id_tipo": "Oceânia"
+    },
+    {
+      "id_tipo": "Antártida"
+    },
+    {
+      "id_tipo": "Antártida"
+    }
+  ],
+  "questao": [
+    {
+      "id_questao": "6580a19fe472c85c3c966da6",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 37,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f0f576b34b6ddfdc0",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 51,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19fbda8efb9b8a13b6b",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 189,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f1fa374d451368116",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 158,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f8da40c6490d28c95",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 164,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f1a239883c8b5ecf0",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 18,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f8389bcd3ec1155e2",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 43,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f86f34a644af312d6",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 14,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f1e2f92244e032ba3",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 81,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19fa208ec017b6a0456",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 175,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19fc813089259d47f19",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 75,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19fda72f08ece223245",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 297,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f8600dfb30ceba194",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 88,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f9739f0fb285aabac",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 277,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fcf69db69599b8e2b",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 300,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f069d5c7c852c024e",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 185,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f73c7d3bc2a741821",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 257,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f85f88503e689024c",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 99,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fb2d17af44664a3fd",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 293,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f0367d15ccaa6c00b",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 162,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f3fd73ad94e0e3d9d",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 45,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19ff5bbed61fc4de68d",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 294,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f4302f823c0904596",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 274,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fed7c15f940a96924",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 289,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f92612a3d4e94c855",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 145,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f87fea58f99ebc9e3",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 122,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19fd28dfca9df89881e",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 121,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f20795b92161abb94",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 2,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f47119a80c7606008",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 110,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fdecd8ca482092157",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 111,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f0938eaf6dc75db4b",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 78,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f113b2ba71fdd9ca8",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 251,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f0130fbc8df0a120c",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 69,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19fd9f404758d28cf8f",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 27,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19ff40d0ec41d2b0185",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 184,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f8f6b784d19d9a88a",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 61,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f5b204491b9fb451a",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 278,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f87f425378278046a",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 270,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f98cb58d962902102",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 139,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19fcc0270ac4102500f",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 161,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19fe88887ebb4daf360",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 26,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f7729226be5643519",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 130,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f8296b3fc151336d2",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 20,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fc188c6397f96cab1",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 104,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f2310122b263539c2",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 232,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19fe9b4d6e7089d0282",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 158,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19fa64c2086cff9f0bf",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 127,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f90f6f2813d09bda2",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 148,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f6db2d2a30606b0e9",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 237,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fe808bdc18bb16063",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 124,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f1d70ece613ebcb64",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 225,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f0f9219921650a155",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 49,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fa7d92e72bf4c8bdd",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 145,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f6c35bbac1a92c83a",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 162,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fac44046d48b4a8e5",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 66,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fc90631aa5f73181d",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 147,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f713b88747dea95aa",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 292,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f20c4a27b7ebb50a8",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 65,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f40526bfae1af1320",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 101,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19fbafcbf6eb286874c",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 130,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fac7864b45a10f528",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 107,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f57dadc5c220e0b08",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 172,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19fe526353d401c79fe",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 240,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f71139c6a0f1cc9e5",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 263,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f3166418554c5a284",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 111,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f1bcb5d8a969ca9a6",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 133,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f97e2304b45cbd852",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 141,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f8d443da4183a48cf",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 213,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f7a0166a8aad6c1fc",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 118,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fe251ca6ab6bdbb2e",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 163,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f4a4b73f4966386b0",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 137,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f8eb26c384c6048e2",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 183,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fccda650286f6a51e",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 114,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f476d1db6200472aa",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 45,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f91ff0037a46fea0f",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 283,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f923584cb6126358e",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 248,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19fad28c826c133c09f",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 95,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f2a4bbe6007ee01f1",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 217,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fbf3c32b7c522f08f",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 206,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f5c35b556ac8f5a91",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 115,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fe20a9501aa159f4f",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 194,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19fff37c8ce617fd48b",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 181,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fbcea50fd57f167b4",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 83,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f53bffc68f63b2e60",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 3,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fd85f5037e44942e7",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 49,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f46ae902fe6833a27",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 49,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f1e3661dc43e5092b",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 9,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f49cb2f4644138523",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 247,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19fb78d72efd417e7af",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 84,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19fab20e88c0fb96993",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 199,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f33048e7c66a73198",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 17,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f7592802d837f7b1f",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 156,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f0b80778f11731693",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 93,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19ff0cc4681a6d245b2",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 20,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f4b26ea58bde5e75d",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 14,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f7df2f0c45b6b4b3e",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 92,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19fa675784f1ab8decb",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 180,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f2deca08709112401",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 136,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f74f00781a052e7df",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 65,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f8052257d62d9344e",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 295,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19fd80843bb058e2eaa",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 147,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19ff6f36778eb4f5e9b",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 5,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fce3c5104b6705a0b",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 96,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f1bef828d5d8a20ee",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 209,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fbb1c76730c209007",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 67,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f25753ade983c340d",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 189,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f9492388df628ef3c",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 29,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f8588df220693f5b2",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 141,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f4b21da51806d90fe",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 12,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19facaf3abbbef39d48",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 73,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fbdb2d1ec0f615382",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 142,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fd0a027f421719c4a",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 300,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19feffa8172b53118dc",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 51,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f852a60666ef0e070",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 167,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fd6e2cc2a2e63dc84",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 5,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19ff9980a8c7c7479ab",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 122,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fd10a3be58ae13112",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 47,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f76b82888f92d48d8",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 73,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f6be2c5957f2fc73f",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 133,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f29a8b74a6102b8cb",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 211,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f845a421e7ad2080f",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 270,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19fb2120a64d971d49c",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 156,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f11b7c634db47ab31",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 82,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19fbf0f56ffb0bd283f",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 163,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f74eb6139dde4a004",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 243,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f981dccab7181356c",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 98,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f931e7348e0b2e298",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 275,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f8ac52bfb07763331",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 81,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f65a6a6731099e461",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 145,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19fe621f03aefab3af4",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 293,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f51d928157a648db2",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 3,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f4f8a84035c42dfe9",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 286,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f8c398540a5519d1d",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 197,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19fc38e8975e82eaca7",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 21,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f52111dbc2b62613d",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 47,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f1732016b6bffc0ea",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 139,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f267af992b87b7e43",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 286,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f0de20b9ee21325bc",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 178,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f2de0bddd4083e722",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 68,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f9fe5430d93c16b07",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 221,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f0ca2ca37a76069d2",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 292,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f276234dbc93771c5",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 300,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f84ae7a1393704b4c",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 274,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f92453a2ca865d990",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 6,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19fcc27c5b37defaf23",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 211,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fbaf81494e6e1b0e3",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 163,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f5cb404cb1170cd22",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 44,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fd39cfde2bbea8244",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 154,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19ff4dfa85bb9ef9c5c",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 204,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f09f1fb7a8c95d909",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 222,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f5d6f3ade57fc094b",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 3,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19faaebbf1f6507d5a0",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 217,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fa9f7dc97a5081d6c",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 136,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fbde3eccc7b096542",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 79,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f0b5809be16f51af8",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 114,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f94ad27367e4730c7",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 66,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f2c22e9f2b2d3e0a5",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 231,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f146d931eccd63168",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 273,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f4fd588ab925a4941",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 210,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f01f77eef96cbe935",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 45,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f362d7ae163997562",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 241,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f7fe2dedd3996b008",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 20,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19fab8445325aef539f",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 248,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f223e5c59c805871c",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 12,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19fa17cf553b395f9b4",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 69,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fd841118855e12c35",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 165,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fa7755a2166fde9e7",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 295,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f14deec11e1d6b7aa",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 292,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19ff2e423e7ba558ba3",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 167,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f71c934ba0635dbf4",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 230,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19fa2e0581b1099a0f0",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 118,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f8b9581ed92d50f3a",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 1,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f628e57b5b1406b48",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 114,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fd89663025dacd8f3",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 166,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f5eeaa66fb41e0953",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 252,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f302777509db56c05",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 291,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f96f7103a9f7c3df0",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 60,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19fd9bfdc625d121f35",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 138,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f7d74f2fc7094c02d",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 191,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f09e67f5a24187348",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 299,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fbb0daaaf86cd6925",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 175,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fce942d1c8bb95888",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 46,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f9d13c4e1c40b2230",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 61,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f0254c77f6669074a",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 146,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f1d93747101314c53",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 126,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f1745eb30f25fdfd5",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 152,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f34920b5866f850ba",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 296,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19ff4f84ee4c4d3d32c",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 96,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fca36706e33a36201",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 271,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f4b29f21f8e5868dd",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 57,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f30cc442047629846",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 85,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f9afba41081995d45",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 108,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f2116263a29770956",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 114,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fce069665db353d54",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 173,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f59655debf6ad1bf6",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 107,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f7afa647800a17417",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 48,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19ffe56c27e8190aac4",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 191,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19fa3f9bffd332c9b84",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 71,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f8571156de3426a83",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 294,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f7b6788de6b29c770",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 77,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fd496980ae3fc4518",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 198,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fa8e2397793928d03",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 232,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f66556e31fb4677d6",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 209,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19fb8131375e123d81d",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 203,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fe4de323186d9c990",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 222,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f9183e521a2fbc6d1",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 251,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19fdbda09faa1cca590",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 289,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f39db50b270947be6",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 52,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f8636cc700a5dde4a",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 177,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fe6ad317f2d64657b",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 153,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f2350a694e7c0bca3",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 190,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fe465b0ca1ebb24ca",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 248,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fee77fccaf889ce1b",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 119,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19fa4ceb95987d686a9",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 143,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f9fc69dd1702a1cd1",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 165,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f4b2e0c8a03dcae1f",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 39,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f8d2f14c429680eb5",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 163,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fbafb4ace4e95de05",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 186,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fb330007f78b42ec6",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 296,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f54a4f110edbb22a6",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 146,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f7c833dfbf7a472da",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 249,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f740b4662ebe43259",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 139,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f53d92d4a52b94c8d",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 259,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fee0b43d46d7fd6bf",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 148,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fca2ff56e071f3320",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 91,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f2188ee417f1049eb",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 187,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f8ed39ac20b56e53b",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 160,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19ffa914c31fce324dd",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 65,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f007716b462ddf89f",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 53,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f5dec58ae26e06b37",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 63,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f47cbd01e84cc9c9c",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 154,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f7479072279f0de4b",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 178,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f3d3a42609a61ee0e",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 167,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f17fa4b9a2302e978",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 186,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f30efbc89c7f19393",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 36,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19fdcf9d4620a047a6a",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 72,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f613bc62138069123",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 265,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f9fe293bdd11417fe",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 251,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f3bc781d90d2b57ec",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 196,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19fc147a5e3c3981fc5",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 154,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f363b6aa5e0a715c5",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 50,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fc7fa3baaa082d07f",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 61,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fb86ffe5c3e3ad24b",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 271,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f45217e5263b2d29b",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 59,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f754bd2e2c3be02c3",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 300,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f5e353ae62ee97098",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 43,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f8fad3982f7604039",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 126,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fd47b9e73739b618c",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 207,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f6576e96feae98f0d",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 184,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f410423d962577e89",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 13,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f2fba36cb13138e4c",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 89,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f04e8ac55f081828e",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 61,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f39a1426dc74a21af",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 50,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fc5f3a9a9e5c1f28d",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 186,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f576c7786f2daf82e",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 40,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f374eecb5c993ac6f",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 189,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f144ddabfa895c346",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 164,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f5f9555b728896520",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 250,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f2a444823d0ec524e",
+      "cotacaoTotal": 4,
+      "Prova_id_prova_realizada": 202,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f44398bd18df0d514",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 183,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fbac6a31918f8e9f5",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 277,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f0c90ea7f607956b7",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 54,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f489aed5663a451a4",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 209,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f274c9f219f6a9c02",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 285,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fba4f3139984feebd",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 122,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19fb264b9a538504257",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 188,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f91457e89e3d7d92d",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 181,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19fac07c5328f13306c",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 162,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f295d566de818fc16",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 241,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f93b63a59852387c8",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 141,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f3a3d8c9c62997e4b",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 72,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f6c65bc134e79f195",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 243,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f5cee406ada4a5947",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 286,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f664b93e65288a19d",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 37,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f8d1b9ee0c04697e5",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 72,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fc5b645ac10ab67fe",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 187,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f32b452bb7bcf3f8b",
+      "cotacaoTotal": 9,
+      "Prova_id_prova_realizada": 230,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f4167656f95c616c9",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 263,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f21eb4231f27af9a2",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 147,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f6efb4dc1bf74e5b0",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 164,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f5119046892f35359",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 213,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19fe4525b79cbcb64b2",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 26,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f8f87bed11201fa5b",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 204,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f2d8f4e1a3552b327",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 214,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19fa41ae70625d5bfb9",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 222,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19feac5ea0c30e01370",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 243,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19f04d2b1d754fc6767",
+      "cotacaoTotal": 5,
+      "Prova_id_prova_realizada": 222,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f79ae59997db5709a",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 215,
+      "TipoQuestao_id_tipo": "Antártida"
+    },
+    {
+      "id_questao": "6580a19f80048a0d7a59942b",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 46,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19f3f128d5611995a00",
+      "cotacaoTotal": 10,
+      "Prova_id_prova_realizada": 93,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f76785bc2e04ba98b",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 19,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19f2350a4144a2d6a75",
+      "cotacaoTotal": 3,
+      "Prova_id_prova_realizada": 132,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f6ad8d70303ad6f1e",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 179,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19f37e70204bedb2191",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 228,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19fd876a8b02d255dcb",
+      "cotacaoTotal": 8,
+      "Prova_id_prova_realizada": 247,
+      "TipoQuestao_id_tipo": "Europa"
+    },
+    {
+      "id_questao": "6580a19f99eb0c5535c00c0c",
+      "cotacaoTotal": 7,
+      "Prova_id_prova_realizada": 40,
+      "TipoQuestao_id_tipo": "Ásia"
+    },
+    {
+      "id_questao": "6580a19fbe10505dcffe31e1",
+      "cotacaoTotal": 6,
+      "Prova_id_prova_realizada": 49,
+      "TipoQuestao_id_tipo": "América"
+    },
+    {
+      "id_questao": "6580a19ff9fc59f13c7cf040",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 37,
+      "TipoQuestao_id_tipo": "África"
+    },
+    {
+      "id_questao": "6580a19fa72ee641ffdebf03",
+      "cotacaoTotal": 2,
+      "Prova_id_prova_realizada": 298,
+      "TipoQuestao_id_tipo": "Oceânia"
+    },
+    {
+      "id_questao": "6580a19fec37563d97ff29ce",
+      "cotacaoTotal": 1,
+      "Prova_id_prova_realizada": 129,
+      "TipoQuestao_id_tipo": "Antártida"
+    }
+  ]
+}

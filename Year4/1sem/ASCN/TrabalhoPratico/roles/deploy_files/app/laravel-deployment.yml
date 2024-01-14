@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: laravelio-deployment
+  labels:
+    app: laravelio
+    tier: application
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: laravelio
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: laravelio
+        tier: application
+    spec:
+      containers:
+        - name: laravelio
+          image: josebambora/ascn_group20:0.5
+          ports:
+            - containerPort: 8000
+          env:
+            - name: DB_CONNECTION
+              value: mysql
+            - name: DB_HOST
+              value: mysql-service
+            - name: DB_DATABASE
+              value: laravel
+            - name: DB_USERNAME
+              value: myuser
+            - name: DB_PASSWORD
+              value: "password"
+            - name: MIGRATE
+              value: "true"

@@ -1,0 +1,173 @@
+[
+    {
+        "_id": "1",
+        "cotacao": "20",
+        "nome": "Prova 22/23",
+        "id_docente": "d123",
+        "versao": 1,
+        "curso": "MEI",
+        "uc": "DAA",
+        "data": "2023-12-14",
+        "hora_preferencial": "11:00",
+        "tempo_admissao": 200,
+        "duracao": 60,
+        "alunos": ["pg53791", "a96075"],
+        "acesso_autorizado": ["d123", "d345", "pg53791", "a96075"],
+        "questoes": [
+          {
+            "_id": "q1",
+            "enunciado": "Qual o significado de 'boosting' no contexto de modelos de previsão?",
+            "imagem": "",
+            "cotacaoTotal": "1",
+            "tipo_Questao": "EC",
+            "options": [
+              { "_id": "o1", "texto": "Fazer diferentes modelos 'votar' para obter uma solução final;", "cotacao": "-0.5", "resolucao": "" },
+              { "_id": "o2", "texto": "Validar um modelo utilizando conjuntos de dados maiores;", "cotacao": "-0.5", "resolucao": "" },
+              { "_id": "o3", "texto": "Treinar modelos iterativamente de acordo com os erros de classificação;", "cotacao": "1", "resolucao": "" },
+              { "_id": "o4", "texto": "Dividir aleatoriamente um conjunto de dados para produzir modelos alternativos.", "cotacao": "-0.5", "resolucao": "" }
+            ]
+          },
+          {
+            "_id": "q2",
+            "enunciado": "O que define um modelo que apresenta 'overfitting'?",
+            "imagem": "",
+            "cotacaoTotal": "2",
+            "tipo_Questao": "EC",
+            "options": [
+              { "_id": "o9", "texto": "Um modelo que se ajusta muito bem aos dados de treino, mas não generaliza corretamente para novos dados;", "cotacao": "2", "resolucao": "" },
+              { "_id": "o10", "texto": "Um modelo que não se ajusta bem aos dados de treino;", "cotacao": "-1", "resolucao": "" },
+              { "_id": "o11", "texto": "Um modelo que não faz previsões corretas;", "cotacao": "-1", "resolucao": "" },
+              { "_id": "o12", "texto": "Um modelo que só faz previsões erradas.", "cotacao": "-1", "resolucao": "" }
+            ]
+          }
+        ]
+    },
+    {
+        "_id": "2",
+        "cotacao": "20",
+        "nome": "Exame",
+        "curso": "MEI",
+        "uc": "RC",
+        "id_docente": "d456",
+        "versao": 1,
+        "data": "2023-12-20",
+        "hora_preferencial": "14:30",
+        "tempo_admissao": 180,
+        "duracao": 90,
+        "alunos": ["pg53791", "a96075"],
+        "acesso_autorizado": ["d456", "d789", "pg53791", "a96075"],
+        "questoes": [
+          {
+            "_id": "q3",
+            "enunciado": "O que é um endereço IP na versão IPv4?",
+            "imagem": "",
+            "cotacaoTotal": "7",
+            "tipo_Questao": "EC",
+            "options": [
+              { "_id": "o1", "texto": "Um identificador único de 32 bits atribuído a cada dispositivo em uma rede.", "cotacao": "7", "resolucao": "" },
+              { "_id": "o2", "texto": "Um endereço de e-mail associado a um dispositivo de rede.", "cotacao": "-1", "resolucao": "" },
+              { "_id": "o3", "texto": "Um identificador único de 64 bits atribuído a cada dispositivo em uma rede.", "cotacao": "-1", "resolucao": "" },
+              { "_id": "o4", "texto": "Um número de porta associado a um servidor web específico.", "cotacao": "-1", "resolucao": "" }
+            ]
+          },
+          {
+            "_id": "q4",
+            "enunciado": "O que é um protocolo de routing em redes de computadores?",
+            "imagem": "",
+            "cotacaoTotal": "8",
+            "tipo_Questao": "EC",
+            "options": [
+              { "_id": "o1", "texto": "Um conjunto de regras para transferência de dados entre dispositivos de uma rede.", "cotacao": "-1", "resolucao": "" },
+              { "_id": "o2", "texto": "Um algoritmo que determina o caminho mais eficiente para encaminhar dados entre redes.", "cotacao": "8", "resolucao": "" },
+              { "_id": "o3", "texto": "Um protocolo para configuração automática de endereços IP em dispositivos de rede.", "cotacao": "-1", "resolucao": "" }
+            ]
+          }
+        ]
+    },
+    {
+        "_id": "3",
+        "cotacao": "18",
+        "nome": "Exame de Recurso",
+        "id_docente": "d987",
+        "curso": "MEI",
+        "uc": "ALGC",
+        "versao": 1,
+        "data": "2023-12-28",
+        "hora_preferencial": "15:30",
+        "tempo_admissao": 180,
+        "duracao": 90,
+        "alunos": ["pg53791", "a96075"],
+        "acesso_autorizado": ["d987", "d654", "pg53791", "a96075"],
+        "questoes": [
+          {
+            "_id": "q1",
+            "enunciado": "Qual é a complexidade de tempo do algoritmo de ordenação QuickSort?",
+            "imagem": "",
+            "cotacaoTotal": "5",
+            "tipo_Questao": "EC",
+            "options": [
+              { "_id": "o1", "texto": "O(n log n)", "cotacao": "5", "resolucao": "" },
+              { "_id": "o2", "texto": "O(n^2)", "cotacao": "-1", "resolucao": "" },
+              { "_id": "o3", "texto": "O(log n)", "cotacao": "-1", "resolucao": "" },
+              { "_id": "o4", "texto": "O(n)", "cotacao": "-1", "resolucao": "" }
+            ]
+          },
+          {
+            "_id": "q2",
+            "enunciado": "O que é um grafo ponderado?",
+            "imagem": "",
+            "cotacaoTotal": "6",
+            "tipo_Questao": "EC",
+            "options": [
+              { "_id": "o1", "texto": "Um grafo sem pesos nas arestas.", "cotacao": "-1", "resolucao": "" },
+              { "_id": "o2", "texto": "Um grafo com pesos atribuídos às arestas.", "cotacao": "6", "resolucao": "" },
+              { "_id": "o3", "texto": "Um grafo acíclico.", "cotacao": "-1", "resolucao": "" },
+              { "_id": "o4", "texto": "Um grafo completo.", "cotacao": "-1", "resolucao": "" }
+            ]
+          },
+          {
+            "_id": "q3",
+            "enunciado": "O que é a técnica de programação dinâmica?",
+            "imagem": "",
+            "cotacaoTotal": "7",
+            "tipo_Questao": "EC",
+            "options": [
+              { "_id": "o1", "texto": "Uma técnica para resolver problemas ótimos dividindo-os em subproblemas menores e resolvendo-os de forma recursiva.", "cotacao": "7", "resolucao": "" },
+              { "_id": "o2", "texto": "Uma técnica que envolve a criação de programas que se adaptam ao ambiente de execução.", "cotacao": "-1", "resolucao": "" },
+              { "_id": "o3", "texto": "Uma técnica que usa o tempo de execução do programa para otimizar o código automaticamente.", "cotacao": "-1", "resolucao": "" },
+              { "_id": "o4", "texto": "Uma técnica que envolve a alocação dinâmica de memória durante a execução do programa.", "cotacao": "-1", "resolucao": "" }
+            ]
+          }
+        ]
+    },
+    {
+        "_id": "4",
+        "cotacao": "8",
+        "nome": "Teste Final",
+        "id_docente": "d789",
+        "curso": "MEI",
+        "uc": "POO",
+        "versao": 1,
+        "data": "2023-12-22",
+        "hora_preferencial": "10:00",
+        "tempo_admissao": 150,
+        "duracao": 120,
+        "alunos": ["pg53791", "a96075"],
+        "acesso_autorizado": ["d789", "d012", "pg53791", "a96075"],
+        "questoes": [
+          {
+            "_id": "q1",
+            "enunciado": "O que é polimorfismo em programação orientada a objetos?",
+            "imagem": "",
+            "cotacaoTotal": "8",
+            "tipo_Questao": "EC",
+            "options": [
+              { "_id": "o1", "texto": "É a capacidade de uma classe herdar de múltiplas classes pai.", "cotacao": "-1", "resolucao": "" },
+              { "_id": "o2", "texto": "É a capacidade de uma classe ter várias instâncias.", "cotacao": "-1", "resolucao": "" },
+              { "_id": "o3", "texto": "É a capacidade de uma classe ter métodos com o mesmo nome, mas comportamentos diferentes.", "cotacao": "3", "resolucao": "" },
+              { "_id": "o4", "texto": "É a capacidade de uma classe armazenar múltiplos valores em um único atributo.", "cotacao": "-1", "resolucao": "" }
+            ]
+          }
+        ]
+    }                   
+]

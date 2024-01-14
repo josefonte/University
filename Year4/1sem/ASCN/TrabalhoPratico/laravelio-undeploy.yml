@@ -1,0 +1,14 @@
+---
+- name: Undeploy Kubernetes Resources
+  hosts: localhost
+  become: false
+
+  tasks:
+
+    - name: Undeploy MySQL
+      include_tasks: roles/deploy_files/mysql/mysql-undeploy.yml
+      vars:
+        delete_data: false
+
+    - name: Undeploy Laravel
+      include_tasks: roles/deploy_files/app/laravel-undeploy.yml     

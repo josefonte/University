@@ -1,0 +1,35 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    padding-left: 10px;
+    color: #002984;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.box {
+    padding: 20px 20px 20px 20px ;
+    border: 1px solid #002984;
+    box-sizing: border-box;
+    width: 250px;
+}
+
+.box-container {
+    padding: 20px;
+}
+
+.remember-me {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 20px;
+
+}
+  
+.form {
+    align-items: center;
+    display: flex;
+}

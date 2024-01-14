@@ -1,0 +1,25 @@
+- formato do ficheiro de config com topologia da rede ✅
+- ler formato para memoria✅
+- receber pedidos do cliente✅
+- responder com os seus vizinhos✅
+- cliente estabelece conexão com vizinhos ✅
+    - se nao consegue, repete de x em x tempo
+- encontra o rp gateway ✅
+
+TO RUN THE CODE
+
+./serverRP node_id
+
+./server ip_rp node_id
+
+
+
+
+MESSAGES
+
+(FLAG Mes TYPE) | (FLAG Mes SubType) | DATA 
+
+- Control Mes (000) | bootstraper (000) | (node id)
+- Control Mes (000) | connect (001) | (node id)
+- Control Mes (000) | rp_path (001) | (node id)
+

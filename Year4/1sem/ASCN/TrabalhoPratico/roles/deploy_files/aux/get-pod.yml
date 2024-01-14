@@ -1,0 +1,8 @@
+- name: Retrieve pod names dynamically
+  command: kubectl get all -o jsonpath='{.items[0].metadata.name}'
+  register: mysql_pod_facts
+
+- name: Get the first MySQL pod name
+  set_fact:
+    mysql_pod_name: "{{ mysql_pod_facts.stdout }}"
+ 

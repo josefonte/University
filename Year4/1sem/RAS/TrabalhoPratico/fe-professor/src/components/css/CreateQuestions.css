@@ -1,0 +1,56 @@
+.global-container{
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+}
+
+.form {
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+}
+
+.answers-container {
+  padding: 10px; 
+}
+
+.up-part {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text-field {
+  border-radius: 10px;
+}
+
+.number-input {
+  /* display: block; */
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 80px;
+}
+
+.cotaçao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.centered-text input {
+  text-align: center;
+}
+
+.tipoQuestap-container {
+  padding: 200px;
+  background-color: blueviolet;
+}

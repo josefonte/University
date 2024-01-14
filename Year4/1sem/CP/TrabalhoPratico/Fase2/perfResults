@@ -1,0 +1,1007 @@
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  WELCOME TO WILLY P CHEM MD!
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  ENTER A TITLE FOR YOUR CALCULATION!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  TITLE ENTERED AS 'cp'
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  WHICH NOBLE GAS WOULD YOU LIKE TO SIMULATE? (DEFAULT IS ARGON)
+
+  FOR HELIUM,  TYPE 'He' THEN PRESS 'return' TO CONTINUE
+  FOR NEON,    TYPE 'Ne' THEN PRESS 'return' TO CONTINUE
+  FOR ARGON,   TYPE 'Ar' THEN PRESS 'return' TO CONTINUE
+  FOR KRYPTON, TYPE 'Kr' THEN PRESS 'return' TO CONTINUE
+  FOR XENON,   TYPE 'Xe' THEN PRESS 'return' TO CONTINUE
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     YOU ARE SIMULATING Ar GAS! 
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  YOU WILL NOW ENTER A FEW SIMULATION PARAMETERS
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  ENTER THE INTIAL TEMPERATURE OF YOUR GAS IN KELVIN
+
+
+  ENTER THE NUMBER DENSITY IN moles/m^3
+  FOR REFERENCE, NUMBER DENSITY OF AN IDEAL GAS AT STP IS ABOUT 40 moles/m^3
+  NUMBER DENSITY OF LIQUID ARGON AT 1 ATM AND 87 K IS ABOUT 35000 moles/m^3
+  PERCENTAGE OF CALCULATION COMPLETE:
+  [ 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 ]
+
+  TO ANIMATE YOUR SIMULATION, OPEN THE FILE 
+  'cp_traj.xyz' WITH VMD AFTER THE SIMULATION COMPLETES
+
+  TO ANALYZE INSTANTANEOUS DATA ABOUT YOUR MOLECULE, OPEN THE FILE 
+  'cp_output.txt' WITH YOUR FAVORITE TEXT EDITOR OR IMPORT THE DATA INTO EXCEL
+
+  THE FOLLOWING THERMODYNAMIC AVERAGES WILL BE COMPUTED AND WRITTEN TO THE FILE  
+  'cp_average.txt':
+
+  AVERAGE TEMPERATURE (K):                 131.455064150292
+
+  AVERAGE PRESSURE  (Pa):                  131001228.450759902596
+
+  PV/nT (J * mol^-1 K^-1):                 28.472788520122
+
+  PERCENT ERROR of pV/nT AND GAS CONSTANT: 242.449049066562
+
+  THE COMPRESSIBILITY (unitless):           3.424490465357 
+
+  TOTAL VOLUME (m^3):                      2.372198629182e-25 
+
+  NUMBER OF PARTICLES (unitless):          5000 
+
+ Performance counter stats for './MDpar.exe':
+
+         37,721.14 msec task-clock                #    1.000 CPUs utilized          
+                35      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             1,075      page-faults               #    0.028 K/sec                  
+    94,300,527,572      cycles                    #    2.500 GHz                    
+    58,815,685,062      stalled-cycles-frontend   #   62.37% frontend cycles idle   
+   134,129,948,968      instructions              #    1.42  insn per cycle         
+                                                  #    0.44  stalled cycles per insn
+     2,578,658,361      branches                  #   68.361 M/sec                  
+         1,782,443      branch-misses             #    0.07% of all branches        
+
+      37.726917259 seconds time elapsed
+
+      37.717908000 seconds user
+       0.004000000 seconds sys
+
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  WELCOME TO WILLY P CHEM MD!
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  ENTER A TITLE FOR YOUR CALCULATION!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  TITLE ENTERED AS 'cp'
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  WHICH NOBLE GAS WOULD YOU LIKE TO SIMULATE? (DEFAULT IS ARGON)
+
+  FOR HELIUM,  TYPE 'He' THEN PRESS 'return' TO CONTINUE
+  FOR NEON,    TYPE 'Ne' THEN PRESS 'return' TO CONTINUE
+  FOR ARGON,   TYPE 'Ar' THEN PRESS 'return' TO CONTINUE
+  FOR KRYPTON, TYPE 'Kr' THEN PRESS 'return' TO CONTINUE
+  FOR XENON,   TYPE 'Xe' THEN PRESS 'return' TO CONTINUE
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     YOU ARE SIMULATING Ar GAS! 
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  YOU WILL NOW ENTER A FEW SIMULATION PARAMETERS
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  ENTER THE INTIAL TEMPERATURE OF YOUR GAS IN KELVIN
+
+
+  ENTER THE NUMBER DENSITY IN moles/m^3
+  FOR REFERENCE, NUMBER DENSITY OF AN IDEAL GAS AT STP IS ABOUT 40 moles/m^3
+  NUMBER DENSITY OF LIQUID ARGON AT 1 ATM AND 87 K IS ABOUT 35000 moles/m^3
+  PERCENTAGE OF CALCULATION COMPLETE:
+  [ 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 ]
+
+  TO ANIMATE YOUR SIMULATION, OPEN THE FILE 
+  'cp_traj.xyz' WITH VMD AFTER THE SIMULATION COMPLETES
+
+  TO ANALYZE INSTANTANEOUS DATA ABOUT YOUR MOLECULE, OPEN THE FILE 
+  'cp_output.txt' WITH YOUR FAVORITE TEXT EDITOR OR IMPORT THE DATA INTO EXCEL
+
+  THE FOLLOWING THERMODYNAMIC AVERAGES WILL BE COMPUTED AND WRITTEN TO THE FILE  
+  'cp_average.txt':
+
+  AVERAGE TEMPERATURE (K):                 131.455064150292
+
+  AVERAGE PRESSURE  (Pa):                  131001228.450759872794
+
+  PV/nT (J * mol^-1 K^-1):                 28.472788520122
+
+  PERCENT ERROR of pV/nT AND GAS CONSTANT: 242.449049066562
+
+  THE COMPRESSIBILITY (unitless):           3.424490465357 
+
+  TOTAL VOLUME (m^3):                      2.372198629182e-25 
+
+  NUMBER OF PARTICLES (unitless):          5000 
+
+ Performance counter stats for './MDpar.exe':
+
+         37,830.57 msec task-clock                #    2.000 CPUs utilized          
+                25      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             1,285      page-faults               #    0.034 K/sec                  
+    94,574,136,792      cycles                    #    2.500 GHz                    
+    59,055,298,510      stalled-cycles-frontend   #   62.44% frontend cycles idle   
+   134,196,237,292      instructions              #    1.42  insn per cycle         
+                                                  #    0.44  stalled cycles per insn
+     2,595,419,936      branches                  #   68.606 M/sec                  
+         1,763,438      branch-misses             #    0.07% of all branches        
+
+      18.919487685 seconds time elapsed
+
+      37.826179000 seconds user
+       0.005000000 seconds sys
+
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  WELCOME TO WILLY P CHEM MD!
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  ENTER A TITLE FOR YOUR CALCULATION!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  TITLE ENTERED AS 'cp'
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  WHICH NOBLE GAS WOULD YOU LIKE TO SIMULATE? (DEFAULT IS ARGON)
+
+  FOR HELIUM,  TYPE 'He' THEN PRESS 'return' TO CONTINUE
+  FOR NEON,    TYPE 'Ne' THEN PRESS 'return' TO CONTINUE
+  FOR ARGON,   TYPE 'Ar' THEN PRESS 'return' TO CONTINUE
+  FOR KRYPTON, TYPE 'Kr' THEN PRESS 'return' TO CONTINUE
+  FOR XENON,   TYPE 'Xe' THEN PRESS 'return' TO CONTINUE
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     YOU ARE SIMULATING Ar GAS! 
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  YOU WILL NOW ENTER A FEW SIMULATION PARAMETERS
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  ENTER THE INTIAL TEMPERATURE OF YOUR GAS IN KELVIN
+
+
+  ENTER THE NUMBER DENSITY IN moles/m^3
+  FOR REFERENCE, NUMBER DENSITY OF AN IDEAL GAS AT STP IS ABOUT 40 moles/m^3
+  NUMBER DENSITY OF LIQUID ARGON AT 1 ATM AND 87 K IS ABOUT 35000 moles/m^3
+  PERCENTAGE OF CALCULATION COMPLETE:
+  [ 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 ]
+
+  TO ANIMATE YOUR SIMULATION, OPEN THE FILE 
+  'cp_traj.xyz' WITH VMD AFTER THE SIMULATION COMPLETES
+
+  TO ANALYZE INSTANTANEOUS DATA ABOUT YOUR MOLECULE, OPEN THE FILE 
+  'cp_output.txt' WITH YOUR FAVORITE TEXT EDITOR OR IMPORT THE DATA INTO EXCEL
+
+  THE FOLLOWING THERMODYNAMIC AVERAGES WILL BE COMPUTED AND WRITTEN TO THE FILE  
+  'cp_average.txt':
+
+  AVERAGE TEMPERATURE (K):                 131.455064150292
+
+  AVERAGE PRESSURE  (Pa):                  131001228.450759813190
+
+  PV/nT (J * mol^-1 K^-1):                 28.472788520122
+
+  PERCENT ERROR of pV/nT AND GAS CONSTANT: 242.449049066562
+
+  THE COMPRESSIBILITY (unitless):           3.424490465357 
+
+  TOTAL VOLUME (m^3):                      2.372198629182e-25 
+
+  NUMBER OF PARTICLES (unitless):          5000 
+
+ Performance counter stats for './MDpar.exe':
+
+         38,030.13 msec task-clock                #    3.998 CPUs utilized          
+                28      context-switches          #    0.001 K/sec                  
+                 3      cpu-migrations            #    0.000 K/sec                  
+             1,209      page-faults               #    0.032 K/sec                  
+    95,072,948,787      cycles                    #    2.500 GHz                    
+    59,455,300,005      stalled-cycles-frontend   #   62.54% frontend cycles idle   
+   134,367,654,307      instructions              #    1.41  insn per cycle         
+                                                  #    0.44  stalled cycles per insn
+     2,637,634,484      branches                  #   69.356 M/sec                  
+         1,873,062      branch-misses             #    0.07% of all branches        
+
+       9.512762989 seconds time elapsed
+
+      38.026800000 seconds user
+       0.004000000 seconds sys
+
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  WELCOME TO WILLY P CHEM MD!
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  ENTER A TITLE FOR YOUR CALCULATION!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  TITLE ENTERED AS 'cp'
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  WHICH NOBLE GAS WOULD YOU LIKE TO SIMULATE? (DEFAULT IS ARGON)
+
+  FOR HELIUM,  TYPE 'He' THEN PRESS 'return' TO CONTINUE
+  FOR NEON,    TYPE 'Ne' THEN PRESS 'return' TO CONTINUE
+  FOR ARGON,   TYPE 'Ar' THEN PRESS 'return' TO CONTINUE
+  FOR KRYPTON, TYPE 'Kr' THEN PRESS 'return' TO CONTINUE
+  FOR XENON,   TYPE 'Xe' THEN PRESS 'return' TO CONTINUE
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     YOU ARE SIMULATING Ar GAS! 
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  YOU WILL NOW ENTER A FEW SIMULATION PARAMETERS
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  ENTER THE INTIAL TEMPERATURE OF YOUR GAS IN KELVIN
+
+
+  ENTER THE NUMBER DENSITY IN moles/m^3
+  FOR REFERENCE, NUMBER DENSITY OF AN IDEAL GAS AT STP IS ABOUT 40 moles/m^3
+  NUMBER DENSITY OF LIQUID ARGON AT 1 ATM AND 87 K IS ABOUT 35000 moles/m^3
+  PERCENTAGE OF CALCULATION COMPLETE:
+  [ 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 ]
+
+  TO ANIMATE YOUR SIMULATION, OPEN THE FILE 
+  'cp_traj.xyz' WITH VMD AFTER THE SIMULATION COMPLETES
+
+  TO ANALYZE INSTANTANEOUS DATA ABOUT YOUR MOLECULE, OPEN THE FILE 
+  'cp_output.txt' WITH YOUR FAVORITE TEXT EDITOR OR IMPORT THE DATA INTO EXCEL
+
+  THE FOLLOWING THERMODYNAMIC AVERAGES WILL BE COMPUTED AND WRITTEN TO THE FILE  
+  'cp_average.txt':
+
+  AVERAGE TEMPERATURE (K):                 131.455064150292
+
+  AVERAGE PRESSURE  (Pa):                  131001228.450759887695
+
+  PV/nT (J * mol^-1 K^-1):                 28.472788520122
+
+  PERCENT ERROR of pV/nT AND GAS CONSTANT: 242.449049066562
+
+  THE COMPRESSIBILITY (unitless):           3.424490465357 
+
+  TOTAL VOLUME (m^3):                      2.372198629182e-25 
+
+  NUMBER OF PARTICLES (unitless):          5000 
+
+ Performance counter stats for './MDpar.exe':
+
+         38,615.43 msec task-clock                #    7.991 CPUs utilized          
+                58      context-switches          #    0.002 K/sec                  
+                 9      cpu-migrations            #    0.000 K/sec                  
+             1,366      page-faults               #    0.035 K/sec                  
+    96,535,909,623      cycles                    #    2.500 GHz                    
+    60,509,245,729      stalled-cycles-frontend   #   62.68% frontend cycles idle   
+   134,965,034,373      instructions              #    1.40  insn per cycle         
+                                                  #    0.45  stalled cycles per insn
+     2,788,308,985      branches                  #   72.207 M/sec                  
+         2,028,850      branch-misses             #    0.07% of all branches        
+
+       4.832531576 seconds time elapsed
+
+      38.613836000 seconds user
+       0.001999000 seconds sys
+
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  WELCOME TO WILLY P CHEM MD!
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  ENTER A TITLE FOR YOUR CALCULATION!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  TITLE ENTERED AS 'cp'
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  WHICH NOBLE GAS WOULD YOU LIKE TO SIMULATE? (DEFAULT IS ARGON)
+
+  FOR HELIUM,  TYPE 'He' THEN PRESS 'return' TO CONTINUE
+  FOR NEON,    TYPE 'Ne' THEN PRESS 'return' TO CONTINUE
+  FOR ARGON,   TYPE 'Ar' THEN PRESS 'return' TO CONTINUE
+  FOR KRYPTON, TYPE 'Kr' THEN PRESS 'return' TO CONTINUE
+  FOR XENON,   TYPE 'Xe' THEN PRESS 'return' TO CONTINUE
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     YOU ARE SIMULATING Ar GAS! 
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  YOU WILL NOW ENTER A FEW SIMULATION PARAMETERS
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  ENTER THE INTIAL TEMPERATURE OF YOUR GAS IN KELVIN
+
+
+  ENTER THE NUMBER DENSITY IN moles/m^3
+  FOR REFERENCE, NUMBER DENSITY OF AN IDEAL GAS AT STP IS ABOUT 40 moles/m^3
+  NUMBER DENSITY OF LIQUID ARGON AT 1 ATM AND 87 K IS ABOUT 35000 moles/m^3
+  PERCENTAGE OF CALCULATION COMPLETE:
+  [ 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 ]
+
+  TO ANIMATE YOUR SIMULATION, OPEN THE FILE 
+  'cp_traj.xyz' WITH VMD AFTER THE SIMULATION COMPLETES
+
+  TO ANALYZE INSTANTANEOUS DATA ABOUT YOUR MOLECULE, OPEN THE FILE 
+  'cp_output.txt' WITH YOUR FAVORITE TEXT EDITOR OR IMPORT THE DATA INTO EXCEL
+
+  THE FOLLOWING THERMODYNAMIC AVERAGES WILL BE COMPUTED AND WRITTEN TO THE FILE  
+  'cp_average.txt':
+
+  AVERAGE TEMPERATURE (K):                 131.455064150292
+
+  AVERAGE PRESSURE  (Pa):                  131001228.450759902596
+
+  PV/nT (J * mol^-1 K^-1):                 28.472788520122
+
+  PERCENT ERROR of pV/nT AND GAS CONSTANT: 242.449049066562
+
+  THE COMPRESSIBILITY (unitless):           3.424490465357 
+
+  TOTAL VOLUME (m^3):                      2.372198629182e-25 
+
+  NUMBER OF PARTICLES (unitless):          5000 
+
+ Performance counter stats for './MDpar.exe':
+
+         39,273.85 msec task-clock                #   11.978 CPUs utilized          
+                77      context-switches          #    0.002 K/sec                  
+                12      cpu-migrations            #    0.000 K/sec                  
+             1,771      page-faults               #    0.045 K/sec                  
+    98,181,731,129      cycles                    #    2.500 GHz                    
+    61,663,012,483      stalled-cycles-frontend   #   62.80% frontend cycles idle   
+   135,664,518,624      instructions              #    1.38  insn per cycle         
+                                                  #    0.45  stalled cycles per insn
+     2,969,678,210      branches                  #   75.615 M/sec                  
+         2,062,578      branch-misses             #    0.07% of all branches        
+
+       3.278914482 seconds time elapsed
+
+      39.260858000 seconds user
+       0.013998000 seconds sys
+
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  WELCOME TO WILLY P CHEM MD!
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  ENTER A TITLE FOR YOUR CALCULATION!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  TITLE ENTERED AS 'cp'
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  WHICH NOBLE GAS WOULD YOU LIKE TO SIMULATE? (DEFAULT IS ARGON)
+
+  FOR HELIUM,  TYPE 'He' THEN PRESS 'return' TO CONTINUE
+  FOR NEON,    TYPE 'Ne' THEN PRESS 'return' TO CONTINUE
+  FOR ARGON,   TYPE 'Ar' THEN PRESS 'return' TO CONTINUE
+  FOR KRYPTON, TYPE 'Kr' THEN PRESS 'return' TO CONTINUE
+  FOR XENON,   TYPE 'Xe' THEN PRESS 'return' TO CONTINUE
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     YOU ARE SIMULATING Ar GAS! 
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  YOU WILL NOW ENTER A FEW SIMULATION PARAMETERS
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  ENTER THE INTIAL TEMPERATURE OF YOUR GAS IN KELVIN
+
+
+  ENTER THE NUMBER DENSITY IN moles/m^3
+  FOR REFERENCE, NUMBER DENSITY OF AN IDEAL GAS AT STP IS ABOUT 40 moles/m^3
+  NUMBER DENSITY OF LIQUID ARGON AT 1 ATM AND 87 K IS ABOUT 35000 moles/m^3
+  PERCENTAGE OF CALCULATION COMPLETE:
+  [ 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 ]
+
+  TO ANIMATE YOUR SIMULATION, OPEN THE FILE 
+  'cp_traj.xyz' WITH VMD AFTER THE SIMULATION COMPLETES
+
+  TO ANALYZE INSTANTANEOUS DATA ABOUT YOUR MOLECULE, OPEN THE FILE 
+  'cp_output.txt' WITH YOUR FAVORITE TEXT EDITOR OR IMPORT THE DATA INTO EXCEL
+
+  THE FOLLOWING THERMODYNAMIC AVERAGES WILL BE COMPUTED AND WRITTEN TO THE FILE  
+  'cp_average.txt':
+
+  AVERAGE TEMPERATURE (K):                 131.455064150292
+
+  AVERAGE PRESSURE  (Pa):                  131001228.450759872794
+
+  PV/nT (J * mol^-1 K^-1):                 28.472788520122
+
+  PERCENT ERROR of pV/nT AND GAS CONSTANT: 242.449049066562
+
+  THE COMPRESSIBILITY (unitless):           3.424490465357 
+
+  TOTAL VOLUME (m^3):                      2.372198629182e-25 
+
+  NUMBER OF PARTICLES (unitless):          5000 
+
+ Performance counter stats for './MDpar.exe':
+
+         40,178.75 msec task-clock                #   15.963 CPUs utilized          
+                78      context-switches          #    0.002 K/sec                  
+                15      cpu-migrations            #    0.000 K/sec                  
+             1,408      page-faults               #    0.035 K/sec                  
+   100,443,747,959      cycles                    #    2.500 GHz                    
+    63,244,021,461      stalled-cycles-frontend   #   62.96% frontend cycles idle   
+   136,617,721,695      instructions              #    1.36  insn per cycle         
+                                                  #    0.46  stalled cycles per insn
+     3,222,641,164      branches                  #   80.208 M/sec                  
+         2,086,186      branch-misses             #    0.06% of all branches        
+
+       2.516948153 seconds time elapsed
+
+      40.162882000 seconds user
+       0.017000000 seconds sys
+
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  WELCOME TO WILLY P CHEM MD!
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  ENTER A TITLE FOR YOUR CALCULATION!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  TITLE ENTERED AS 'cp'
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  WHICH NOBLE GAS WOULD YOU LIKE TO SIMULATE? (DEFAULT IS ARGON)
+
+  FOR HELIUM,  TYPE 'He' THEN PRESS 'return' TO CONTINUE
+  FOR NEON,    TYPE 'Ne' THEN PRESS 'return' TO CONTINUE
+  FOR ARGON,   TYPE 'Ar' THEN PRESS 'return' TO CONTINUE
+  FOR KRYPTON, TYPE 'Kr' THEN PRESS 'return' TO CONTINUE
+  FOR XENON,   TYPE 'Xe' THEN PRESS 'return' TO CONTINUE
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     YOU ARE SIMULATING Ar GAS! 
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  YOU WILL NOW ENTER A FEW SIMULATION PARAMETERS
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  ENTER THE INTIAL TEMPERATURE OF YOUR GAS IN KELVIN
+
+
+  ENTER THE NUMBER DENSITY IN moles/m^3
+  FOR REFERENCE, NUMBER DENSITY OF AN IDEAL GAS AT STP IS ABOUT 40 moles/m^3
+  NUMBER DENSITY OF LIQUID ARGON AT 1 ATM AND 87 K IS ABOUT 35000 moles/m^3
+  PERCENTAGE OF CALCULATION COMPLETE:
+  [ 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 ]
+
+  TO ANIMATE YOUR SIMULATION, OPEN THE FILE 
+  'cp_traj.xyz' WITH VMD AFTER THE SIMULATION COMPLETES
+
+  TO ANALYZE INSTANTANEOUS DATA ABOUT YOUR MOLECULE, OPEN THE FILE 
+  'cp_output.txt' WITH YOUR FAVORITE TEXT EDITOR OR IMPORT THE DATA INTO EXCEL
+
+  THE FOLLOWING THERMODYNAMIC AVERAGES WILL BE COMPUTED AND WRITTEN TO THE FILE  
+  'cp_average.txt':
+
+  AVERAGE TEMPERATURE (K):                 131.455064150292
+
+  AVERAGE PRESSURE  (Pa):                  131001228.450759947300
+
+  PV/nT (J * mol^-1 K^-1):                 28.472788520122
+
+  PERCENT ERROR of pV/nT AND GAS CONSTANT: 242.449049066562
+
+  THE COMPRESSIBILITY (unitless):           3.424490465357 
+
+  TOTAL VOLUME (m^3):                      2.372198629182e-25 
+
+  NUMBER OF PARTICLES (unitless):          5000 
+
+ Performance counter stats for './MDpar.exe':
+
+         41,127.21 msec task-clock                #   19.942 CPUs utilized          
+                89      context-switches          #    0.002 K/sec                  
+                20      cpu-migrations            #    0.000 K/sec                  
+             1,796      page-faults               #    0.044 K/sec                  
+   102,814,618,840      cycles                    #    2.500 GHz                    
+    64,892,991,228      stalled-cycles-frontend   #   63.12% frontend cycles idle   
+   137,628,802,385      instructions              #    1.34  insn per cycle         
+                                                  #    0.47  stalled cycles per insn
+     3,491,720,376      branches                  #   84.900 M/sec                  
+         2,137,064      branch-misses             #    0.06% of all branches        
+
+       2.062294489 seconds time elapsed
+
+      41.125126000 seconds user
+       0.003000000 seconds sys
+
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  WELCOME TO WILLY P CHEM MD!
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  ENTER A TITLE FOR YOUR CALCULATION!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  TITLE ENTERED AS 'cp'
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  WHICH NOBLE GAS WOULD YOU LIKE TO SIMULATE? (DEFAULT IS ARGON)
+
+  FOR HELIUM,  TYPE 'He' THEN PRESS 'return' TO CONTINUE
+  FOR NEON,    TYPE 'Ne' THEN PRESS 'return' TO CONTINUE
+  FOR ARGON,   TYPE 'Ar' THEN PRESS 'return' TO CONTINUE
+  FOR KRYPTON, TYPE 'Kr' THEN PRESS 'return' TO CONTINUE
+  FOR XENON,   TYPE 'Xe' THEN PRESS 'return' TO CONTINUE
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     YOU ARE SIMULATING Ar GAS! 
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  YOU WILL NOW ENTER A FEW SIMULATION PARAMETERS
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  ENTER THE INTIAL TEMPERATURE OF YOUR GAS IN KELVIN
+
+
+  ENTER THE NUMBER DENSITY IN moles/m^3
+  FOR REFERENCE, NUMBER DENSITY OF AN IDEAL GAS AT STP IS ABOUT 40 moles/m^3
+  NUMBER DENSITY OF LIQUID ARGON AT 1 ATM AND 87 K IS ABOUT 35000 moles/m^3
+  PERCENTAGE OF CALCULATION COMPLETE:
+  [ 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 ]
+
+  TO ANIMATE YOUR SIMULATION, OPEN THE FILE 
+  'cp_traj.xyz' WITH VMD AFTER THE SIMULATION COMPLETES
+
+  TO ANALYZE INSTANTANEOUS DATA ABOUT YOUR MOLECULE, OPEN THE FILE 
+  'cp_output.txt' WITH YOUR FAVORITE TEXT EDITOR OR IMPORT THE DATA INTO EXCEL
+
+  THE FOLLOWING THERMODYNAMIC AVERAGES WILL BE COMPUTED AND WRITTEN TO THE FILE  
+  'cp_average.txt':
+
+  AVERAGE TEMPERATURE (K):                 131.455064150292
+
+  AVERAGE PRESSURE  (Pa):                  131001228.450759842992
+
+  PV/nT (J * mol^-1 K^-1):                 28.472788520122
+
+  PERCENT ERROR of pV/nT AND GAS CONSTANT: 242.449049066562
+
+  THE COMPRESSIBILITY (unitless):           3.424490465357 
+
+  TOTAL VOLUME (m^3):                      2.372198629182e-25 
+
+  NUMBER OF PARTICLES (unitless):          5000 
+
+ Performance counter stats for './MDpar.exe':
+
+         49,590.33 msec task-clock                #   23.926 CPUs utilized          
+               661      context-switches          #    0.013 K/sec                  
+                27      cpu-migrations            #    0.001 K/sec                  
+             2,058      page-faults               #    0.042 K/sec                  
+   123,967,487,631      cycles                    #    2.500 GHz                    
+    85,135,388,786      stalled-cycles-frontend   #   68.68% frontend cycles idle   
+   138,553,082,831      instructions              #    1.12  insn per cycle         
+                                                  #    0.61  stalled cycles per insn
+     3,731,626,246      branches                  #   75.249 M/sec                  
+         2,424,310      branch-misses             #    0.06% of all branches        
+
+       2.072694501 seconds time elapsed
+
+      49.589556000 seconds user
+       0.003999000 seconds sys
+
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  WELCOME TO WILLY P CHEM MD!
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  ENTER A TITLE FOR YOUR CALCULATION!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  TITLE ENTERED AS 'cp'
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  WHICH NOBLE GAS WOULD YOU LIKE TO SIMULATE? (DEFAULT IS ARGON)
+
+  FOR HELIUM,  TYPE 'He' THEN PRESS 'return' TO CONTINUE
+  FOR NEON,    TYPE 'Ne' THEN PRESS 'return' TO CONTINUE
+  FOR ARGON,   TYPE 'Ar' THEN PRESS 'return' TO CONTINUE
+  FOR KRYPTON, TYPE 'Kr' THEN PRESS 'return' TO CONTINUE
+  FOR XENON,   TYPE 'Xe' THEN PRESS 'return' TO CONTINUE
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     YOU ARE SIMULATING Ar GAS! 
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  YOU WILL NOW ENTER A FEW SIMULATION PARAMETERS
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  ENTER THE INTIAL TEMPERATURE OF YOUR GAS IN KELVIN
+
+
+  ENTER THE NUMBER DENSITY IN moles/m^3
+  FOR REFERENCE, NUMBER DENSITY OF AN IDEAL GAS AT STP IS ABOUT 40 moles/m^3
+  NUMBER DENSITY OF LIQUID ARGON AT 1 ATM AND 87 K IS ABOUT 35000 moles/m^3
+  PERCENTAGE OF CALCULATION COMPLETE:
+  [ 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 ]
+
+  TO ANIMATE YOUR SIMULATION, OPEN THE FILE 
+  'cp_traj.xyz' WITH VMD AFTER THE SIMULATION COMPLETES
+
+  TO ANALYZE INSTANTANEOUS DATA ABOUT YOUR MOLECULE, OPEN THE FILE 
+  'cp_output.txt' WITH YOUR FAVORITE TEXT EDITOR OR IMPORT THE DATA INTO EXCEL
+
+  THE FOLLOWING THERMODYNAMIC AVERAGES WILL BE COMPUTED AND WRITTEN TO THE FILE  
+  'cp_average.txt':
+
+  AVERAGE TEMPERATURE (K):                 131.455064150292
+
+  AVERAGE PRESSURE  (Pa):                  131001228.450759932399
+
+  PV/nT (J * mol^-1 K^-1):                 28.472788520122
+
+  PERCENT ERROR of pV/nT AND GAS CONSTANT: 242.449049066562
+
+  THE COMPRESSIBILITY (unitless):           3.424490465357 
+
+  TOTAL VOLUME (m^3):                      2.372198629182e-25 
+
+  NUMBER OF PARTICLES (unitless):          5000 
+
+ Performance counter stats for './MDpar.exe':
+
+         57,953.96 msec task-clock                #   27.918 CPUs utilized          
+               765      context-switches          #    0.013 K/sec                  
+                29      cpu-migrations            #    0.001 K/sec                  
+             2,353      page-faults               #    0.041 K/sec                  
+   144,874,959,147      cycles                    #    2.500 GHz                    
+   105,046,560,256      stalled-cycles-frontend   #   72.51% frontend cycles idle   
+   139,354,985,723      instructions              #    0.96  insn per cycle         
+                                                  #    0.75  stalled cycles per insn
+     3,938,356,761      branches                  #   67.957 M/sec                  
+         2,709,586      branch-misses             #    0.07% of all branches        
+
+       2.075885043 seconds time elapsed
+
+      57.949030000 seconds user
+       0.008999000 seconds sys
+
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  WELCOME TO WILLY P CHEM MD!
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  ENTER A TITLE FOR YOUR CALCULATION!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  TITLE ENTERED AS 'cp'
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  WHICH NOBLE GAS WOULD YOU LIKE TO SIMULATE? (DEFAULT IS ARGON)
+
+  FOR HELIUM,  TYPE 'He' THEN PRESS 'return' TO CONTINUE
+  FOR NEON,    TYPE 'Ne' THEN PRESS 'return' TO CONTINUE
+  FOR ARGON,   TYPE 'Ar' THEN PRESS 'return' TO CONTINUE
+  FOR KRYPTON, TYPE 'Kr' THEN PRESS 'return' TO CONTINUE
+  FOR XENON,   TYPE 'Xe' THEN PRESS 'return' TO CONTINUE
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     YOU ARE SIMULATING Ar GAS! 
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  YOU WILL NOW ENTER A FEW SIMULATION PARAMETERS
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  ENTER THE INTIAL TEMPERATURE OF YOUR GAS IN KELVIN
+
+
+  ENTER THE NUMBER DENSITY IN moles/m^3
+  FOR REFERENCE, NUMBER DENSITY OF AN IDEAL GAS AT STP IS ABOUT 40 moles/m^3
+  NUMBER DENSITY OF LIQUID ARGON AT 1 ATM AND 87 K IS ABOUT 35000 moles/m^3
+  PERCENTAGE OF CALCULATION COMPLETE:
+  [ 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 ]
+
+  TO ANIMATE YOUR SIMULATION, OPEN THE FILE 
+  'cp_traj.xyz' WITH VMD AFTER THE SIMULATION COMPLETES
+
+  TO ANALYZE INSTANTANEOUS DATA ABOUT YOUR MOLECULE, OPEN THE FILE 
+  'cp_output.txt' WITH YOUR FAVORITE TEXT EDITOR OR IMPORT THE DATA INTO EXCEL
+
+  THE FOLLOWING THERMODYNAMIC AVERAGES WILL BE COMPUTED AND WRITTEN TO THE FILE  
+  'cp_average.txt':
+
+  AVERAGE TEMPERATURE (K):                 131.455064150292
+
+  AVERAGE PRESSURE  (Pa):                  131001228.450759977102
+
+  PV/nT (J * mol^-1 K^-1):                 28.472788520122
+
+  PERCENT ERROR of pV/nT AND GAS CONSTANT: 242.449049066562
+
+  THE COMPRESSIBILITY (unitless):           3.424490465357 
+
+  TOTAL VOLUME (m^3):                      2.372198629182e-25 
+
+  NUMBER OF PARTICLES (unitless):          5000 
+
+ Performance counter stats for './MDpar.exe':
+
+         66,346.79 msec task-clock                #   31.894 CPUs utilized          
+               729      context-switches          #    0.011 K/sec                  
+                31      cpu-migrations            #    0.000 K/sec                  
+             2,608      page-faults               #    0.039 K/sec                  
+   165,856,508,233      cycles                    #    2.500 GHz                    
+   124,493,480,932      stalled-cycles-frontend   #   75.06% frontend cycles idle   
+   140,609,383,933      instructions              #    0.85  insn per cycle         
+                                                  #    0.89  stalled cycles per insn
+     4,271,538,329      branches                  #   64.382 M/sec                  
+         2,953,392      branch-misses             #    0.07% of all branches        
+
+       2.080238302 seconds time elapsed
+
+      66.345651000 seconds user
+       0.003999000 seconds sys
+
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  WELCOME TO WILLY P CHEM MD!
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  ENTER A TITLE FOR YOUR CALCULATION!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  TITLE ENTERED AS 'cp'
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  WHICH NOBLE GAS WOULD YOU LIKE TO SIMULATE? (DEFAULT IS ARGON)
+
+  FOR HELIUM,  TYPE 'He' THEN PRESS 'return' TO CONTINUE
+  FOR NEON,    TYPE 'Ne' THEN PRESS 'return' TO CONTINUE
+  FOR ARGON,   TYPE 'Ar' THEN PRESS 'return' TO CONTINUE
+  FOR KRYPTON, TYPE 'Kr' THEN PRESS 'return' TO CONTINUE
+  FOR XENON,   TYPE 'Xe' THEN PRESS 'return' TO CONTINUE
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     YOU ARE SIMULATING Ar GAS! 
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  YOU WILL NOW ENTER A FEW SIMULATION PARAMETERS
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  ENTER THE INTIAL TEMPERATURE OF YOUR GAS IN KELVIN
+
+
+  ENTER THE NUMBER DENSITY IN moles/m^3
+  FOR REFERENCE, NUMBER DENSITY OF AN IDEAL GAS AT STP IS ABOUT 40 moles/m^3
+  NUMBER DENSITY OF LIQUID ARGON AT 1 ATM AND 87 K IS ABOUT 35000 moles/m^3
+  PERCENTAGE OF CALCULATION COMPLETE:
+  [ 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 ]
+
+  TO ANIMATE YOUR SIMULATION, OPEN THE FILE 
+  'cp_traj.xyz' WITH VMD AFTER THE SIMULATION COMPLETES
+
+  TO ANALYZE INSTANTANEOUS DATA ABOUT YOUR MOLECULE, OPEN THE FILE 
+  'cp_output.txt' WITH YOUR FAVORITE TEXT EDITOR OR IMPORT THE DATA INTO EXCEL
+
+  THE FOLLOWING THERMODYNAMIC AVERAGES WILL BE COMPUTED AND WRITTEN TO THE FILE  
+  'cp_average.txt':
+
+  AVERAGE TEMPERATURE (K):                 131.455064150292
+
+  AVERAGE PRESSURE  (Pa):                  131001228.450760036707
+
+  PV/nT (J * mol^-1 K^-1):                 28.472788520122
+
+  PERCENT ERROR of pV/nT AND GAS CONSTANT: 242.449049066563
+
+  THE COMPRESSIBILITY (unitless):           3.424490465357 
+
+  TOTAL VOLUME (m^3):                      2.372198629182e-25 
+
+  NUMBER OF PARTICLES (unitless):          5000 
+
+ Performance counter stats for './MDpar.exe':
+
+         74,311.05 msec task-clock                #   35.898 CPUs utilized          
+               416      context-switches          #    0.006 K/sec                  
+                35      cpu-migrations            #    0.000 K/sec                  
+             2,976      page-faults               #    0.040 K/sec                  
+   185,766,809,238      cycles                    #    2.500 GHz                    
+   143,159,487,156      stalled-cycles-frontend   #   77.06% frontend cycles idle   
+   141,492,077,045      instructions              #    0.76  insn per cycle         
+                                                  #    1.01  stalled cycles per insn
+     4,497,254,065      branches                  #   60.519 M/sec                  
+         3,064,094      branch-misses             #    0.07% of all branches        
+
+       2.070039834 seconds time elapsed
+
+      74.273997000 seconds user
+       0.040990000 seconds sys
+
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  WELCOME TO WILLY P CHEM MD!
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  ENTER A TITLE FOR YOUR CALCULATION!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                  TITLE ENTERED AS 'cp'
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  WHICH NOBLE GAS WOULD YOU LIKE TO SIMULATE? (DEFAULT IS ARGON)
+
+  FOR HELIUM,  TYPE 'He' THEN PRESS 'return' TO CONTINUE
+  FOR NEON,    TYPE 'Ne' THEN PRESS 'return' TO CONTINUE
+  FOR ARGON,   TYPE 'Ar' THEN PRESS 'return' TO CONTINUE
+  FOR KRYPTON, TYPE 'Kr' THEN PRESS 'return' TO CONTINUE
+  FOR XENON,   TYPE 'Xe' THEN PRESS 'return' TO CONTINUE
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                     YOU ARE SIMULATING Ar GAS! 
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  YOU WILL NOW ENTER A FEW SIMULATION PARAMETERS
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  ENTER THE INTIAL TEMPERATURE OF YOUR GAS IN KELVIN
+
+
+  ENTER THE NUMBER DENSITY IN moles/m^3
+  FOR REFERENCE, NUMBER DENSITY OF AN IDEAL GAS AT STP IS ABOUT 40 moles/m^3
+  NUMBER DENSITY OF LIQUID ARGON AT 1 ATM AND 87 K IS ABOUT 35000 moles/m^3
+  PERCENTAGE OF CALCULATION COMPLETE:
+  [ 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 ]
+
+  TO ANIMATE YOUR SIMULATION, OPEN THE FILE 
+  'cp_traj.xyz' WITH VMD AFTER THE SIMULATION COMPLETES
+
+  TO ANALYZE INSTANTANEOUS DATA ABOUT YOUR MOLECULE, OPEN THE FILE 
+  'cp_output.txt' WITH YOUR FAVORITE TEXT EDITOR OR IMPORT THE DATA INTO EXCEL
+
+  THE FOLLOWING THERMODYNAMIC AVERAGES WILL BE COMPUTED AND WRITTEN TO THE FILE  
+  'cp_average.txt':
+
+  AVERAGE TEMPERATURE (K):                 131.455064150292
+
+  AVERAGE PRESSURE  (Pa):                  131001228.450759947300
+
+  PV/nT (J * mol^-1 K^-1):                 28.472788520122
+
+  PERCENT ERROR of pV/nT AND GAS CONSTANT: 242.449049066562
+
+  THE COMPRESSIBILITY (unitless):           3.424490465357 
+
+  TOTAL VOLUME (m^3):                      2.372198629182e-25 
+
+  NUMBER OF PARTICLES (unitless):          5000 
+
+ Performance counter stats for './MDpar.exe':
+
+         81,751.86 msec task-clock                #   39.851 CPUs utilized          
+               174      context-switches          #    0.002 K/sec                  
+                45      cpu-migrations            #    0.001 K/sec                  
+             3,133      page-faults               #    0.038 K/sec                  
+   204,372,310,605      cycles                    #    2.500 GHz                    
+   160,302,795,632      stalled-cycles-frontend   #   78.44% frontend cycles idle   
+   142,687,454,395      instructions              #    0.70  insn per cycle         
+                                                  #    1.12  stalled cycles per insn
+     4,813,998,541      branches                  #   58.885 M/sec                  
+         3,162,714      branch-misses             #    0.07% of all branches        
+
+       2.051451438 seconds time elapsed
+
+      81.742060000 seconds user
+       0.011998000 seconds sys
+
