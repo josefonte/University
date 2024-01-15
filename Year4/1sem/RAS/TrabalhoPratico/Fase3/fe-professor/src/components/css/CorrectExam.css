@@ -1,0 +1,38 @@
+
+
+.form {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centraliza horizontalmente */
+      justify-content: center; /* Centraliza verticalmente */
+}
+
+.title {
+    margin-bottom: 20;
+}
+
+.textField {
+      width: '100%';
+      
+}
+.button{
+      margin: 10;
+}
+
+.modal {
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'center';
+}
+
+.modalContent {
+      padding: 20;
+}
+
+.switch-container {
+      display: flex;
+      align-items: center;
+      padding-bottom: 20px;
+}
+
+  
