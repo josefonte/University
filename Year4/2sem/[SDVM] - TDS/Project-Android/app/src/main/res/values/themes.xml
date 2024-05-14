@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tds_projeto" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/baixo5</item>
+    </style>
+
+    <style name="Theme.Tds_projeto" parent="Base.Theme.Tds_projeto" />
+</resources>

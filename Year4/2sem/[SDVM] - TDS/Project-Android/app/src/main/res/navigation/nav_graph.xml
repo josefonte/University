@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/sobre_fragment">
+
+    <action android:id="@+id/action_global_trailFragment"
+        app:destination="@id/trail_fragment"
+        app:launchSingleTop="true"/>
+
+    <action android:id="@+id/action_global_pontoFragment"
+        app:destination="@id/ponto_fragment"
+        app:launchSingleTop="true"/>
+
+    <fragment
+        android:id="@+id/sobre_fragment"
+        android:name="com.example.braguia2.ui.fragments.sobre"
+        android:label="fragment_sobre"
+        tools:layout="@layout/fragment_sobre" />
+    <fragment
+        android:id="@+id/explorar_fragment"
+        android:name="com.example.braguia2.ui.fragments.explorar"
+        android:label="fragment_explorar"
+        tools:layout="@layout/fragment_explorar" >
+        <action
+            android:id="@+id/action_explorar_fragment_to_trail_fragment"
+            app:destination="@id/trail_fragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_explorar_fragment_to_suport"
+            app:destination="@id/suport" />
+        <action
+            android:id="@+id/action_explorar_fragment_to_ponto"
+            app:destination="@id/ponto_fragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"/>
+    </fragment>
+    <fragment
+        android:id="@+id/mapa_fragment"
+        android:name="com.example.braguia2.ui.fragments.mapa"
+        android:label="fragment_mapa"
+        tools:layout="@layout/fragment_mapa" >
+    <action
+        android:id="@+id/action_mapa_fragment_to_ponto_fragment"
+        app:destination="@id/ponto_fragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/favoritos_fragment"
+        android:name="com.example.braguia2.ui.fragments.favoritos_fav"
+        android:label="fragment_favoritos"
+        tools:layout="@layout/fragment_favoritos_fav" >
+        <action
+            android:id="@+id/action_favoritos_fragment_to_login_fragment"
+            app:destination="@id/login_fragment" />
+        <action
+            android:id="@+id/action_favoritos_fragment_to_favoritos_downloads_fragment"
+            app:destination="@id/favoritos_downloads_fragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/login_fragment"
+        android:name="com.example.braguia2.ui.fragments.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_fragment_to_perfil_fragment"
+            app:destination="@id/perfil_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/trail_fragment"
+        android:name="com.example.braguia2.ui.fragments.trail"
+        android:label="fragment_trail"
+        tools:layout="@layout/fragment_trail" >
+        <action
+            android:id="@+id/action_trail_fragment_to_explorar_fragment"
+            app:destination="@id/explorar_fragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_trail_fragment_to_ponto_fragment"
+            app:destination="@id/ponto_fragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_trail_fragment_to_mapa_fragment"
+            app:destination="@id/mapa_fragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfil_fragment"
+        android:name="com.example.braguia2.ui.fragments.perfil"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" >
+        <action
+            android:id="@+id/action_perfil_fragment_to_login_fragment"
+            app:destination="@id/login_fragment" />
+        <action
+            android:id="@+id/action_perfil_fragment_to_configs"
+            app:destination="@id/configs" />
+        <action
+            android:id="@+id/action_perfil_fragment_to_suport"
+            app:destination="@id/suport" />
+        <action
+            android:id="@+id/action_perfil_fragment_to_sobre_fragment"
+            app:destination="@id/sobre_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritos_downloads_fragment"
+        android:name="com.example.braguia2.ui.fragments.favoritos_downloads"
+        android:label="favoritos_desc"
+        tools:layout="@layout/fragment_favoritos_historico">
+        <action
+            android:id="@+id/action_favoritos_historico_fragment_to_favoritos_fragment"
+            app:destination="@id/favoritos_fragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/suport"
+        android:name="com.example.braguia2.ui.fragments.support"
+        android:label="fragment_suport"
+        tools:layout="@layout/fragment_support" />
+    <fragment
+        android:id="@+id/configs"
+        android:name="com.example.braguia2.ui.fragments.configs"
+        android:label="fragment_configs"
+        tools:layout="@layout/fragment_configs" >
+        <action
+            android:id="@+id/action_configs_to_perfil_fragment"
+            app:destination="@id/perfil_fragment" />
+        <action
+            android:id="@+id/action_configs_to_config_location"
+            app:destination="@id/config_location" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ponto_fragment"
+        android:name="com.example.braguia2.ui.fragments.ponto"
+        android:label="fragment_ponto"
+        tools:layout="@layout/fragment_ponto_interesse" >
+    <action
+        android:id="@+id/action_pontos_fragment_to_explorar_fragment"
+        app:popUpTo="@id/ponto_fragment"
+        app:popUpToInclusive="true"
+        app:enterAnim="@android:anim/fade_in"
+        app:exitAnim="@android:anim/fade_out" />
+
+        <action
+            android:id="@+id/action_ponto_fragment_to_mapa_fragment"
+            app:destination="@id/mapa_fragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/config_location"
+        android:name="com.example.braguia2.ui.fragments.config_location"
+        android:label="fragment_config_location"
+        tools:layout="@layout/fragment_config_location" >
+        <action
+            android:id="@+id/action_config_location_to_configs"
+            app:destination="@id/configs" />
+    </fragment>
+
+</navigation>

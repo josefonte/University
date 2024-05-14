@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_support"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".ui.fragments.support">
+
+    <TextView
+        android:id="@+id/SupportTitulo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/robotoslab_bold"
+        android:text="Bem vindo ao \nSuporte do BraGuia"
+        android:textAlignment="textStart"
+        android:textColor="@color/baixo5"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/Preferences_linear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/SupportTitulo">
+
+        <TextView
+            android:id="@+id/CustomerSupportTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoslab_semibold"
+            android:text="Custormer Support"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/metrics_units_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/customer_site_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/computer"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="site"
+                android:textAlignment="textStart"
+                android:textColor="@color/cima5"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/customericonEnd_site"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/external_link" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/linha_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/theme_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/customer_mail_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/mail"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="mail"
+                android:textAlignment="textStart"
+                android:textColor="@color/cima5"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/customer_iconEnd_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/external_link" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sep1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/linha_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/language_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/customer_phone_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/phone_calling"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="phone"
+                android:textAlignment="textStart"
+                android:textColor="@color/cima5"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/customericonEnd_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/external_link" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sep2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/linha_horizontal" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Emergency_linear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Preferences_linear">
+
+        <TextView
+            android:id="@+id/EmergencyTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoslab_semibold"
+            android:text="Medical Emergency Service"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <LinearLayout
+            android:id="@+id/medical_site_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/medical_site_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/computer"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="site"
+                android:textAlignment="textStart"
+                android:textColor="@color/cima5"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/iconEnd_site"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/external_link" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sep3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/linha_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/medical_mail_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/medical_mail_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/mail"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="mail"
+                android:textAlignment="textStart"
+                android:textColor="@color/cima5"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/iconEnd_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/external_link" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sep4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/linha_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/medical_phone_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/medical_phone_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/phone_calling"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="phone"
+                android:textAlignment="textStart"
+                android:textColor="@color/cima5"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/iconEnd_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/external_link" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sep5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/linha_horizontal" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".ui.fragments.explorar">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/search_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/searchbar_background"
+            android:queryHint="Procurar roteiros"
+            android:searchHintIcon="@drawable/info"
+            app:layout_constraintEnd_toStartOf="@+id/phone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/filtros"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/filtro_button"
+            android:backgroundTint="@color/filtrobackground"
+            android:scaleType="center"
+            android:src="@drawable/filtro"
+            app:layout_constraintBottom_toBottomOf="@+id/searchView"
+            app:layout_constraintEnd_toEndOf="@+id/searchView"
+            app:layout_constraintTop_toTopOf="@+id/searchView" />
+
+        <ImageButton
+            android:id="@+id/phone"
+            android:layout_width="48dp"
+            android:layout_height="0dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/butao_phone"
+            android:scaleType="center"
+            android:src="@drawable/phone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></ImageButton>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/explorar_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="55dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/explorar_constraint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <HorizontalScrollView
+                android:id="@+id/h_scroll_filtros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                app:layout_constraintBottom_toTopOf="@id/roteiros_pop_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/searchView"
+                tools:ignore="NotSibling">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toTopOf="@id/roteiros_pop_text"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/searchView">
+
+                    <ImageView
+                        android:id="@+id/natureza_filter"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/natureza_filter_sel" />
+
+
+                    <ImageView
+                        android:id="@+id/cultura_filter"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/cultura_filter_not" />
+
+                    <ImageView
+                        android:id="@+id/religiao_filter"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/religiao_filter_not" />
+
+                    <ImageView
+                        android:id="@+id/comida_filter"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/comida_filter_not" />
+
+                    <ImageView
+                        android:id="@+id/bebida_filter"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/bebida_filter_not" />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:id="@+id/roteiros_pop_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/robotoslab_bold"
+                android:text="Roteiros Populares"
+                android:textColor="@color/baixo5"
+                android:textSize="30sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/h_scroll_filtros" />
+
+            <HorizontalScrollView
+                android:id="@+id/h_scroll_pop"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/roteiros_pop_text"
+                tools:ignore="MissingConstraints">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="4dp">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                   >
+
+                    <ImageView
+                        android:id="@+id/imageViewPop1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.8"
+                        android:background="@drawable/roteiro_pop_back"
+
+                        android:elevation="-8dp"
+                        android:scaleType="centerCrop" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="320dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roteiro_pop_back">
+
+                        <ImageView
+                            android:id="@+id/botaoFavorito"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/meio_botao_favoritos"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textViewPop1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:layout_marginStart="10dp"
+                            android:elevation="9dp"
+                            android:fontFamily="@font/robotoslab_bold"
+                            android:text="@string/a"
+                            android:textColor="@color/baixo5"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@+id/trailInfoPop1"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/trailInfoPop1"
+                            android:layout_width="270dp"
+                            android:layout_height="23dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:src="@drawable/details_trail"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/stat11"
+                            android:layout_width="30dp"
+                            android:layout_height="16dp"
+                            android:layout_marginStart="20dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="9:99"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="@id/trailInfoPop1"
+                            app:layout_constraintStart_toStartOf="@+id/trailInfoPop1"
+                            app:layout_constraintTop_toTopOf="@id/trailInfoPop1"
+                            app:layout_constraintVertical_bias="0.428" />
+
+                        <TextView
+                            android:id="@+id/stat12"
+                            android:layout_width="27dp"
+                            android:layout_height="16dp"
+                            android:layout_marginStart="95dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="5.5"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="@id/trailInfoPop1"
+                            app:layout_constraintStart_toStartOf="@+id/trailInfoPop1"
+                            app:layout_constraintTop_toTopOf="@id/trailInfoPop1" />
+
+
+                        <TextView
+                            android:id="@+id/stat13"
+                            android:layout_width="26dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="165dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="12"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="@id/trailInfoPop1"
+                            app:layout_constraintStart_toStartOf="@+id/trailInfoPop1"
+                            app:layout_constraintTop_toTopOf="@id/trailInfoPop1" />
+
+
+                        <TextView
+                            android:id="@+id/stat14"
+                            android:layout_width="55dp"
+                            android:layout_height="17dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="Fácil"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="@+id/trailInfoPop1"
+                            app:layout_constraintEnd_toEndOf="@+id/trailInfoPop1"
+                            app:layout_constraintTop_toTopOf="@id/trailInfoPop1" />
+
+                        <TextView
+                            android:id="@+id/min"
+                            android:layout_width="20dp"
+                            android:layout_height="15dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="min"
+                            android:textAlignment="textStart"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            app:layout_constraintBottom_toBottomOf="@+id/trailInfoPop1"
+                            app:layout_constraintStart_toEndOf="@+id/stat11"
+                            app:layout_constraintTop_toTopOf="@+id/trailInfoPop1"
+                            app:layout_constraintVertical_bias="0.666" />
+
+                        <TextView
+                            android:id="@+id/km"
+                            android:layout_width="20dp"
+                            android:layout_height="15dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="km"
+                            android:textAlignment="viewStart"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            app:layout_constraintBottom_toBottomOf="@+id/trailInfoPop1"
+                            app:layout_constraintStart_toEndOf="@+id/stat12"
+                            app:layout_constraintTop_toTopOf="@+id/trailInfoPop1"
+                            app:layout_constraintVertical_bias="0.625" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </FrameLayout>
+
+                </androidx.cardview.widget.CardView>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/pontos_interesse_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/robotoslab_bold"
+                android:text="Pontos de Interesse"
+                android:textColor="@color/baixo5"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@+id/pontos_interesse_recycleview"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/h_scroll_pop" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/pontos_interesse_recycleview"
+                android:name="com.example.braguia2.ui.fragments.PontosListFragment"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:scrollbars="none"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pontos_interesse_text">
+
+
+            </androidx.fragment.app.FragmentContainerView>
+
+            <TextView
+                android:id="@+id/sugestoes_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/robotoslab_bold"
+                android:text="Sugestões"
+                android:textColor="@color/baixo5"
+                android:textSize="30sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pontos_interesse_recycleview" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerViewSugest"
+                android:name="com.example.braguia2.ui.fragments.TrailListFragment"
+                android:layout_width="match_parent"
+                android:layout_height="850dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginEnd="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sugestoes_text" />
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

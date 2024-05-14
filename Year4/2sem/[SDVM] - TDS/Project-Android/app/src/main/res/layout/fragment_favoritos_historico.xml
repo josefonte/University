@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:backgroundTint="@color/backgroundColor"
+    tools:context=".ui.fragments.favoritos_fav">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn_favoritos"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/mybutton"
+            android:backgroundTint="@color/backgroundColor"
+            android:fontFamily="@font/robotoslab_medium"
+            android:gravity="left|center_vertical"
+            android:text="Favoritos"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/cima4"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toTopOf="@+id/sep_hori"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/sep_hori"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/linha_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/sep_hori"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_favoritos"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/btn_descarregamentos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/mybutton"
+                android:backgroundTint="@color/backgroundColor"
+                android:fontFamily="@font/robotoslab_medium"
+                android:gravity="left|center_vertical"
+                android:text="Histórico"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/baixo5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/linha_fav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line_fav_highlight" />
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/roteiros_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/sep_hori"
+            app:layout_constraintTop_toBottomOf="@+id/sep_hori"
+            android:text="Roteiros Visitados"
+            android:fontFamily="@font/robotoslab_bold"
+            android:textColor="@color/baixo5"
+            android:textSize="30sp"
+            />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerHist"
+            android:name="com.example.braguia2.ui.fragments.TrailHistoricoListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/roteiros_text"/>
+
+        <TextView
+            android:id="@+id/pontos_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/sep_hori"
+            app:layout_constraintTop_toBottomOf="@+id/fragmentContainerHist"
+            android:text="Pontos Visitados"
+            android:fontFamily="@font/robotoslab_bold"
+            android:textColor="@color/baixo5"
+            android:textSize="30sp"
+            />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerHistPontos"
+            android:name="com.example.braguia2.ui.fragments.PontoHistoricoListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pontos_text"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
