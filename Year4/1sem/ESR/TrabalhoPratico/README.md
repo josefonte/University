@@ -1,4 +1,5 @@
-### Grupo 8 - [José Fonte](https://github.com/josefonte) | [Bernard Georges](https://github.com/BernardGeorges) | [Vasco Oliveira](https://github.com/Vasco2002) Nota :
+### Grupo 8 - [José Fonte](https://github.com/josefonte) | [Bernard Georges](https://github.com/BernardGeorges) | [Vasco Oliveira](https://github.com/Vasco2002) Nota : 17
+
 
 No âmbito da cadeira de Engenharia de Serviços em Rede, o grupo desenvolveu um trabalho dividido em duas fases:
 
