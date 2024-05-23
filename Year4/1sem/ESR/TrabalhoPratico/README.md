@@ -1,9 +1,8 @@
-### Grupo 8 - [José Fonte](https://github.com/josefonte) | [Bernard Georges](https://github.com/BernardGeorges) | [Vasco Oliveira](https://github.com/Vasco2002) Nota : 17
+### Group - [José Fonte](https://github.com/josefonte) | [Bernard Georges](https://github.com/BernardGeorges) | [Vasco Oliveira](https://github.com/Vasco2002) Grade: 17
 
+As part of the Network Service Engineering course, the group developed a project divided into two phases:
 
-No âmbito da cadeira de Engenharia de Serviços em Rede, o grupo desenvolveu um trabalho dividido em duas fases:
+- **Phase 1**: Analysis of On-Demand and Real-Time Audio and Video Streaming
+- **Phase 2**: OTT Video Streaming Network
 
-- **Fase 1** : Análise de Streaming de Áudio e Vídeo a Pedido e em Tempo Real
-- **Fase 2** : Rede OTT de Streaming de Vídeo
-
-Engenharia de Serviços em Rede | 4ºano | 1ºSemestre | Universidade do Minho | M.I. Engenharia Informática | Ano Letivo 23/24
+Network Service Engineering | 4th Year | 1st Semester | University of Minho | Integrated Master's in Software Engineering | Academic Year 23/24
