@@ -1,61 +1,54 @@
-# Projeto-SO 💻⚡
-## Nota : 16.0
+# OS Project 💻⚡
+## Grade: 16.0
 
+As part of the Operating Systems course, group 98 developed a program in C aimed at implementing a service that allows users to securely and efficiently store copies of their files, saving disk space.
 
-No âmbito da cadeira de Sistemas Operativos, o grupo 98 desenvolveu um programa em C que pretende implementar um serviço que permitisse aos utilizadores armazenar uma cópia dos seus ficheiros de forma segura e eficiente, poupando espaço de disco.
+To achieve this, the service offers functionalities for compressing/decompressing and encrypting/decrypting the files to be stored. The 7 available transformations are:
+- __bcompress__ / __bdecompress__: Compresses / decompresses data in bzip2 format.
+- __gcompress__ / __gdecompress__: Compresses / decompresses data in gzip format.
+- __encrypt__ / __decrypt__: Encrypts / decrypts data.
+- __nop__: Copies data without any transformation.
 
-Para tal o serviço disponibilizará funcionalidades de compressão/descompressão e cifragem/decifragem dos ficheiros a serem armazenados. As 7 transformações disponíveis são:
-   - __bcompress__ / __bdecompress__. Comprime / descomprime dados com o formato bzip2.
-   - __gcompress__ / __gdecompress__. Comprime / descomprime dados com o formato gzip.
-   - __encrypt__ / __decrypt__. Cifra / decifra dados.
-   - __nop__. Copia dados sem realizar qualquer transformação.
+The basic functionalities of the service include submitting requests to process and store new files, as well as retrieving the original content of previously stored files. It is also possible to check the processing tasks being performed at any given moment.
 
-Como funcionalidades básicas o serviço deve permitir a submissão de pedidos para processar e
-armazenar novos ficheiros bem como recuperar o conteúdo original de ficheiros guardados
-previamente. É possível ainda consultar as tarefas de processamento de ficheiros a serem efetuadas
-num dado momento.
-
-Como funcionalidades avançadas o serviço deve permitir obter estatísticas sobre o tamanho do
-documento de input e de output, implementar a prioridade de pedidos e fechar o servidor
-graciosamente com o sinal SIGTERM.
-
+Advanced functionalities of the service include obtaining statistics on the input and output file sizes, implementing request priorities, and gracefully shutting down the server with the SIGTERM signal.
 
 ---------------
 
-Para compilar o programa usa-se o _Makefile_:
- 
- `$ make` : para compilar
- 
- `$ make clean` : para limpar
- 
- ---------------
-  
-Para correr o programa abre-se dois terminais, um do servidor e outro do cliente.
+To compile the program, use the _Makefile_:
 
-O servidor deve ser executado primeiro com o seguinte formato.
- 
- `$ ./sdstored <server-configfile> <pasta de exectuaveis das transformações>`
- 
- Neste caso este ficheiro e diretoria já existem por isso é só correr o comando:
-  
-  ``` $ ./sdstored src/config.txt bin/ ```
-  
----------------
-  
- Para executar os clientes/pedidos (podem ser executados vários ao mesmo tempo) corre-se o comando com os formatos: 
- 
-`./sdstore status` : para saber o estado do servidor.
+`$ make`: to compile
 
-`./sdstore proc-file priority input-filename output-filename transf1 transf2 ...` : para executar transformações no input-file.
-
-Um exemplo de uma execução de transformações é:
-
-`./sdstore proc-file 1 file1.txt file2 nop bcompress gcompress e encrypt`
-
-E para retornar o ficheiro de output à sua forma original faz-se as operações contrárias:
-
-```./sdstore proc-file 1 file2 file3 decrypt gdecompress bdecompress```
+`$ make clean`: to clean
 
 ---------------
 
-Projeto SO | 2ºano | 2ºSemestre | Universidade do Minho 2021/2022
+To run the program, open two terminals, one for the server and one for the client.
+
+The server should be executed first with the following format:
+
+`$ ./sdstored <server-configfile> <transformations executables directory>`
+
+In this case, the file and directory already exist, so simply run the command:
+
+`$ ./sdstored src/config.txt bin/`
+
+---------------
+
+To execute the clients/requests (multiple can be executed simultaneously), use the following commands:
+
+`./sdstore status`: to check the server status.
+
+`./sdstore proc-file priority input-filename output-filename transf1 transf2 ...`: to execute transformations on the input file.
+
+An example of executing transformations is:
+
+`./sdstore proc-file 1 file1.txt file2 nop bcompress gcompress encrypt`
+
+And to return the output file to its original form, perform the opposite operations:
+
+`./sdstore proc-file 1 file2 file3 decrypt gdecompress bdecompress`
+
+---------------
+
+Operating Systems Project | 2nd Year | 2nd Semester | University of Minho | Academic Year 2021/2022
