@@ -1,6 +1,6 @@
-# Simulador de Corridas 🏎️
-### Grupo 8 - [Inês Ferreira](https://github.com/inesferreira23) | [João Loureiro](https://github.com/jmfl27) | [José Fonte](https://github.com/josefonte) | [Miguel Raposo](https://github.com/MiguelRaposo) | [Rafael Picão](https://github.com/rafaelcorreia94870) 
+# Race Simulation 🏎️
+### Grupo  - [Inês Ferreira](https://github.com/inesferreira23) | [João Loureiro](https://github.com/jmfl27) | [José Fonte](https://github.com/josefonte) | [Miguel Raposo](https://github.com/MiguelRaposo) | [Rafael Picão](https://github.com/rafaelcorreia94870) 
 
 ### Nota : 12.0
 
-Desenvolvimento de Sistemas de Software | 3ºano | 1ºSemestre | Universidade do Minho | M.I. Engenharia Informática | Ano Letivo 22/23
+Development of Software Systems | 3rd year | 1st semester | University of Minho | Integrated Master's in Software Engineering | Academic Year 22/23
