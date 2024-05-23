@@ -1,11 +1,11 @@
-### Grupo 8 - [José Fonte](https://github.com/josefonte) | [Bernard Georges](https://github.com/) Nota :
+### Group 8 - [José Fonte](https://github.com/josefonte) | [Bernard Georges](https://github.com/) Grade: 16
 
-No âmbito da cadeira de Computação Paralela, o grupo desenvolveu um trabalho com o objetivo de otimizar um código simples para simular as dinâmicas moleculares de um dado gás.
+As part of the Parallel Computing course, the group developed a project with the goal of optimizing a simple code to simulate the molecular dynamics of a given gas.
 
-O grupo cumpriu as seguintes fases de trabalho:
+The group completed the following phases of work:
 
-- **Fase 1** : Otimizações de Código Sequencial
-- **Fase 2** : Implementação OpenMP (paralelização na CPU )
-- **Fase 3** : Implementação CUDA (paralelização na GPU )
+- **Phase 1**: Sequential Code Optimizations
+- **Phase 2**: OpenMP Implementation (parallelization on CPU)
+- **Phase 3**: CUDA Implementation (parallelization on GPU)
 
-Computação Paralela | 4ºano | 1ºSemestre | Universidade do Minho | M.I. Engenharia Informática | Ano Letivo 23/24
+Parallel Computing | 4th Year | 1st Semester | University of Minho | Integrated Master's in Software Engineering | Academic Year 23/24
