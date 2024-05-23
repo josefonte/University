@@ -1,5 +1,4 @@
-Daniel Du - PG53751
+# Android Project 🤖📱
+### Group - [José Fonte](https://github.com/josefonte) | [Daniel Du](https://github.com/72rogan) | [Ricardo Lucena ](https://github.com/lucena02)
 
-Ricardo Lucena - PG54197
-
-José Fonte - A91775
+Topics of Software Development | 4th Year | 1st Semester | University of Minho | Integrated Master's in Software Engineering | Academic Year 23/24
