@@ -1,14 +1,14 @@
 # PACMAN ᗧ ---- ᗣᗣᗣᗣ 
 
-### __Grupo67__ - [José Eduardo Rocha](https://github.com/Eduard0Rocha) |  [José Fonte](https://github.com/josefonte)  Nota : 20.0
+### __Group 67__ - [José Eduardo Rocha](https://github.com/Eduard0Rocha) |  [José Fonte](https://github.com/josefonte)  Grade: 20.0
 
-Um jogo baseado no clássico de arcada PACMAN, criado em Haskell no âmbito da cadeira de Laboratórios de Informática I, no mestrado integrado em Engenharia Informática da Universidade do Minho.
+A game based on the classic arcade PACMAN, created in Haskell as part of the Laboratory of Computer Science I course, in the integrated master's program in Computer Engineering at the University of Minho.
 
-O ficheiro principal é `GameCompleted.hs` . Para compilar e gerar o executável deve entrar na diretoria `./src` e correr o comando:
+The main file is `GameCompleted.hs`. To compile and generate the executable, go to the `./src` directory and run the command:
 
     $  ghc GameCompleted.hs
 
-Em seguida, para entrar no jogo: 
+Then, to start the game:
 
     $  ./GameCompleted
 
@@ -25,5 +25,4 @@ Em seguida, para entrar no jogo:
   <img src="https://raw.githubusercontent.com/josefonte/University/main/Year1/1sem/LI1/src/ImagensParaPacman/Menus/pacdungeonLOSEplayagain.png" width="24%" /> 
 </p>
 
-
-Universidade do Minho| Mestrado Int. Engenharia Informática | 1ºAno | 1º Semestre | Ano Letivo 20/21
+University of Minho | Integrated Master’s in Software Engineering | 1st Year | 1st Semester | Academic Year 20/21
