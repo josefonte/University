@@ -1,9 +1,9 @@
-### Grupo 8 - [José Fonte](https://github.com/josefonte) Nota Conjunta : 16.40
+### Group - [José Fonte](https://github.com/josefonte) +Elements Joint Grade: 16.40
 
-No âmbito da cadeira de Requisitos e Arquitetura de Software, o trabalho foi dividido em três fases, todas desenvolvidas com grupos aleatórios:
+As part of the Software Requirements and Architecture course, the project was divided into three phases, all developed with random groups:
 
-- **Fase 1** : (5 Elementos) Definição dos Requisitos Funcionais e Não Funcionais
-- **Fase 2** : (15 Elementos) Definição da Arquitetura e Desenvolvimento do Sistema
-- **Fase 3** : (15 Elementos) Implementação do Sistema
+- **Phase 1**: (5 Elements) Definition of Functional and Non-Functional Requirements
+- **Phase 2**: (15 Elements) Definition of Architecture and System Development
+- **Phase 3**: (15 Elements) System Implementation
 
-Dados e Aprendizagem Automática | 4ºano | 1ºSemestre | Universidade do Minho | M.I. Engenharia Informática | Ano Letivo 23/24
+Software Requirements and Architecture | 4th Year | 1st Semester | University of Minho | Integrated Master's in Software Engineering | Academic Year 23/24
