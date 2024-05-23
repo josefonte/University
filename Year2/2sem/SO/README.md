@@ -1,7 +1,7 @@
 # OS Project 💻⚡
 ## Grade: 16.0
 
-As part of the Operating Systems course, group 98 developed a program in C aimed at implementing a service that allows users to securely and efficiently store copies of their files, saving disk space.
+As part of the Operating Systems course, the group  developed a program in C aimed at implementing a service that allows users to securely and efficiently store copies of their files, saving disk space.
 
 To achieve this, the service offers functionalities for compressing/decompressing and encrypting/decrypting the files to be stored. The 7 available transformations are:
 - __bcompress__ / __bdecompress__: Compresses / decompresses data in bzip2 format.
