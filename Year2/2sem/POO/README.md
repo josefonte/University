@@ -1,16 +1,15 @@
-# Projeto-POO 💻⚡
-### Grupo 28 - [José Fonte](https://github.com/josefonte) | [Dinís Estrada](https://github.com/DinisEstrada) Nota: 16.0
+# OOP Project 💻⚡
+### Group - [José Fonte](https://github.com/josefonte) | [Dinís Estrada](https://github.com/DinisEstrada) Grade: 16.0
 
-No âmbito da cadeira de Programação Orientada a Objetos, o trabalho foi desenvolvido em Java com o objetivo de gerir e simular um conjunto de dispositivos inteligentes, casas com dispostivos e um mercado de energia. O programa teria de cumprir:
+As part of the Object-Oriented Programming course, the project was developed in Java with the goal of managing and simulating a set of smart devices, houses with devices, and an energy market. The program had to fulfill:
 
-- __Tarefa1__ : fase de construção. Construir dispositivos(SmartBulb,SmartCamera,SmartBulb), casas e fornecedores de energia. 
-- __Tarefa2__ : fase de simulação onde se avança no tempo e se tira faturas.
-- __Tarefa3__ : estatísticas sobre as casas e os fornecedores.
-- __Tarefa4__ : alterar o estado dos dispositivos (ligado/desligado) e mudar os valores dos fornecedores.
-- __Tarefa5__ : tirar faturas por cada casa.
-- __Tarefa6__ : criar uma interface via terminal
+- __Task 1__: construction phase. Build devices (SmartBulb, SmartCamera, SmartSpeaker), houses, and energy suppliers.
+- __Task 2__: simulation phase where time advances and bills are issued.
+- __Task 3__: statistics about the houses and suppliers.
+- __Task 4__: change the state of devices (on/off) and modify the values of suppliers.
+- __Task 5__: issue bills for each house.
+- __Task 6__: create a terminal-based interface.
 
-Requisitos importantes da cadeira são a implementação dos princípios de POO como: __herança__, __classes abstratas__ , __hereditariedade__ , __encapsulamento de dados__, __abordagem V-M-C__, assim como, o uso de __estruturas de dados e algoritmos__ eficientes. 
+Important course requirements include implementing OOP principles such as __inheritance__, __abstract classes__, __polymorphism__, __data encapsulation__, and the __MVC approach__, as well as using __efficient data structures and algorithms__.
 
-Programação Orientada a Objetos | 2ºano | 2ºSemestre | Universidade do Minho | M.I. Engenharia Informática | Ano Letivo 21/22
-
+Object-Oriented Programming | 2nd Year | 2nd Semester | University of Minho | Integrated Master's in Software Engineering | Academic Year 21/22
