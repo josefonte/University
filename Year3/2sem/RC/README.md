@@ -1,5 +1,5 @@
 # Computer Networks Projects 💻🌐💻
-### Group - [José Fonte](https://github.com/josefonte) | Miguel Raposo | João Neto Grade: 18.6/20
+### Group - [José Fonte](https://github.com/josefonte) Grade: 18.6/20
 
 As part of the Computer Networks course, the group developed four written reports studying and investigating the Network and Data Link Layers of the OSI model.
 
