@@ -1,11 +1,11 @@
-# Projetos de Redes de Computadores 💻🌐💻
-### Grupo - [José Fonte](https://github.com/josefonte) | Miguel Raposo | João Neto Nota : 18,6/20
-No âmbito da cadeira de Redes de Computadores, o grupo desenvolveu quatro relatórios escritos onde se estuda e investiga a Camada de Rede e de Ligação de Dados do modelo OSI.
+# Computer Networks Projects 💻🌐💻
+### Group - [José Fonte](https://github.com/josefonte) | Miguel Raposo | João Neto Grade: 18.6/20
 
-- __TP1__ : Estado da Arte da Indústria - Projetos de R&D 
-- __TP2__ : Protocolo IPV4 : Datagramas IP e fragmentação
-- __TP3__ : Redes Ethernet e Protocolo ARP
-- __TP4__ : Redes Wi-Fi e Protocolo IEEE 802.11
+As part of the Computer Networks course, the group developed four written reports studying and investigating the Network and Data Link Layers of the OSI model.
 
+- __TP1__: State of the Art in the Industry - R&D Projects
+- __TP2__: IPv4 Protocol: IP Datagrams and Fragmentation
+- __TP3__: Ethernet Networks and ARP Protocol
+- __TP4__: Wi-Fi Networks and IEEE 802.11 Protocol
 
-Redes de Computadores | 3ºano | 2ºSemestre | Universidade do Minho | M.I. Engenharia Informática | Ano Letivo 22/23
+Computer Networks | 3rd Year | 2nd Semester | University of Minho | Integrated Master's in Software Engineering | Academic Year 22/23
