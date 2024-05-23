@@ -1,7 +1,7 @@
-# Laboratorios-Informatica-II
+# Computer Science Labs II
 
-### Grupo 03 - [André Pimentel](https://github.com/APF-git)  |  [Carlos Araújo](https://github.com/carlosdeveloper95) | [José Eduardo Rocha](https://github.com/Eduard0Rocha)  |  [José Fonte](https://github.com/josefonte) Nota: 18.0
+### Group - [André Pimentel](https://github.com/APF-git) | [Carlos Araújo](https://github.com/carlosdeveloper95) | [José Eduardo Rocha](https://github.com/Eduard0Rocha) | [José Fonte](https://github.com/josefonte) Grade: 18.0
 
-No âmbito da cadeira de Laboratórios de Informática II, o trabalho foi desenvolvido em C com o objetivo de implementar um interpretador de uma liguaguem orientada à stack, chamada $0M.
+As part of the Computer Science Labs II course, the project was developed in C with the goal of implementing an interpreter for a stack-oriented language called $0M.
 
-Universidade do Minho | M.I. Engenharia Informática | 2º Semestre | 1º Ano | Ano Letivo 20/21
+University of Minho | Integrated Master's in Software Engineering | 2nd Semester | 1st Year | Academic Year 20/21
