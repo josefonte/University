@@ -1,13 +1,13 @@
-# Laboratorios-Informatica-III
+# Computer Science Labs III
 
-### Grupo 67 - [Hugo Martins](https://github.com/hugomartins22) | [João Escudeiro](https://github.com/jbtescudeiro16) | [José Fonte](https://github.com/josefonte)
+### Group - [Hugo Martins](https://github.com/hugomartins22) | [João Escudeiro](https://github.com/jbtescudeiro16) | [José Fonte](https://github.com/josefonte) Nota: 15
 
-No âmbito da cadeira de Laboratórios de Informática III, o trabalho foi desenvolvido em C com o objetivo de analisar ficheiros de grandes dimensões (+1M de registos) e cumprir 3 guiões:
+As part of the Computer Science Labs III course, the project was developed in C with the goal of analyzing large files (over 1 million records) and completing 3 scripts:
 
-- Guião 1 - Parsing dos Ficheiros
-- Guião 2 - 10 queries (estatísticas e não estatísticas), cruzamento de dados de ficheiros e estuturas de dados
-- Guião 3 - Interface e Testes.
+- Script 1 - Parsing the Files
+- Script 2 - 10 queries (statistical and non-statistical), cross-referencing file data and data structures
+- Script 3 - Interface and Testing
 
-Outros dois importantes requisitos da cadeira são a implementação de **encapsulamento de dados** e **modularidade**, assim como, o uso de **estruturas de dados e algoritmos** eficientes na **boa gestão de memória** pois os ficheiros são de grandes dimensões (+1 milhão de registos cada).
+Two other important course requirements are the implementation of **data encapsulation** and **modularity**, as well as the use of **efficient data structures and algorithms** for **good memory management** since the files are very large (over 1 million records each).
 
-Laboratórios de Informática 3 | Universidade do Minho | M.I. Engenharia Informática | 2º Semestre | 1º Ano | Ano Letivo 20/21
+Computer Science Labs III | University of Minho | Integrated Master's in Software Engineering | 1st Semester | 2nd Year | Academic Year 21/22
