@@ -1,0 +1,13 @@
+NTIMES=10
+Program=avrora
+export NTIMES
+export Program
+
+compile:
+
+
+measure: 
+	sudo ../../../RAPL/main "java -jar dacapo-23.11-chopin.jar $(Program)" Java $(Program) $(NTIMES)
+
+mem: 
+	{ /usr/bin/time -v ./bubbleSortCode > /dev/null; } 2>&1 | grep "Maximum resident" #| sed "s/[^0-9]\+\([0-9]\+\).*/\1/"

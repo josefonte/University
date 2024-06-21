@@ -1,0 +1,12 @@
+NTIMES=10
+PROGRAM=2to3
+export NTIMES
+export PROGRAM
+
+measure:
+	sudo ../../../RAPL/main "pyperformance run --debug-single-value -b $(PROGRAM)" Python $(PROGRAM) $(NTIMES)
+
+# Limpar arquivos gerados
+clean:
+	rm -f ./*.o ./*.out 
+	sudo rm -rf dask-worker-space venv

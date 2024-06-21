@@ -1,0 +1,1 @@
+As makefiles para os outros benchmarks de cada linguagem são iguais ầs Makefiles de exemplo, apenas precisamos de copiar para a pasta de um outro programa e mudar a atribuição da variável *Program* para o nome do benchmark. 
