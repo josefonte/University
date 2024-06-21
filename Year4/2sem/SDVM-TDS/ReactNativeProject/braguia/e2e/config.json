@@ -1,0 +1,9 @@
+{
+    "preset": "jest-expo",
+    "testEnvironment": "node",
+    "testRunner": "jest-circus/runner",
+    "setupFilesAfterEnv": ["./init.js"],
+    "reporters": ["detox/runners/jest/streamlineReporter"],
+    "testTimeout": 120000
+  }
+  

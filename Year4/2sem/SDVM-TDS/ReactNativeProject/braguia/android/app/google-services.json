@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "338634582319",
+    "project_id": "tds21-e40aa",
+    "storage_bucket": "tds21-e40aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338634582319:android:2c070d99b89a763421d9da",
+        "android_client_info": {
+          "package_name": "com.braguia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSdnM-1usFIcEsMdPVP0vHlEpBq3bFuvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
