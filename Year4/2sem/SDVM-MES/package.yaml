@@ -1,0 +1,16 @@
+name: Aula
+version: "1.0"
+
+# ghc-options: -Wall
+
+dependencies:
+  - base > 4.14
+  - syz
+  - syb
+  - mtl
+  - transformers
+  - random
+  - QuickCheck >= 2.15
+
+library:
+  source-dirs: .
