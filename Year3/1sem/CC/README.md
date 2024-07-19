@@ -6,7 +6,7 @@ As part of the Computer Communications course, the group developed a DNS System 
 - __Task 1__: Build a Test Environment (Primary Servers, Secondary Servers, Top-Level Servers).
 - __Task 2__: Specify the Communication Model.
 - __Task 3__: Specify the Information Model.
-- __Task 4__: Construct a CL, SP (SP, SDT, and ST), SS, and SR.
+- __Task 4__: Build a CL, SP (SP, SDT, and ST), SS, and SR.
 - __Task 5__: Zone Transfer between SP and SS.
 - __Task 6__: Iterative and Recursive Processing of DNS queries.
 
